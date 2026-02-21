@@ -83,3 +83,12 @@ The system now exists as a living runtime rather than a conceptual design.
 ## License
 
 (To be defined)
+
+## Operator Protocol
+
+SeungeFlow operates under a cognitive stability protocol.
+This protocol defines how observation and reasoning are performed
+to prevent structural collapse.
+
+See:
+protocol/OPERATOR_COGNITION_PROTOCOL.md
