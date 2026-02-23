@@ -102,3 +102,15 @@ and ensure continuity across sessions and deployments.
 
 See:
 state/
+
+---
+
+## Origin
+
+이 작업은 정규 교육 과정에서 출발한 것이 아니라
+호기심에서 시작되어 오직 나의 이해를 위해 진행된 탐구의 기록이다.
+
+This work did not originate from formal academic training.
+It began from curiosity and continues as a record of exploration driven by personal understanding.
+
+---
