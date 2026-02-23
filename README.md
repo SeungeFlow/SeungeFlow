@@ -92,3 +92,13 @@ to prevent structural collapse.
 
 See:
 protocol/OPERATOR_COGNITION_PROTOCOL.md
+
+## State Anchors
+
+SeungeFlow maintains operational coordinates through State Anchor documents.
+
+These files define the system’s current structural position
+and ensure continuity across sessions and deployments.
+
+See:
+state/
