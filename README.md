@@ -114,3 +114,13 @@ This work did not originate from formal academic training.
 It began from curiosity and continues as a record of exploration driven by personal understanding.
 
 ---
+
+## Observation Principle
+
+SeungeFlow follows an observation-first model.
+
+Meaning is not predefined.
+It emerges from accumulated records.
+
+See:
+protocol/OBSERVATION_FIRST_PRINCIPLE.md
