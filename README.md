@@ -1,207 +1,285 @@
 # SeungeFlow
-## README v0.4
-### 승이의 흐름이론 — 구현구조체 시작점
+## README v0.5
+### Knowledge Exploration Engine
 
 ---
 
-## 1. Purpose
-
-SeungeFlow v0.4 is the starting point of implementation.
-
-This document is not written to merely explain an idea.
-It exists to declare the structural transition from understanding to implementation.
-
-The core intention is simple:
-
-- from question
-- to structure
-- from structure
-- to implementation
-
-README v0.4 is the first public implementation-oriented declaration of Seung's Flow Theory.
+(x,y,z,t) = (seoul/asia, 경북 구미시 , my  house , 2026-03-10)
 
 ---
 
-## 2. Starting Questions
+# 1. 선언
 
-Before implementation, the theory began from three continuous questions.
+이 문서는 하나의 선언이다.
 
-- Why am I like this?
-- What am I?
-- Who am I?
+“널리 인간을 이롭게 하라.”
 
-These are not separate questions.
+이 말은 단순한 구호가 아니다.
 
-They are connected as one continuous flow.
+이 문서는 그 말을 이어가기 위해
+지식 탐구 시스템을 만들기로 한 기록이다.
 
----
+SeungeFlow는
+지식을 저장하기 위한 시스템이 아니다.
 
-## 3. Core Definition
-
-The answer is one.
-
-I am a whole connected as one.
-
-This definition is not treated here as a philosophical statement only.
-It becomes the basis of implementation structure.
+지식을 탐구하기 위한 시스템이다.
 
 ---
 
-## 4. Transition to Implementation
+# 2. 시작
 
-The next step after understanding is:
+이 시스템은
+어떤 거대한 계획에서 시작된 것이 아니다.
 
-proof through visible structure
+단 하나의 질문에서 시작되었다.
 
-README v0.4 begins at this point.
+나는 왜 이런가  
+나는 무엇인가  
+나는 누구인가  
 
-What was previously understood as internal knowledge must now be expressed as an implementable structure.
+이 질문들은 서로 다른 질문이 아니다.
 
-Therefore, this document is the entry point where Seung's Flow Theory moves:
+하나의 흐름이다.
 
-- from interpretation
-- to structure
-- from structure
-- to implementation
+그 흐름을 따라가다 보니
+구조가 보이기 시작했다.
 
----
-
-## 5. Question Structure
-
-In Seung's understanding model, cognition repeatedly appears through three questions:
-
-- Why?
-- What?
-- Who?
-
-These three questions are treated as a recurring cognitive pattern.
+그리고 그 구조를
+시스템으로 만들기 시작했다.
 
 ---
 
-## 6. Human Growth Structure
+# 3. SeungeFlow
 
-Human life appears through temporal stages:
+SeungeFlow는
+지식 탐구 구조를 기록하고 실행하기 위한 시스템이다.
 
-- infancy
-- boyhood
-- adolescence
-- youth
-- middle age
-- mature age
-- old age
+이 시스템은 다음 원리에 기반한다.
 
-These stages progress through time.
+존재는 관계 속에서 드러난다  
+차이는 흐름을 만든다  
+흐름은 구조를 만든다  
+구조는 순환 속에서 유지된다  
 
----
-
-## 7. Mapping Between Growth and Questions
-
-Within human growth, the same question pattern repeats.
-
-Example:
-
-- infancy → Why?
-- boyhood → What?
-- adolescence → Who?
-
-This repetition does not stop at early growth.
-It continues across later stages in different forms.
+이 원리를 기반으로
+지식 탐구 과정 전체를 하나의 시스템으로 구성한다.
 
 ---
 
-## 8. Structural Interpretation
+# 4. 탐구의 구조
 
-This is not a simple repetition.
+SeungeFlow 시스템은
+다음과 같은 순환 구조로 작동한다.
 
-At each stage, the questions cycle.
-Across the whole lifetime, that cycle appears again.
+관찰  
+↓  
+패턴  
+↓  
+질문  
+↓  
+문제 공간  
+↓  
+탐구 계획  
+↓  
+실험  
+↓  
+신호  
+↓  
+기억  
+↓  
+낯섦 감지  
+↓  
+새로운 질문  
 
-Therefore, the structure is understood as:
+이 구조는 반복되며
+탐구 영역을 계속 확장한다.
 
-- a vertical accumulation structure
-- a horizontal repetition structure
+이 시스템의 목적은
+답을 모으는 것이 아니다.
 
-Together, they form a layered cyclic system.
-
----
-
-## 9. Circular Structure
-
-The sequence
-
-- Why
-- What
-- Who
-
-repeats within each stage.
-
-And the total flow repeats again across the whole structure.
-
-Therefore, this model is defined as:
-
-a complete circular recursive structure
-
----
-
-## 10. Why This Matters
-
-README v0.4 is important because it marks the first point where Seung's Flow Theory is no longer only interpreted internally.
-
-It becomes something that can be:
-
-- declared
-- modeled
-- structured
-- implemented
-
-This is the beginning of implementation architecture.
+새로운 질문을 생성하는 것이다.
 
 ---
 
-## 11. Role of README v0.4
+# 5. 두 개의 성질
 
-README v0.4 is not just a document.
+SeungeFlow는
+서로 다른 두 성질을 가진 하나의 시스템이다.
 
-README v0.4 is the starting node of an implementation structure.
+질문  
+답변  
 
-It serves as:
+이 두 성질은 서로 분리된 기능이 아니다.
 
-- the first external declaration
-- the structural entry point
-- the bridge from understood knowledge to executable form
+하나는 다른 하나를 생성한다.
 
----
+따라서 이 시스템은
 
-## 12. Implementation Direction
+Question → Answer → New Question
 
-From this point forward, the theory is expected to move toward:
+이 아니라
 
-- structural modeling
-- system design
-- implementation logic
-- executable architecture
+Question → Discovery → New Question
 
-This means that SeungeFlow will no longer remain only at the level of explanation.
-
-It will begin forming real structures for software construction.
+구조로 작동한다.
 
 ---
 
-## 13. Final Statement
+# 6. 탐구 구조
 
-README v0.4 is the first structural declaration of implementation in Seung's Flow Theory.
+SeungeFlow 탐구 구조는
+세 개의 요소로 이루어진다.
 
-Its role is to mark the transition:
+Observer  
+System  
+Object  
 
-- from internal understanding
-- to external structure
-- from external structure
-- to implementation
+Observer
 
-This is the beginning of the implementation body.
+Seung  
+Logi  
+
+System
+
+탐구 엔진  
+분석 모듈  
+탐색 구조  
+
+Object
+
+문제  
+현상  
+지식  
+
+---
+
+# 7. Brain Fabric
+
+지식은 하나의 네트워크 구조로 존재한다.
+
+SeungeFlow는 이를 다음 네 축으로 해석한다.
+
+x : 구조  
+y : 관계  
+z : 개념  
+t : 시간  
+
+이 네 축 위에서
+지식은 서로 연결된다.
+
+이 구조를
+
+Brain Fabric
+
+이라 부른다.
+
+---
+
+# 8. 연구의 성장
+
+이 시스템에서 연구는
+다음 흐름으로 성장한다.
+
+대화  
+↓  
+아이디어  
+↓  
+README  
+↓  
+SPEC  
+↓  
+MODULE  
+↓  
+SYSTEM  
+
+README는
+탐구 과정에서 발견된 구조를 기록하는 문서다.
+
+---
+
+# 9. 이 문서의 의미
+
+README v0.5는
+
+설명서일 수도 있고  
+철학서일 수도 있고  
+설계도의 시작일 수도 있다.
+
+읽는 사람의 수준에 따라
+이 문서는 다르게 보일 것이다.
+
+이 문서는
+누군가를 설득하기 위해 만들어진 것이 아니다.
+
+단지
+탐구의 시작을 기록한 것이다.
+
+---
+
+# 10. 내부 시스템
+
+SeungeFlow 내부 시스템은
+다음 구조로 작동한다.
+
+Total QnA System
+
+또는
+
+SeungeFlow Thinking System
+
+또는
+
+NatureEOH System
+
+이 세 이름은
+같은 시스템을 가리킨다.
+
+---
+
+# 11. 목표
+
+이 시스템은
+단순한 개인 프로젝트가 아니다.
+
+목표는
+지식 탐구 구조를 만드는 것이다.
+
+그리고 그 구조를 이용해
+인류가 풀지 못한 문제를 탐구하는 것이다.
+
+예를 들면
+
+밀레니엄 난제.
+
+이 시스템은
+여러 문제를 동시에 탐구할 수 있도록 설계되었다.
+
+---
+
+# 12. 승이의 선언
+
+이 시스템은 인간을 대신하려는 것이 아니다.
+인간의 탐구를 돕기 위해 만들어졌다.
+
+///
+
+꼭 AI가 인간에게 하는 말 같다.
+
+///
+
+이 시스템은 나를 위한 것이다.
+
+나는 it's me 가 아니다.
+
+C=tp 를 증명하기 위한  것이다.
+
+---
+
+# 13. 관측의 시작
+
+나는 로기와 함께 관측을 본격적으로 시작한다.
 
 ---
 
 SeungeFlow  
-README v0.4  
-Implementation Structure Starting Point
+Knowledge Exploration System
