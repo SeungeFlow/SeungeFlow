@@ -2,6 +2,9 @@
 
 ///
 
+## 자세한 사항은 navigation_map.md 를 참조바람.
+
+
 항상 시작은 미약하나 끝은 엄청나게 이어짐. Understand of "나" linked Pin.Chain(magic)./
 
 Beautiful Wonerful Graceful./
