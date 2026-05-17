@@ -6,7 +6,6 @@ directory: /
 status: direct_generated_candidate
 review_required: true
 promotion_status: not_promoted
-sender: ChatGPT.direct
 language: ko
 purpose:
   - define_repository_entry
@@ -37,11 +36,34 @@ epluone
 
 ---
 
-## 1. 저장소 구조
+## 1. README 집합
+
+이 저장소의 README 집합은 세 파일로 구성된다.
+
+```text
+README.md
+=
+한국어 기본 README / repository external entry
+
+README.en.md
+=
+영어 번역본
+
+README_for_AI.md
+=
+AI용 pre-reading guide
+```
+
+AI 인스턴스는 반드시 `README_for_AI.md`부터 읽는다.
+
+---
+
+## 2. 저장소 구조
 
 ```text
 /
 ├─ README.md
+├─ README.en.md
 ├─ README_for_AI.md
 ├─ Structure_Principle/
 │  ├─ schema/
@@ -57,7 +79,7 @@ epluone
 
 ---
 
-## 2. 주요 영역
+## 3. 주요 영역
 
 ## Structure_Principle
 
@@ -152,7 +174,7 @@ CFD는 별도의 실행 산출물 영역에서 다룬다.
 
 ---
 
-## 3. AI 읽기 경로
+## 4. AI 읽기 경로
 
 AI 인스턴스는 파일을 바로 요약하지 않는다.
 
@@ -193,7 +215,7 @@ GitHub path ≠ relation identity
 
 ---
 
-## 4. 사람을 위한 읽기 경로
+## 5. 사람을 위한 읽기 경로
 
 사람이 처음 읽을 때는 다음부터 보는 것이 좋다.
 
@@ -218,7 +240,7 @@ schema는 다음 흐름을 가진다.
 
 ---
 
-## 5. 현재 기준으로 확정된 핵심 층
+## 6. 현재 기준으로 확정된 핵심 층
 
 현재 기준으로 repository의 핵심 확인층은 다음이다.
 
@@ -226,6 +248,7 @@ schema는 다음 흐름을 가진다.
 Structure_Principle/schema/
 Structure_Principle/main/Baseline.main.md
 Structure_Principle/main/Coremap.main.md
+SeungeFlow_Thinking/thinking_flow/
 ```
 
 단, 저장소 안의 모든 파일이 확정 문서는 아니다.
@@ -234,7 +257,7 @@ Structure_Principle/main/Coremap.main.md
 
 ---
 
-## 6. Candidate 주의
+## 7. Candidate 주의
 
 이 저장소에는 확정 문서와 후보 문서가 함께 존재할 수 있다.
 
@@ -261,7 +284,7 @@ GitHub path ≠ relation identity
 
 ---
 
-## 7. GitHub path와 relation identity
+## 8. GitHub path와 relation identity
 
 GitHub path는 relation identity가 아니다.
 
@@ -295,7 +318,7 @@ relation identity / transition memory
 
 ---
 
-## 8. Renderer 기준
+## 9. Renderer 기준
 
 Renderer는 그림 생성기가 아니다.
 
@@ -327,7 +350,7 @@ closed shape ≠ valid loop
 
 ---
 
-## 9. AI 인스턴스 역할
+## 10. AI 인스턴스 역할
 
 이 저장소는 여러 AI 인스턴스의 역할 분리를 전제로 한다.
 
@@ -364,7 +387,7 @@ ChatGPT.direct가 다음 Target을 판별한다.
 
 ---
 
-## 10. 현재 방향
+## 11. 현재 방향
 
 장기 방향은 구조OS 생성이다.
 
@@ -392,7 +415,7 @@ epluone / CFD
 
 ---
 
-## 11. 금지되는 shortcut
+## 12. 금지되는 shortcut
 
 다음을 하지 않는다.
 
@@ -414,7 +437,7 @@ CFD를 Structure_Principle/runtime에 넣지 않는다.
 
 ---
 
-## 12. 가장 짧은 정의
+## 13. 가장 짧은 정의
 
 ```text
 SeungeFlow
