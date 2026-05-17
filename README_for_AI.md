@@ -2,7 +2,7 @@
 id: structure_principle.readme_for_ai
 type: ai_pre_reading_gate_document
 filename: README_for_AI.md
-directory: /Structure_Principle/
+directory: /
 status: direct_generated_candidate
 review_required: true
 promotion_status: not_promoted
