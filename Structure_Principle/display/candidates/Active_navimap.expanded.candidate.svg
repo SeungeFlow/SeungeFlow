@@ -1,0 +1,343 @@
+<svg
+  id="Active_navimap_expanded_candidate"
+  xmlns="http://www.w3.org/2000/svg"
+  data-doc-id="display.active_navimap_expanded_candidate"
+  data-filename="Active_navimap.expanded.candidate.svg"
+  data-directory="/Structure_Principle/display/candidates/"
+  data-status="expanded_candidate"
+  data-review-required="true"
+  data-promotion-status="not_promoted"
+  data-runtime-confirmed="false"
+  data-valid-loop="false"
+  data-active-connect="false"
+  data-recovery-success="false"
+  data-final-renderer-output="false"
+  data-source-of-truth="false"
+  data-runtime-state="/Structure_Principle/runtime/candidates/structure_state.expanded.candidate.json"
+  data-history="/Structure_Principle/history/candidates/relation_history.expanded.candidate.md"
+  data-seed-ref="Seed.Base"
+  viewBox="0 0 1600 1200"
+>
+  <metadata id="metadata_active_navimap_expanded_candidate">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description
+        data-instance-id="ChatGPT.draw"
+        data-render-target="visible_relation_field"
+        data-status="expanded_candidate"
+        data-promotion-status="not_promoted"
+        data-runtime-confirmed="false"
+        data-valid-loop="false"
+        data-active-connect="false"
+        data-recovery-success="false"
+        data-final-renderer-output="false"
+        data-source-of-truth="false"
+      />
+    </rdf:RDF>
+  </metadata>
+
+  <!--
+    Active_navimap.expanded.candidate.svg
+    =
+    expanded display candidate only.
+
+    Not final Active_navimap.svg.
+    Not source_of_truth.
+    Not valid_loop proof.
+    Not runtime_confirmed.
+    Not final renderer output.
+  -->
+
+  <g id="layer_00_metadata">
+    <text
+      id="label_expanded_candidate_warning"
+      x="40"
+      y="40"
+      data-state-ref="structure_state.runtime_warnings"
+      data-history-ref="relation_history.path_identity_rule"
+      data-seed-ref="Seed.Base.path_identity_rule"
+    >
+      expanded candidate / not_promoted / runtime_confirmed=false / valid_loop=false
+    </text>
+  </g>
+
+  <g id="layer_01_phase_ring">
+    <g
+      id="phase_100"
+      class="phase phase.empty_position_gate state.candidate"
+      data-display-id="display.phase.phase_100"
+      data-state="candidate"
+      data-runtime-role="rest_stop_gate__reserved_empty__empty_position_visibility"
+      data-fill-policy="empty"
+      data-direct-attach-099-101="false"
+      data-state-ref="structure_state.phase_state.phase_100"
+      data-history-ref="relation_history.rh_phase_100"
+      data-seed-ref="Seed.Base.schema.100"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+  </g>
+
+  <g id="layer_02_phase_gate">
+    <g
+      id="gate_099_to_100"
+      class="phase_gate state.candidate"
+      data-display-id="display.edge.edge_schema_099_to_100_next"
+      data-state-ref="structure_state.edge_state.edge_schema_099_to_100_next"
+      data-history-ref="relation_history.rh_edge_099_100_next"
+      data-seed-ref="Seed.Base.schema.100"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <g
+      id="gate_100_to_101"
+      class="phase_gate state.candidate"
+      data-display-id="display.edge.edge_schema_100_to_101_next"
+      data-state-ref="structure_state.edge_state.edge_schema_100_to_101_next"
+      data-history-ref="relation_history.rh_edge_100_101_next"
+      data-seed-ref="Seed.Base.schema.100"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+  </g>
+
+  <g id="layer_03_core_node">
+    <g
+      id="node_schema_000"
+      class="node core node.principle_entity state.candidate guard.CoreDot_merge_blocked"
+      data-display-id="display.node.schema_000"
+      data-node-id="schema.000"
+      data-core-id="schema.000.dot"
+      data-runtime-role="origin_minimum_place__center_axis_reference_candidate"
+      data-not="CoreDot|all_center|entire_dot|Core"
+      data-state-ref="structure_state.node_state.schema_000"
+      data-history-ref="relation_history.rh_node_000"
+      data-seed-ref="Seed.Base.schema.000"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <g
+      id="node_schema_100"
+      class="node reserved_gate node.empty_position_gate state.candidate guard.rest_stop_gate_skip_blocked"
+      data-display-id="display.node.schema_100"
+      data-node-id="schema.100"
+      data-core-id="schema.100.understanding_flow_empty_gate"
+      data-runtime-role="rest_stop_gate__reserved_empty_gate"
+      data-fill-policy="empty"
+      data-direct-attach-099-101="false"
+      data-state-ref="structure_state.node_state.schema_100"
+      data-history-ref="relation_history.rh_node_100_empty_gate"
+      data-seed-ref="Seed.Base.schema.100"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <g
+      id="node_schema_121"
+      class="node core node.ambiguity_boundary state.candidate guard.CoreDot_merge_blocked"
+      data-display-id="display.node.schema_121"
+      data-node-id="schema.121"
+      data-core-id="schema.121.coredot_ambiguity_boundary"
+      data-runtime-role="CoreDot_ambiguity_boundary"
+      data-forbidden-target="schema.000"
+      data-forbidden-relation="replace_dot_with_coredot"
+      data-state-ref="structure_state.node_state.schema_121"
+      data-history-ref="relation_history.rh_node_121"
+      data-seed-ref="Seed.Base.schema.121"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+  </g>
+
+  <g id="layer_04_relation_edge">
+    <path
+      id="edge_schema_099_to_100_next"
+      class="edge edge.next state.link_candidate guard.rest_stop_gate_skip_blocked"
+      data-display-id="display.edge.edge_schema_099_to_100_next"
+      data-from="schema.099"
+      data-to="schema.100"
+      data-relation="next"
+      data-meaning="formed_10x10_array_reaches_rest_stop_gate"
+      data-state-ref="structure_state.edge_state.edge_schema_099_to_100_next"
+      data-history-ref="relation_history.rh_edge_099_100_next"
+      data-seed-ref="Seed.Base.schema.100"
+      data-merge="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <path
+      id="edge_schema_100_to_101_next"
+      class="edge edge.next state.link_candidate guard.rest_stop_gate_skip_blocked"
+      data-display-id="display.edge.edge_schema_100_to_101_next"
+      data-from="schema.100"
+      data-to="schema.101"
+      data-relation="next"
+      data-meaning="rest_stop_gate_opens_application_rebuilt_active_chain"
+      data-state-ref="structure_state.edge_state.edge_schema_100_to_101_next"
+      data-history-ref="relation_history.rh_edge_100_101_next"
+      data-seed-ref="Seed.Base.schema.100"
+      data-merge="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <path
+      id="edge_forbidden_schema_099_to_101_direct_connect"
+      class="edge edge.forbidden state.forbidden guard.rest_stop_gate_skip_blocked"
+      data-display-id="display.edge.forbidden_schema_099_to_101_direct_connect"
+      data-from="schema.099"
+      data-to="schema.101"
+      data-relation="forbidden"
+      data-meaning="direct_attach_099_to_101_blocks_100_rest_stop_gate"
+      data-state-ref="structure_state.edge_state.forbidden_schema_099_to_101_direct_connect"
+      data-history-ref="relation_history.rh_forbidden_099_101_direct_connect"
+      data-seed-ref="Seed.Base.schema.100"
+      data-merge="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+      data-display-required="true"
+    />
+  </g>
+
+  <g id="layer_05_runtime_state">
+    <g
+      id="runtime_lock_marker"
+      class="runtime_state_marker"
+      data-promotion-status="not_promoted"
+      data-runtime-confirmed="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+      data-state-ref="structure_state.runtime_warnings"
+      data-history-ref="relation_history.path_identity_rule"
+      data-seed-ref="Seed.Base.path_identity_rule"
+    />
+  </g>
+
+  <g id="layer_06_guard_recovery">
+    <g
+      id="guard_rest_stop_gate_skip_blocked"
+      class="guard guard.rest_stop_gate_skip_blocked state.active_candidate"
+      data-display-id="display.guard.rest_stop_gate_skip_blocked"
+      data-state-ref="structure_state.guard_state.rest_stop_gate_skip_blocked"
+      data-history-ref="relation_history.rh_guard_rest_stop_gate_skip_blocked"
+      data-seed-ref="Seed.Base.schema.100"
+      data-guard-state="active_candidate"
+    />
+
+    <g
+      id="guard_CoreDot_merge_blocked"
+      class="guard guard.CoreDot_merge_blocked state.active_candidate"
+      data-display-id="display.guard.CoreDot_merge_blocked"
+      data-state-ref="structure_state.guard_state.CoreDot_merge_blocked"
+      data-history-ref="relation_history.rh_guard_CoreDot_merge_blocked"
+      data-seed-ref="Seed.Base.schema.000|Seed.Base.schema.121"
+      data-guard-state="active_candidate"
+    />
+
+    <g
+      id="guard_ddx_fixed_point_overclaim_blocked"
+      class="guard guard.ddx_fixed_point_overclaim_blocked state.active_candidate"
+      data-display-id="display.guard.ddx_fixed_point_overclaim_blocked"
+      data-state-ref="structure_state.guard_state.ddx_fixed_point_overclaim_blocked"
+      data-history-ref="relation_history.rh_guard_ddx_fixed_point_overclaim_blocked"
+      data-seed-ref="Seed.Base.schema.068|Seed.Base.schema.069"
+      data-guard-state="active_candidate"
+    />
+
+    <g
+      id="guard_renderer_definition_closer_blocked"
+      class="guard guard.renderer_definition_closer_blocked state.active_candidate"
+      data-display-id="display.guard.renderer_definition_closer_blocked"
+      data-state-ref="structure_state.guard_state.renderer_definition_closer_blocked"
+      data-history-ref="relation_history.rh_guard_renderer_definition_closer_blocked"
+      data-seed-ref="Seed.Base.guard.renderer_definition_closer_blocked"
+      data-guard-state="active_candidate"
+    />
+
+    <g
+      id="guard_calm_reading_condition_required"
+      class="guard guard.calm_reading_condition_required state.active_candidate"
+      data-display-id="display.guard.calm_reading_condition_required"
+      data-state-ref="structure_state.guard_state.calm_reading_condition_required"
+      data-history-ref="relation_history.rh_guard_calm_reading_condition_required"
+      data-seed-ref="Seed.Base.guard.calm_reading_condition_required"
+      data-guard-state="active_candidate"
+      data-phrase-preserved="모든 것은 바른 상태에서 시작한다."
+    />
+  </g>
+
+  <g id="layer_07_return_path">
+    <path
+      id="return_path_ctp_x_dx_ddx_to_x"
+      class="return_path state.candidate guard.ddx_fixed_point_overclaim_blocked"
+      data-display-id="display.return_path.return_ctp_x_dx_ddx_to_x"
+      data-state-ref="structure_state.return_path.return_ctp_x_dx_ddx_to_x"
+      data-history-ref="relation_history.rh_return_ctp_x_dx_ddx_to_x"
+      data-seed-ref="Seed.Base.schema.068|Seed.Base.schema.069|Seed.Base.schema.070"
+      data-valid-return="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+
+    <path
+      id="return_path_four_diamond_empty_dot_to_center_dot"
+      class="return_path state.candidate guard.same_shape_different_content_blocked"
+      data-display-id="display.return_path.return_four_diamond_empty_dot_to_center_dot"
+      data-state-ref="structure_state.return_path.return_four_diamond_empty_dot_to_center_dot"
+      data-history-ref="relation_history.rh_return_four_diamond_empty_dot_to_center_dot"
+      data-seed-ref="Seed.Base.schema.000|Seed.Base.example.example_001"
+      data-valid-return="false"
+      data-valid-loop="false"
+      data-active-connect="false"
+      data-recovery-success="false"
+    />
+  </g>
+
+  <g id="layer_08_history_trace">
+    <g
+      id="history_trace_expanded_candidate"
+      class="history_trace state.candidate"
+      data-state-ref="structure_state.binding_state.expanded_candidate_binding_chain"
+      data-history-ref="relation_history.path_identity_rule"
+      data-seed-ref="Seed.Base.path_identity_rule"
+    />
+  </g>
+
+  <g id="layer_09_persistence_binding">
+    <g
+      id="binding_expanded_candidate_chain"
+      class="binding_marker state.candidate_bound"
+      data-binding-chain="Active_navimap.expanded.candidate.svg→structure_state.expanded.candidate.json→relation_history.expanded.candidate.md→Seed.Base"
+      data-state-ref="structure_state.binding_state.expanded_candidate_binding_chain"
+      data-history-ref="relation_history.path_identity_rule"
+      data-seed-ref="Seed.Base.path_identity_rule"
+      data-path-is-relation-identity="false"
+    />
+  </g>
+
+  <g id="layer_10_annotation">
+    <text
+      id="annotation_candidate_boundary"
+      x="40"
+      y="1120"
+      data-state-ref="structure_state.runtime_warnings"
+      data-history-ref="relation_history.path_identity_rule"
+      data-seed-ref="Seed.Base.path_identity_rule"
+    >
+      expanded candidate ≠ runtime confirmed / SVG candidate ≠ final renderer output / valid_loop=false
+    </text>
+  </g>
+</svg>
