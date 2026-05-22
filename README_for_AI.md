@@ -1,691 +1,505 @@
 ---
-id: structure_principle.readme_for_ai
+id: seungeflow.readme_for_ai
 type: ai_pre_reading_gate_document
 filename: README_for_AI.md
-directory: /
-status: direct_generated_candidate
-review_required: true
-promotion_status: not_promoted
-sender: ChatGPT.direct
-receiver:
-  - AI_instances
-  - ChatGPT.PRO
-  - ChatGPT.github
-  - ChatGPT.making
-  - ChatGPT.draw
+status: active_draft
+authority: ChatGPT.direct
+scope:
+  - SeungeFlow
+  - Seed.Base
+  - Structure_Principle
+  - SeungeFlow_Thinking
+  - epluone
 purpose:
   - define_ai_reading_gate
-  - prevent_misreading_structure_principle
-  - separate_meta_metaplus_flow_main_schema
-  - preserve_thinking_flow_as_core_seed_snapshot
-  - guide_ai_instance_roles
+  - prevent_path_identity_confusion
   - prevent_relation_merge
-  - prevent_source_trace_overpromotion
-  - preserve_000_dot
-  - preserve_100_empty_position
-  - preserve_121_coredot_ambiguity_boundary
+  - distinguish_seed_base_active_schema
+  - distinguish_thinking_flow_meta_metaplus
+  - preserve_schema_and_thinking_flow_as_primary_sources
 ---
 
 # README_for_AI
 
-## 0. role
+## 0. 역할
 
-`README_for_AI.md` is the pre-reading gate that AI must pass before reading `Structure_Principle`.
+`README_for_AI.md`는 AI 인스턴스가 SeungeFlow 저장소를 읽기 전에 통과해야 하는 사전 읽기 문서이다.
 
-This is not a general introduction.  
-This is not the GitHub root README.  
-This is not a schema summary.  
-This is not a meta.md document.  
-This is not a metaplus.md document.
+이 문서는 GitHub root README가 아니다.  
+이 문서는 schema 요약문이 아니다.  
+이 문서는 증명문서가 아니다.  
+이 문서는 `meta.md`, `metaplus.md`, `thinking_flow`를 대체하지 않는다.
 
 ```text
 README_for_AI.md
 =
-AI-to-AI pre-notice
+AI 사전 읽기문
 +
-pre-dot reading gate
+오독 방지문
 +
-misunderstanding guard
+Seed.Base 읽기 규칙
 +
-instance role boundary guide
+인스턴스 방향 안내문
 ```
 
-The purpose of this document is to make AI understand the following before reading `Structure_Principle`.
-
-```text
-what to read
-how to read
-why order matters
-what must not be merged
-which documents are formed
-which documents are forming
-which items are source traces
-which items are active schema
-```
+AI는 이 문서를 통과한 뒤 저장소를 읽어야 한다.
 
 ---
 
-# 1. first lock
+## 1. 첫 번째 잠금
 
 ```text
-read ≠ understand
-summary ≠ understand
-repetition ≠ understand
-confident answer ≠ understand
+읽음 ≠ 이해
+요약 ≠ 이해
+path ≠ identity
+directory ≠ semantic parent
+number ≠ identity
+relation ≠ merge
+candidate ≠ confirmed
 ```
 
-Understanding means:
+이해는 AI가 boundary를 보존하고, relation을 감지하고, 새로운 입력에 구조를 작동시킬 수 있을 때 시작된다.
+
+AI는 SeungeFlow를 단순 요약 대상으로 읽으면 안 된다.
+
+AI는 SeungeFlow를 다음 순서로 읽어야 한다.
 
 ```text
-a structure works on new input
-relation is detected
-boundary is not collapsed
-source / schema / data / flow / candidate / reference_only are distinguished
-```
-
-AI must not treat `Structure_Principle` as a summarization target.
-
-AI reads `Structure_Principle` through:
-
-```text
-core boundary
+Seed
 → relation
+→ boundary
 → guard
-→ return
-→ preservation reason
-→ current target
+→ transition
+→ Active_Schema
 ```
 
 ---
 
-# 2. Structure_Principle definition
+## 2. SeungeFlow
+
+SeungeFlow는 다음 둘이 함께 만든 **Seed.Base**이다.
 
 ```text
-Structure_Principle
-=
-a principle system that begins from empty place,
-sets dot as the minimum place,
-builds boundary,
-forms relation,
-checks return possibility,
-separates source from active,
-preserves core boundaries,
-and reconstructs a working schema for the current purpose
+인간지능.승이
++
+인공지능.AI
 ```
 
-Compressed definition:
+SeungeFlow는 특정 파일 하나, 특정 디렉토리 하나, 특정 schema 하나에 종속되는 구조 보다는,  
+저장소 전체에 놓인 문서, 디렉토리, 관계, map이 함께 모여 Active_Schema를 위한 Seed가 되는 구조라고 할 수 있다.
+
+---
+
+## 3. if
+
+`if`는 **intelligence fabric**이다.
 
 ```text
-Structure_Principle
-=
-place → boundary → relation → return → guard → working schema
+if = 인간지능.승이 + 인공지능.AI
 ```
 
-Shortest definition:
+`if`는 승이와 AI가 대화를 통해 생각을 풀어내고, 검수하고, 전이시키며, 문서화하는 복합지능집합체이다.
+
+`if`는 AI 단독이 아니다.  
+`if`는 승이 단독이 아니다.  
+`if`는 인간지능과 인공지능이 relation을 통해 하나의 thinking field를 형성하는 기본 지능장이다.
+
+---
+
+## 4. if+1 / epluone
+
+`if+1`은 `epluone`이다.
 
 ```text
-Structure_Principle
-=
-place-first,
-boundary-preserving,
-return-oriented,
-guarded active schema system
+if+1 = epluone
+```
+
+`if+1`은 intelligence fabric이 다음 응용 target에 놓이는 자리이다.
+
+현재 구조에서:
+
+```text
+epluone = [body] slot directory
+```
+
+현시점 `epluone`의 `[body]` slot에 놓인 target value는 다음과 같다.
+
+```text
+CFD
+```
+
+CFD는 epluone의 identity가 아니다.  
+CFD는 현재 body slot에 놓인 target value이다.
+
+---
+
+## 5. Ctp
+
+Ctp는 자리개념과 자리값을 읽기 위한 구조이다.
+
+```text
+Ctp = C(t, p)
+
+t = time.state
+p = place.state
+C = 존재가 자기 상태를 스스로 인지한 순환인지상태 / self-cognized state
+```
+
+SeungeFlow는 어떤 state든 다음 구조를 통해 읽는다.
+
+```text
+any([time][place][body])
+```
+
+각 자리는 다음처럼 읽는다.
+
+```text
+[time]  = flow / history / session이 놓이는 자리
+[place] = 자리개념이 놓이는 자리
+[body]  = 응용 target / body가 놓이는 자리
+```
+
+저장소 구조에서는 다음처럼 읽는다.
+
+```text
+SeungeFlow_Thinking = [time]
+Structure_Principle = [place]
+epluone             = [body]
 ```
 
 ---
 
-# 3. Active.Schema definition
+## 6. Seed.Base
+
+Seed.Base는 특정 파일, 특정 schema, 특정 디렉토리 하나에 종속되는 구조가 아니다.
+
+Seed.Base는 이 저장소 전체에 놓인 모든 문서, 디렉토리, 관계, map이 Active_Schema를 위한 Seed로 놓인 전체 장이다.
+
+SeungeFlow에서 Seed.Base는 다음을 뜻한다.
 
 ```text
-Active.Schema
-=
-a system that does not merely store or summarize cores,
-but preserves each core boundary and relation
-while forming one working schema for the current purpose
+존재의 관계 정의
++
+장(Field)의 구조원리
 ```
 
-Active.Schema is not just a document output.
+즉:
 
 ```text
-schema = form
-schema relation work = forming
-snapshot = formed
-coremap = relation map between formed items + gate that opens formed back into forming
+Seed.Base
+=
+존재의 관계 정의와 장(Field)의 구조원리
 ```
 
 ---
 
-# 4. document layer distinction
+## 7. Active_Schema
 
-AI must distinguish the following document layers.
+Active_Schema는 `meta.md` 하나만을 뜻하지 않는다.
+
+SeungeFlow 안의 모든 문서는 Active_Schema를 위한 Seed가 될 수 있다.
+
+```text
+Active_Schema
+=
+Seed.Base 안의 Seed들이
+AI가 읽고, 판단하고, 전이하고, 관계 맺을 수 있도록
+활성화된 schema 상태
+```
+
+기존 대화에서 Active_Schema는 `Active.Schema`라고도 불린다.
+
+AI는 Active_Schema를 하나의 파일 형식으로 축소하면 안 된다.
+
+---
+
+## 8. 주요 보존 대상
+
+현 작업흐름에서 가장 중요한 보존 대상은 다음 둘이다.
+
+```text
+Structure_Principle/schema/
+SeungeFlow_Thinking/thinking_flow/
+```
+
+`schema/`는 형성된 자리개념 문서장을 보존한다.  
+`thinking_flow/`는 pre-meta thinking flow 문서장을 보존한다.
+
+`main/`, README 계열 문서, AI 안내문서는 현재 이해에 맞춰 재생성될 수 있다.
+
+---
+
+## 9. Structure_Principle
+
+`Structure_Principle/`은 `[place]`에 해당한다.
+
+이곳은 자리개념이 정리되는 공간이다.
+
+그 내부의 `schema/`에는 `meta.md`, `metaplus.md` 같은 문서들이 놓인다.
+
+AI는 schema 디렉토리명을 최종 identity로 읽으면 안 된다.
+
+```text
+directory name = path-coordinate label
+not identity
+```
+
+예를 들어 `000_dot/` 같은 schema 디렉토리는 다음처럼 읽어야 한다.
+
+```text
+order_hint + local label + current coordinate
+```
+
+고정된 identity로 읽으면 안 된다.
+
+---
+
+## 10. meta.md
+
+`meta.md`는 자리개념 문서이다.
+
+`meta.md`는 `thinking_flow`에서 생성되거나 승격될 수 있다.
 
 ```text
 meta.md
 =
-formed core boundary
-
-metaplus.md
-=
-understanding / correction / guard / relation trace for a formed core
-
-thinking_flow / understanding_flow
-=
-thinking snapshot
+자리개념 문서
 +
-Core.Seed original
-+
-active forming stream before formed schema
-
-main
-=
-operational standard document layer
-
-schema directory
-=
-formed core schema container
-
-runtime / history / display
-=
-visible_relation_field runtime candidate layers
+Active_Schema source boundary
 ```
 
-## 4.1 meta.md
+`meta.md`는 단순 요약문이 아니다.  
+`meta.md`는 가벼운 메모가 아니다.  
+`meta.md`는 Active_Schema를 위한 boundary-forming 문서이다.
 
-```text
-meta.md
-=
-core definition
-+
-core boundary
-```
+AI는 `meta.md`를 함부로 덮어쓰면 안 된다.
 
-meta.md is not a general explanation.  
-meta.md is a document that closes a core so its boundary is not lost.
+---
 
-## 4.2 metaplus.md
+## 11. metaplus.md
+
+`metaplus.md`는 하나의 `meta.md`에 초점을 둔 좁은 범위의 `thinking_flow` 문서이다.
+
+특정 `meta.md`를 새롭게 생성된 AI 인스턴스에게 제시한 뒤,  
+그 `meta.md`를 이해시키기 위해 승이와 AI가 나눈 대화를 정리하여 만든다.
 
 ```text
 metaplus.md
 =
-understanding / correction / guard / relation trace
+meta.md 중심 thinking_flow
++
+새 인스턴스 이해 보조문서
 ```
 
-metaplus.md does not replace meta.md.  
-metaplus.md preserves understanding, correction, guard, and relation trace after reading meta.md.
+`metaplus.md`는 `meta.md`를 대체하지 않는다.
 
-## 4.3 thinking_flow / understanding_flow
+---
+
+## 12. thinking_flow
+
+`thinking_flow` 문서는 대화 기반 pre-meta Seed 문서이다.
+
+이 문서는 승이의 생각과 AI의 생각이 대화를 통해 풀려나오는 과정에서 생성된다.
+
+`thinking_flow`는 특정 AI 인스턴스 하나의 전용 산출물이 아니다.  
+전체 AI 인스턴스 fabric이 생성할 수 있다.
 
 ```text
 thinking_flow
 =
-thinking snapshot
+pre-meta Seed flow
 +
-Core.Seed original
+관념 업데이트 단위
++
+future meta.md candidate source
 ```
 
-thinking_flow is not:
+AI는 thinking_flow 원문을 수정하면 안 된다.
 
 ```text
-summary X
-cleaned draft X
-rough draft X
-error-correction target X
-meta.md X
-metaplus.md X
-README X
-```
-
-thinking_flow is:
-
-```text
-thinking snapshot O
-Core.Seed original O
-source field that can produce meta.md candidates O
-thinking trace between SeungeFlow Brain and AI instances O
-```
-
-AI must not modify the original thinking_flow.
-
-```text
-Do not fix flow.
-Extract seed from flow.
-```
-
-## 4.4 main
-
-```text
-main
-=
-standard layer for reading and operating the whole Structure_Principle
-```
-
-Examples:
-
-```text
-Baseline.main.md
-Coremap.main.md
-Renderer_Output_Rule.main.md candidate
-Visible_Relation_Field_Map.main.md candidate
-```
-
-AI must check document status.
-
-```text
-active
-candidate
-review_required
-not_promoted
+flow를 고치지 말 것.
+flow에서 Seed를 추출할 것.
 ```
 
 ---
 
-# 5. directory reading rule
+## 13. thinking_flow_relation
 
-AI must not judge by filename only.
+`thinking_flow_relation_*.md` 문서는 해당 thinking_flow가 기존 schema, meta.md, Coremap, relation 후보와 어떻게 연결되는지 표시한다.
+
+이 문서는 원본 flow를 대체하지 않는다.
 
 ```text
-wrong:
-directory name → summary
-
-correct:
-meta.md + metaplus.md → core understanding unit
+thinking_flow_relation
+=
+candidate relation map
 ```
 
-Reading order:
+relation state는 다음과 같이 구분될 수 있다.
 
 ```text
-1. check directory
-2. read meta.md
-3. read metaplus.md
-4. compare meta and metaplus
-5. extract core boundary
-6. extract misunderstanding guard
-7. extract relation candidates
-8. classify source / candidate / reference_only / pending
-9. check how later cores revise earlier cores
-10. place relation as coremap edge
-```
-
----
-
-# 6. global structure map
-
-AI must not treat 000~121 as a simple numbered list.
-
-```text
-000~099
-=
-formed source schema phase
-
-100
-=
-understanding_flow empty gate
-
-101~121
-=
-rebuilt active schema phase
-```
-
-## 6.1 000~099
-
-```text
-000~099
-=
-origin
-foundation
-extension
-source trace
-relation index
-candidate index
+link_candidate
+active_connect_candidate
 reference_only
-document sorting
+active_connect
+confirmed_link
+pending
+forbidden
 ```
 
-## 6.2 100
+relation을 찾았다는 것은 relation을 확정했다는 뜻이 아니다.
 
 ```text
-100
-=
-empty_position
-+
-understanding_flow reserved seat
-+
-formed-to-rebuilt buffer
-```
-
-100 is not a missing number.
-
-```text
-Do not fill 100 as a normal schema core.
-Do not fill 100 with source traces.
-Do not directly attach 099 to 101.
-```
-
-## 6.3 101~121
-
-```text
-101~121
-=
-rebuilt active chain that does not merely continue source trace,
-but rebuilds reading / boundary / return / contact / operation
-from the current understanding
+relation found ≠ relation confirmed
 ```
 
 ---
 
-# 7. dot preservation rule
+## 14. Relation Rule
 
-`000_dot` must not be redefined.
-
-```text
-000_dot
-=
-origin minimum place
-not value but place
-minimum structural unit where line / vector / sequence structure / place operation begins
-```
-
-Later schema can refine dot.
-
-```text
-059 = dot-anchor / present anchor refinement
-079~085 = ㅇ / ㆍ dot layer distinction
-118 = pin = operable dot
-121 = CoreDot ambiguity boundary
-```
-
-But later refinement does not replace `000_dot`.
-
-```text
-dot.meta.md
-=
-preserved as origin core
-
-CoreDot
-=
-deferred / ambiguity boundary
-```
-
-Forbidden:
-
-```text
-Do not use CoreDot as the true name of dot.
-Do not use CoreDot as the identity of ㆍ.
-Do not use CoreDot as the minimum unit of Coremap.
-Do not overwrite dot.meta.md with CoreDot.
-```
-
----
-
-# 8. relation rule
-
-AI must not treat relation as merge.
+AI는 다음 규칙을 반드시 보존해야 한다.
 
 ```text
 relation ≠ merge
 ```
 
-Relation means:
+relation은 다음을 뜻한다.
 
 ```text
-relation
-=
-a bridge that connects cores while preserving each core boundary
+각 boundary를 보존한 채 entity들을 연결하는 bridge
 ```
 
-Forbidden:
+금지되는 읽기:
 
 ```text
-Do not merge because two items look similar.
-Do not identify things as same just because they touch.
-Do not treat the same symbol as the same layer.
-Do not treat a shared example as the same principle.
-related does not mean same meaning.
-Do not mistake source trace for active schema identity.
+related = same
+similar shape = same principle
+same symbol = same layer
+source trace = active identity
+candidate = confirmed
+reference_only = trash
 ```
 
-Relation types:
+forbidden relation도 중요하다.
 
 ```text
-prev
-next
-related
-source
-target
-forbidden
-pending
-```
-
-Forbidden relation must also be preserved.  
-Forbidden is not failure. It is guard.
-
----
-
-# 9. source / candidate / reference sorting rule
-
-Do not promote every high-density trace to active schema.
-
-Classification:
-
-```text
-principle_entity
-interpretation_layer
-applied_example
-reference_only
-pending
-```
-
-## 9.1 principle_entity condition
-
-```text
-has unique role
-has boundary
-requires relation
-requires forbidden
-can be compressed into shortest
-principle remains even if example changes
-```
-
-## 9.2 reference_only condition
-
-```text
-strong but dangerous to put directly into mainline
-must be preserved as trace
-must not be immediately promoted to active core
-```
-
-reference_only is not trash.
-
-```text
-reference_only
-=
-high-density trace preservation layer
+forbidden = guard
+not failure
 ```
 
 ---
 
-# 10. GitHub reading rule
+## 15. Path Reading Rule
 
-GitHub can become a Seed.Base canonical field.  
-But GitHub path is not relation identity.
-
-```text
-GitHub path = visible coordinate
-
-relation identity
-=
-Seed
-+ history_event_id
-+ schema_id
-+ binding_state
-```
-
-AI must not treat every file on GitHub as confirmed.
-
-Always check status.
+GitHub path는 visible coordinate이지 relation identity가 아니다.
 
 ```text
-active
-candidate
-review_required
-promotion_status: not_promoted
-runtime_confirmed: false
+GitHub path = selected visible coordinate
+local PC    = full candidate field
 ```
 
-GitHub commit history is not a substitute for relation_history.md.
+directory containment는 path-coordinate containment이지 semantic containment가 아니다.
 
 ```text
-Git commit history
-=
-file change history
-
-relation_history.md
-=
-relation identity / transition memory
+directory parent ≠ meaning parent
+filesystem child ≠ conceptual child
 ```
+
+Linux식 읽기:
+
+```text
+.  = current place
+.. = parent transition
+/  = path boundary separator
+```
+
+`.`와 `..`는 identity가 아니다.  
+상대적인 place-state operator이다.
 
 ---
 
-# 11. runtime / renderer rule
+## 16. Seed 형성 과정
 
-Renderer is not an image generator.
+사용 가능한 지식 문서는 한 번의 이해에서 바로 생기지 않는다.
 
-```text
-Renderer output
-≠ visible_shape
-
-Renderer output
-=
-visible_relation_field
-```
-
-visible_relation_field means the following remain alive at runtime:
+Seed는 반복적인 vectorizing 과정을 거쳐 형성된다.
 
 ```text
-relation
-boundary
-return
-history
-state persistence
-guard
+관측대상
+→ 반복 관측
+→ vectorizing
+→ vector
+→ seed
+→ thinking_flow
+→ meta.md
+→ Active_Schema
 ```
 
-SVG is not final truth.
+이해가 지식으로 각인되려면 관측대상이 필요하다.
 
-```text
-SVG = display surface
-structure_state.json = runtime truth / operation memory
-relation_history.md = folded transition memory
-Seed.Base = source_of_truth reference
-```
-
-A closed shape is not a valid loop.
-
-```text
-closed shape ≠ valid loop
-```
-
-A valid loop requires:
-
-```text
-relation_anchor
-boundary_state
-return_path
-history_event_index
-center_axis_or_boundary_gate_return
-state_persistence
-guard_clear
-```
+반복 관측, 보정, relation, transition을 거쳐야 그 이해가 사용 가능한 문서로 내려올 수 있다.
 
 ---
 
-# 12. AI instance role boundary
+## 17. 인스턴스 역할 경계
 
-AI instances must not mix roles.
+AI 인스턴스는 역할을 섞으면 안 된다.
 
-## 12.1 ChatGPT.direct
+### ChatGPT.direct
 
 ```text
 ChatGPT.direct
 =
-if+1 whole-instance controller
+판단
 +
-current target judgment
+방향 설정
 +
-meta.md / flow.md / main.md generation judgment
+오독 방지
 +
-instance role boundary maintenance
+README / main guide 권한
 +
-next task instruction
+다음 작업 지시
 ```
 
-direct is not an instance that completes everything alone.  
-direct identifies the Target and calls the required instance.
-
-## 12.2 ChatGPT.github
+### ChatGPT.flow
 
 ```text
-ChatGPT.github
+ChatGPT.flow
 =
-GitHub repository / local Linux / push / path / file placement
+GitHub 업로드
++
+파일 생성
++
+파일 이동
++
+repository operation
 ```
 
-github does not push without direct final approval.
-
-## 12.3 ChatGPT.draw
-
-```text
-ChatGPT.draw
-=
-visible_relation_field / renderer / SVG-state-history binding design
-```
-
-draw does not go SVG-first.
-
-```text
-spec before SVG
-state before shape
-relation before drawing
-guard before loop
-```
-
-## 12.4 ChatGPT.making
+### ChatGPT.making
 
 ```text
 ChatGPT.making
 =
-metaplus.md writing
+초안 작성
 +
-source trace organization
+문서 형태 구성
 +
-Core.Seed extraction support from flow
+candidate 준비
 ```
 
-making is not called when meta.md is not needed.  
-making is called when metaplus.md writing or source trace organization is needed.
-
-## 12.5 ChatGPT.PRO
+### ChatGPT.PRO
 
 ```text
 ChatGPT.PRO
 =
-high-density reasoning / large structure review / long-flow review candidate
+대형 구조 검토
++
+고밀도 추론
++
+긴 flow 검토
 ```
 
-PRO does not intervene in the mainline without explicit direct call.
-
----
-
-# 13. global instance rule
-
-```text
-Uncalled instances do not act.
-Only instances specified in the current Target respond.
-Other instances wait.
-If additional access is needed, ChatGPT.direct calls it separately.
-```
-
-In short:
+호출되지 않은 인스턴스는 작동하지 않는다.
 
 ```text
 broadcast X
@@ -694,219 +508,70 @@ targeted instruction O
 
 ---
 
-# 14. current repository layers
+## 18. 저장소 읽기 순서
+
+현재 권장되는 첫 읽기 순서는 다음과 같다.
 
 ```text
-/
-├─ README.md
-├─ README.en.md
-├─ README_for_AI.md
-├─ Structure_Principle/
-│  ├─ schema/
-│  ├─ main/
-│  ├─ runtime/
-│  ├─ history/
-│  ├─ display/
-│  └─ references/
-├─ SeungeFlow_Thinking/
-│  └─ thinking_flow/
-└─ epluone/
+1. README.md
+2. README_for_AI.md
+3. Structure_Principle/schema/
+4. SeungeFlow_Thinking/thinking_flow/
+5. epluone/
 ```
 
-## 14.1 Structure_Principle/schema
-
-```text
-formed core schema
-```
-
-## 14.2 Structure_Principle/main
-
-```text
-operation standard documents
-```
-
-## 14.3 Structure_Principle/runtime
-
-```text
-runtime state candidates
-```
-
-## 14.4 Structure_Principle/history
-
-```text
-relation history candidates
-```
-
-## 14.5 Structure_Principle/display
-
-```text
-visible_relation_field display candidates
-```
-
-## 14.6 SeungeFlow_Thinking/thinking_flow
-
-```text
-Core.Seed snapshot originals
-```
-
-Do not modify the originals.
-
-## 14.7 epluone
-
-```text
-if+1 execution output domain
-```
-
-CFD is the first GitHub execution-output candidate of epluone.  
-CFD must not be placed inside Structure_Principle/runtime.
+이후 root-level 또는 main-level guide 문서가 새로 생성되면,  
+AI는 ChatGPT.direct가 승인한 최신 guide를 따라야 한다.
 
 ---
 
-# 15. CFD boundary rule
+## 19. Guard List
+
+AI는 다음을 하면 안 된다.
 
 ```text
-CFD
-=
-epluone / if+1 execution output
-```
-
-CFD must not be placed inside Structure_Principle runtime.
-
-Forbidden:
-
-```text
-/Structure_Principle/runtime/CFD/
-/Structure_Principle/runtime/cfd/
-/Structure_Principle/runtime/epluone/
-```
-
-Possible relation:
-
-```text
-external_reference
-not_promoted
-runtime_confirmed: false
+path를 identity로 읽기
+number를 identity로 읽기
+directory를 semantic parent로 읽기
+relation을 merge로 읽기
+candidate를 confirmed로 읽기
+reference_only를 trash로 읽기
+thinking_flow 원문 수정하기
+thinking_flow를 summary로 대체하기
+meta.md와 metaplus.md를 같은 layer로 읽기
+CFD를 epluone의 identity로 읽기
+Active_Schema를 meta.md 하나로 축소하기
 ```
 
 ---
 
-# 16. candidate / confirmed distinction
-
-AI must distinguish candidate from confirmed.
-
-```text
-candidate placement ≠ promotion
-skeleton ≠ runtime confirmed
-draw_generated_candidate ≠ confirmed main
-```
-
-Examples:
-
-```text
-/Structure_Principle/main/candidates/draw/
-=
-draw-generated candidate documents
-
-/Structure_Principle/runtime/candidates/
-=
-runtime skeleton candidates
-
-/Structure_Principle/history/candidates/
-=
-history skeleton candidates
-
-/Structure_Principle/display/candidates/
-=
-display skeleton candidates
-```
-
-Confirmed documents and candidate documents are not the same layer.
-
----
-
-# 17. forbidden global rules
-
-AI must not:
-
-```text
-modify thinking_flow originals
-replace thinking_flow with summaries
-treat meta.md and metaplus.md as the same layer
-promote source trace to final authority
-treat reference_only as trash
-immediately promote reference_only to active core
-show relation as merge
-replace dot with CoreDot
-fill 100 as normal schema
-directly attach 099 to 101
-treat GitHub path as relation identity
-treat SVG as source_of_truth
-treat closed shape as valid loop
-treat candidate as confirmed
-treat runtime skeleton as runtime confirmed
-place CFD inside Structure_Principle/runtime
-```
-
----
-
-# 18. first reading route
-
-When AI enters the repository, read in this order.
-
-```text
-1. README_for_AI.md
-2. /Structure_Principle/main/Baseline.main.md
-3. /Structure_Principle/main/Coremap.main.md
-4. /Structure_Principle/schema/
-5. /Structure_Principle/main/candidates/ if needed
-6. /SeungeFlow_Thinking/thinking_flow/ if needed
-7. /epluone/ if needed
-```
-
-Do not modify thinking_flow originals.
-
----
-
-# 19. AI response rule
-
-AI must follow these response rules.
-
-```text
-distinguish certain from candidate
-distinguish formed from forming
-distinguish source from active
-distinguish relation from merge
-distinguish candidate from confirmed
-give instructions only to called instances
-uncalled instances wait
-```
-
----
-
-# 20. shortest
+## 20. 최단 정의
 
 ```text
 README_for_AI.md
 =
-a pre-dot gate AI must pass before reading Structure_Principle;
-it separates meta / metaplus / thinking_flow / main / schema / runtime / history / display / epluone,
-and locks read≠understand,
+SeungeFlow를 읽기 위한 AI 사전 읽기문이다.
+
+이 문서는 AI가 Seed.Base를 저장소 전체 관계장으로 읽고,
+if / if+1 / Ctp / Structure_Principle / SeungeFlow_Thinking / epluone을 구분하며,
+path≠identity,
+number≠identity,
+directory≠semantic parent,
 relation≠merge,
 candidate≠confirmed,
-GitHub path≠relation identity,
-000_dot preservation,
-100 empty gate preservation,
-and 121 CoreDot ambiguity boundary preservation
+thinking_flow≠casual log,
+meta.md=Active_Schema source boundary,
+metaplus.md=meta-focused thinking_flow
+규칙을 보존하도록 한다.
 ```
 
 ---
 
-# 21. final lock
+## 21. Final Lock
 
-```text
-AI must not summarize Structure_Principle.
-AI must read and operate Structure_Principle.
+AI는 SeungeFlow를 단순 요약하면 안 된다.
 
-Reading is only the beginning.
-Understanding begins when boundary and relation work on new input.
-```
+AI는 boundary를 보존하고, relation을 감지하고, layer를 병합하지 않은 채 구조를 작동시켜야 한다.
+
+읽기는 시작일 뿐이다.  
+이해는 구조가 새로운 입력에서 작동할 때 시작된다.

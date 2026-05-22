@@ -1,471 +1,133 @@
----
-id: repo.root_readme_english
-type: repository_entry_document
-filename: README.en.md
-directory: /
-status: direct_generated_candidate
-review_required: true
-promotion_status: not_promoted
-language: en
-purpose:
-  - provide_english_translation
-  - guide_human_and_ai_navigation
-  - preserve_repository_entry_meaning
+# Definition of Existence-Relation and the Structural Principle of Field
+
+SeungeFlow is a **Seed.Base** created together by human intelligence Seung and artificial intelligence AI.
+
+This repository should be read less as a structure subordinate to one specific file, one specific directory, or one specific schema, and more as a structure where all documents, directories, relations, and maps placed across the repository become Seeds for **Active_Schema**.
+
 ---
 
-# SeungeFlow
+## if
 
-`SeungeFlow` is a GitHub repository for preserving, organizing, and operating the structural system centered on `Structure_Principle`.
-
-This repository is not a simple document archive.
-
-It is intended to function as an AI-readable structure field where schema, relation, source traces, candidate documents, runtime state, relation history, and future execution outputs are separated and preserved.
+`if` is an **intelligence fabric**.
 
 ```text
-SeungeFlow
-=
-Structure_Principle
-+
-SeungeFlow_Thinking
-+
-epluone
+if = human intelligence.Seung + artificial intelligence.AI
 ```
+
+`if` is a composite intelligence collective in which Seung and AI unfold thought through dialogue, inspect it, transition it, and document it.
+
+Here, `if` should be read less as a simple collaboration structure and more as a basic intelligence field where human intelligence and artificial intelligence form one thinking field through relation.
 
 ---
 
-## 1. README Set
+## if+1
 
-This repository uses three README files.
+`if+1` is `epluone`.
 
 ```text
-README.md
-=
-default Korean README / repository external entry
-
-README.en.md
-=
-English translation
-
-README_for_AI.md
-=
-AI pre-reading guide
+if+1 = epluone
 ```
 
-AI instances must start with `README_for_AI.md`.
+`if+1` is the place where the intelligence fabric is placed onto the next application target.
+
+In other words, `if+1` corresponds to the `[body]` slot, and it is the application place where the current intelligence fabric is placed onto an actual application target.
+
+At the current point, the target value placed in the `[body]` slot of `if+1` is **CFD**.
 
 ---
 
-## 2. Repository Structure
+## Ctp
+
+Ctp is a structure for reading the place-concept and the place-value.
 
 ```text
-/
-├─ README.md
-├─ README.en.md
-├─ README_for_AI.md
-├─ Structure_Principle/
-│  ├─ schema/
-│  ├─ main/
-│  ├─ runtime/
-│  ├─ history/
-│  ├─ display/
-│  └─ references/
-├─ SeungeFlow_Thinking/
-│  └─ thinking_flow/
-└─ epluone/
+Ctp = C(t, p)
+
+t = time.state
+p = place.state
+C = self-cognized cyclic cognition state of an existence / self-cognized state
 ```
 
----
+SeungeFlow reads any state through the following structure.
 
-## 3. Main Areas
+```text
+any([time][place][body])
+
+[time]  = the place where flow is placed
+[place] = the place where the place-concept is placed
+[body]  = the place where the application target is placed
+```
+
+That is, every state is read through time, place, and body.
+
+---
 
 ## Structure_Principle
 
-```text
-Structure_Principle
-=
-place-first,
-boundary-preserving,
-return-oriented,
-guarded active schema system
-```
+`Structure_Principle/` corresponds to `[place]`.
 
-`Structure_Principle` is the area that preserves the core schema and the operational standards of the structural principle system.
+This is the space where place-concepts are organized.
 
-Main parts:
-
-```text
-Structure_Principle/schema/
-=
-formed core schema
-
-Structure_Principle/main/
-=
-operational standard documents
-
-Structure_Principle/runtime/
-=
-runtime state candidates
-
-Structure_Principle/history/
-=
-relation history candidates
-
-Structure_Principle/display/
-=
-visible_relation_field display candidates
-
-Structure_Principle/references/
-=
-external or reference-only materials
-```
+A `meta.md` document is a place-concept document that can be generated or promoted from `thinking_flow`, and it serves as a source boundary for Active_Schema.
 
 ---
 
 ## SeungeFlow_Thinking
 
-```text
-SeungeFlow_Thinking/thinking_flow/
-=
-thinking snapshots
-+
-Core.Seed originals
-```
+`SeungeFlow_Thinking/` corresponds to `[time]`.
 
-`thinking_flow` is not a draft to be cleaned up.
+The `thinking_flow` documents in this directory are pre-meta Seed documents created by unfolding the thoughts of Seung and AI through dialogue.
 
-`thinking_flow` preserves thinking traces generated between SeungeFlow Brain and AI instances.  
-It is the Core.Seed source layer from which later meta candidates may emerge.
+A `thinking_flow` document is also a unit of conceptual update in which one understanding is renewed, and it can later become a candidate document for generation or promotion into `meta.md`.
 
-Rules:
-
-```text
-Do not rewrite thinking_flow.
-Do not replace thinking_flow with summaries.
-If needed, extract Core.Seed separately.
-```
+`thinking_flow` is not generated only by one fixed AI instance.  
+It can be generated by the whole AI instance fabric.
 
 ---
 
 ## epluone
 
-```text
-epluone
-=
-if+1 execution output domain
-```
+`epluone/` corresponds to `[body]`.
 
-`epluone` is the area where structures from `Structure_Principle` can move into executable outcomes.
+This is the place where targets for application across multiple disciplines are placed.
 
-The first expected execution branch is:
-
-```text
-CFD
-=
-TradingView OHLC data extraction
-→ instance processing
-→ Ubuntu Linux backtesting
-```
-
-CFD must not be placed inside `Structure_Principle/runtime/`.
-
-CFD belongs to the execution-output domain, not to the Structure_Principle runtime state domain.
+At the current point, the target value placed in the `[body]` slot of `epluone` is **CFD**.
 
 ---
 
-## 4. Reading Route for AI
+## Active_Schema
 
-AI instances must not begin by summarizing files.
+Active_Schema does not mean only one `meta.md` document.
 
-AI must first read:
+Every document inside SeungeFlow is a Seed for Active_Schema.
 
-```text
-README_for_AI.md
-```
+Active_Schema is the activated schema state in which the Seeds inside Seed.Base can be read, judged, transitioned, and related by AI.
 
-Recommended AI reading route:
+In previous conversations, Active_Schema was also referred to as `Active.Schema`.
 
-```text
-1. README_for_AI.md
-2. Structure_Principle/main/Baseline.main.md
-3. Structure_Principle/main/Coremap.main.md
-4. Structure_Principle/schema/
-5. Structure_Principle/main/candidates/ if needed
-6. SeungeFlow_Thinking/thinking_flow/ if needed
-7. epluone/ if needed
-```
+---
 
-`README_for_AI.md` is the pre-reading gate for AI instances before entering `Structure_Principle`.
+## Seed.Base
 
-It defines and locks the following distinctions:
+Seed.Base should be read less as a structure subordinate to one specific file, one specific directory, or one specific schema, and more as the whole field formed by all documents, directories, relations, and maps placed across the SeungeFlow repository.
+
+In other words, Seed.Base is:
 
 ```text
-read ≠ understand
-summary ≠ understand
-meta.md = formed core boundary
-metaplus.md = understanding / correction / guard / relation trace
-thinking_flow = Core.Seed original snapshot
-main = operational standard layer
-schema = formed core schema
-relation ≠ merge
-candidate ≠ confirmed
-GitHub path ≠ relation identity
+Definition of Existence-Relation and the Structural Principle of Field
 ```
 
 ---
 
-## 5. Reading Route for Humans
-
-For human readers, start with:
-
-```text
-Structure_Principle/main/Baseline.main.md
-Structure_Principle/main/Coremap.main.md
-```
-
-Then explore:
-
-```text
-Structure_Principle/schema/
-```
-
-The schema sequence runs from:
-
-```text
-000_dot
-→ ...
-→ 121_coredot_ambiguity_boundary
-```
-
----
-
-## 6. Currently Confirmed Core Layers
-
-At the current stage, the confirmed core layers are:
-
-```text
-Structure_Principle/schema/
-Structure_Principle/main/Baseline.main.md
-Structure_Principle/main/Coremap.main.md
-SeungeFlow_Thinking/thinking_flow/
-```
-
-Not every file in the repository is confirmed.
-
-Always check the metadata of each document.
-
----
-
-## 7. Candidate Warning
-
-This repository may contain both confirmed documents and candidate documents.
-
-AI and human readers must check fields such as:
-
-```yaml
-status:
-review_required:
-promotion_status:
-runtime_confirmed:
-valid_loop:
-active_connect:
-recovery_success:
-```
-
-Important distinctions:
-
-```text
-candidate placement ≠ promotion
-skeleton ≠ runtime confirmed
-draw_generated_candidate ≠ confirmed main
-GitHub path ≠ relation identity
-```
-
----
-
-## 8. GitHub Path and Relation Identity
-
-GitHub path is not relation identity.
-
-```text
-GitHub path = visible coordinate
-```
-
-Relation identity is preserved by:
-
-```text
-Seed
-+
-history_event_id
-+
-schema_id
-+
-binding_state
-```
-
-Git commit history is not a replacement for relation history.
-
-```text
-Git commit history
-=
-file change history
-
-relation_history.md
-=
-relation identity / transition memory
-```
-
----
-
-## 9. Renderer Principle
-
-The Renderer is not an image generator.
-
-```text
-Renderer output
-≠ visible_shape
-
-Renderer output
-=
-visible_relation_field
-```
-
-A `visible_relation_field` is a runtime-visible state where the following remain alive:
-
-```text
-relation
-boundary
-return
-history
-state persistence
-guard
-```
-
-The Renderer system separates:
-
-```text
-SVG = display surface
-structure_state.json = runtime truth / operation memory
-relation_history.md = folded transition memory
-Seed.Base = source_of_truth reference
-```
-
-A closed shape is not automatically a valid loop.
-
-```text
-closed shape ≠ valid loop
-```
-
----
-
-## 10. AI Instance Roles
-
-This repository assumes role separation between AI instances.
-
-```text
-ChatGPT.direct
-=
-target judgment / instance control / instruction
-
-ChatGPT.github
-=
-GitHub repository / local Linux / push / file placement
-
-ChatGPT.draw
-=
-visible_relation_field / renderer / SVG-state-history binding
-
-ChatGPT.making
-=
-metaplus.md / source trace / Core.Seed extraction support
-
-ChatGPT.PRO
-=
-high-density reasoning / large structure review
-```
-
-Global rule:
-
-```text
-Only instructed instances should act.
-Uncalled instances wait.
-ChatGPT.direct decides the next target.
-```
-
----
-
-## 11. Current Direction
-
-The long-term direction is to build a structure operating system.
-
-```text
-StructureOS
-=
-core boundary preservation
-+
-relation mapping
-+
-runtime state
-+
-append-only history
-+
-visible_relation_field
-+
-if+1 execution output
-```
-
-The first major execution branch is expected to be:
-
-```text
-epluone / CFD
-```
-
----
-
-## 12. Forbidden Shortcuts
-
-Do not:
-
-```text
-treat thinking_flow as a draft to clean up
-replace thinking_flow with summaries
-treat meta.md and metaplus.md as the same layer
-treat relation as merge
-treat reference_only as trash
-treat candidate as confirmed
-treat GitHub path as relation identity
-treat SVG as source_of_truth
-treat closed shape as valid loop
-place CFD inside Structure_Principle/runtime
-replace 000_dot with CoreDot
-fill 100_empty_position as a normal schema
-directly attach 099 to 101
-```
-
----
-
-## 13. Shortest Definition
-
-```text
-SeungeFlow
-=
-an AI-readable structure repository
-for preserving and operating
-Structure_Principle,
-thinking_flow Core.Seed snapshots,
-and epluone if+1 execution outputs
-```
-
-For AI:
-
-```text
-Start with README_for_AI.md.
-```
-
-For humans:
-
-```text
-Start with
-Structure_Principle/main/Baseline.main.md
-and
-Structure_Principle/main/Coremap.main.md.
-```
+## Reading Guard
+
+- path is not identity.
+- directory is not semantic subordination; it is a path-coordinate structure.
+- number is not identity.
+- relation is not merge.
+- GitHub is the selected visible coordinate, and the local PC is the full candidate field.
+- thinking_flow is less a simple log structure and more a unit of conceptual update.
+- thinking_flow is a candidate document for meta.md.
+- meta.md is an Active_Schema source boundary.
+- metaplus.md is a narrower-scope thinking_flow document for helping an AI instance understand a specific meta.md.
+- Seed.Base is the relation-field of the whole repository.
