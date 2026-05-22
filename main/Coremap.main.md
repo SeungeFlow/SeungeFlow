@@ -1,623 +1,672 @@
 ---
 id: main.coremap
-type: structure_principle_main_document
+type: main_coremap_document
 filename: Coremap.main.md
-directory: /Structure_Principle/main/
+directory: /main/
 status: active_draft
-scope:
-  target: Structure_Principle
-  role: core_relation_map_foundation
-  source_range: 000~121
-depends_on:
-  - main.baseline
-  - schema.066.principle_entity_relation_rule
-  - schema.067.meta_relation_boundary_bridge
-  - schema.099.document_sorting_index
-  - schema.120.seedbase_working_schema_memory_asset_structure
-  - schema.121.coredot_ambiguity_boundary
+authority:
+  - Human.Lee Seung
+  - ChatGPT.direct
+purpose:
+  - define_coremap_reading_rule
+  - map_core_relation_without_merge
+  - preserve_core_boundary
+  - distinguish_coremap_from_relation_guide
+  - connect_schema_meta_to_relation_field
 ---
 
-# Coremap.main
+# Coremap.main.md
 
-## 0. role
+## 0. 역할
 
-`Coremap.main.md`는 `Structure_Principle/schema/`의 122개 core를 번호순 요약표로 나열하는 문서가 아니다.
+`Coremap.main.md`는 `Structure_Principle/schema/` 내부 core들이 서로 어떻게 연결될 수 있는지 안내하는 core relation map 문서이다.
 
-이 문서는 각 core의 boundary를 보존한 채, core 사이의 relation을 mapping하기 위한 기초 지도이다.
+이 문서는 단순 파일목록이 아니라,  
+각 core boundary를 보존한 채 core 사이의 relation을 표시하기 위한 map 문서이다.
 
 ```text
 Coremap.main.md
 =
-core boundary preserving relation map
+core relation map
++
+boundary-preserving relation guide
++
+schema connection map
++
+relation state map
 ```
 
-금지:
+---
+
+## 1. Coremap의 기본 정의
+
+Coremap은 core들을 하나로 병합하는 map이 아니라,  
+각 core의 boundary를 보존한 채 core와 core 사이의 relation을 표시하는 map이다.
 
 ```text
-coremap ≠ file list
-coremap ≠ concept dictionary
-coremap ≠ summary table
-coremap ≠ merge map
-```
-
-정의:
-
-```text
-coremap
+Coremap
 =
-independent core entities
-+
-boundary-preserving relation edges
-+
-source / candidate / reference / pending distinction
-+
-link/connect state
+boundary-preserving core relation map
 ```
 
-## 1. coremap node schema
+Coremap은 다음을 보여준다.
 
-각 core node는 다음 field를 가진다.
-
-```yaml
-core:
-  id:
-  directory:
-  number:
-  name:
-  phase:
-  meta_file:
-  metaplus_file:
-
-  core_boundary:
-    definition:
-    shortest:
-    role:
-    not:
-
-  metaplus_layer:
-    correction:
-    guard:
-    relation_trace:
-    pending:
-
-  relation:
-    prev:
-    next:
-    related:
-    source:
-    target:
-    forbidden:
-    pending:
-
-  map_state:
-    link:
-    connect:
-    active:
-    reference_only:
+```text
+어떤 core가 있는가
+어떤 core가 어떤 core와 relation을 가지는가
+그 relation은 어떤 상태인가
+그 relation은 merge가 아닌가
+어떤 relation은 forbidden guard로 보존되어야 하는가
 ```
 
-## 2. relation edge schema
+---
 
-각 edge는 다음 형식을 따른다.
+## 2. Coremap이 아닌 것
 
-```yaml
-edge:
-  from:
-  to:
-  relation:
-  meaning:
-  type:
-  state:
-  guard:
+Coremap은 파일목록으로 읽는 것이 아니라,  
+core boundary를 보존하는 relation map으로 읽는다.
+
+```text
+Coremap
+≠
+file list
+
+Coremap
+=
+core relation map
 ```
 
-`state`는 다음 중 하나다.
+Coremap은 개념사전으로 읽는 것이 아니라,  
+각 core가 어떤 relation field 안에 놓이는지 보여주는 map으로 읽는다.
+
+```text
+Coremap
+≠
+concept dictionary
+
+Coremap
+=
+relation field map
+```
+
+Coremap은 요약표로 읽는 것이 아니라,  
+core 사이의 boundary-preserving relation을 보존하는 문서로 읽는다.
+
+```text
+Coremap
+≠
+summary table
+
+Coremap
+=
+boundary-preserving relation map
+```
+
+Coremap은 merge map으로 읽는 것이 아니라,  
+merge를 막고 relation을 보존하는 guard map으로 읽는다.
+
+```text
+Coremap
+≠
+merge map
+
+Coremap
+=
+relation guard map
+```
+
+---
+
+## 3. Coremap과 Core.main.md
+
+`Core.main.md`는 각 core가 무엇을 설명하는지 안내하는 문서이다.
+
+`Coremap.main.md`는 그 core들이 어떻게 연결될 수 있는지 안내하는 문서이다.
+
+```text
+Core.main.md
+=
+what each core explains
+
+Coremap.main.md
+=
+how cores relate
+```
+
+즉 `Core.main.md`가 node guide라면,  
+`Coremap.main.md`는 edge map이다.
+
+```text
+Core.main.md
+=
+node guide
+
+Coremap.main.md
+=
+edge map
+```
+
+AI는 이 둘을 병합하는 것이 아니라,  
+core 설명과 core relation을 구분해서 읽어야 한다.
+
+---
+
+## 4. Coremap과 Relation.main.md
+
+`Relation.main.md`는 relation을 어떤 원칙으로 읽어야 하는지 설명하는 문서이다.
+
+`Coremap.main.md`는 그 원칙을 바탕으로 core 사이의 relation을 표시하는 map 문서이다.
+
+```text
+Relation.main.md
+=
+relation reading rule
+
+Coremap.main.md
+=
+core relation map
+```
+
+즉 Relation.main.md는 relation의 원리이고,  
+Coremap.main.md는 core 사이 relation의 지도이다.
+
+---
+
+## 5. Coremap과 schema
+
+Coremap은 `Structure_Principle/schema/` 내부의 `meta.md`들을 중심으로 읽는다.
+
+```text
+Structure_Principle/schema/
+=
+formed place-concept field
+
+meta.md
+=
+Active_Schema source boundary
+```
+
+Coremap은 schema directory name을 identity로 삼는 것이 아니라,  
+각 `meta.md`가 형성한 core boundary를 기준으로 relation을 표시한다.
+
+```text
+schema directory
+=
+path-coordinate container
+
+meta.md
+=
+core boundary source
+```
+
+---
+
+## 6. core node 읽기
+
+Coremap에서 core node는 파일 경로 자체가 아니라,  
+`meta.md`가 형성한 자리개념 boundary를 가리킨다.
+
+core node는 다음 요소를 가질 수 있다.
+
+```text
+schema_id
+order_hint
+current_path
+meta_path
+status
+boundary_summary
+relation_state
+```
+
+각 항목은 다음처럼 읽는다.
+
+```text
+schema_id
+=
+작업상 core 이름
+
+order_hint
+=
+탐색과 순서를 돕는 숫자
+
+current_path
+=
+현재 path-coordinate
+
+meta_path
+=
+core boundary가 놓인 meta.md 위치
+
+status
+=
+active / candidate / reference_only / pending 등 상태
+
+boundary_summary
+=
+해당 core가 보존해야 할 최소 boundary
+
+relation_state
+=
+다른 core와의 relation 상태
+```
+
+---
+
+## 7. order_hint 기준
+
+Coremap에서 숫자는 identity가 아니라 order_hint이다.
+
+```text
+number
+=
+order_hint
+```
+
+예를 들어:
+
+```text
+000_dot
+```
+
+은 dot의 identity가 아니라,  
+dot 자리개념이 현재 schema 안에서 놓인 order_hint와 local label이다.
+
+```text
+000_dot
+=
+order_hint + local_label + current_coordinate
+```
+
+AI는 숫자 순서를 존재 순서나 우열 순서로 읽는 것이 아니라,  
+탐색을 돕는 order_hint로 읽어야 한다.
+
+---
+
+## 8. relation edge 읽기
+
+Coremap에서 edge는 core와 core 사이의 relation을 표시한다.
+
+edge는 다음 요소를 가질 수 있다.
+
+```text
+from
+to
+relation_type
+relation_state
+meaning
+guard
+source
+```
+
+각 항목은 다음처럼 읽는다.
+
+```text
+from
+=
+relation 출발 core
+
+to
+=
+relation 도착 core
+
+relation_type
+=
+transition / refinement / boundary_guard / correspondence 등
+
+relation_state
+=
+candidate / confirmed / pending / forbidden 등
+
+meaning
+=
+relation이 의미하는 구조
+
+guard
+=
+merge나 오독을 막는 조건
+
+source
+=
+relation 판단의 근거 문서
+```
+
+---
+
+## 9. relation_state
+
+Coremap의 relation은 상태를 가진다.
 
 ```text
 link_candidate
-confirmed_link
-active_connect
+active_connect_candidate
 reference_only
+active_connect
+confirmed_link
 pending
 forbidden
 ```
 
-## 3. global phase map
+각 상태는 다음처럼 읽는다.
 
 ```text
-000~014 = structure validation phase
-015~024 = operation-axis validation phase
-025~028 = AI-readable active unit formation phase
-029~030 = relation-field application examples
-031~034 = GitHub-native preservation / support / archive / index phase
-035~039 = real-system / orbit / overlap / interval-route / root-relation example phase
-040~044 = filesystem genealogy / learning engine / dynamic renderer / SVG forming / angle bridge phase
-045~049 = DIR reinforcement / flip transition / shell renderer / sphere-shell distinction / field reveal phase
-050~054 = formed_formula / failure-as-Seed / hyper-renderer architecture / definition emergence / movable balance center phase
-055~059 = purpose preservation / runtime core alignment / SeedBase data definition / human-side pre-alignment / empty_place-present-dot_anchor alignment phase
-060~064 = coherency gate / vector unlock trace / place-domain / boundary requirement / place-overlap phase
-065~069 = ⊕ common operator / principle entity boundary / relation bridge / Ctp x-dx-ddx / ddx right-triangle transition phase
-070~074 = right-triangle fold-unfold / 3→2 overlap / 2→1 triangle overlap / 73-69 structural triangle / science-based implementation guard phase
-075~079 = chemical formula renderer / electron shell visible layer / H2O angle implementation / vector operation external engine separation / Cheonjiin vowel-direction trace phase
-080~084 = observer body vector frame / inner vowel pull / square center vowel orbit / WAXF rhombus direction field / BADㆍC orbit reference separation phase
-085~089 = opposed correspondence / ani boundary judgment / mat boundary correspondence / vowel-place overlap / Hangul word layer distinction phase
-090~094 = Hanja compression reading / structure principle rename / principle hidden layer / SVO-SOV subject anchor / principle-explains-phenomenon phase
-095~099 = place source index / vector relation index / science candidate index / reference_only trace index / document sorting gate phase
-100~104 = understanding_flow reserved gate / three-dot raw reading / phase boundary distinction / Circle closed return field / boundary contact relation phase
-105~109 = center-radius-diagonal-crossing vocabulary / cell-center segment rule / triangle surface-vector distinction / inside-left condition / Ctp structure integer table phase
-110~114 = nine-zero return overlap / angle-grid resolution / candle parent-field / OHLC rhombus-to-BADㆍC mapping / Close-to-next-Open transition phase
-115~119 = Y branch guard / circle-container inclusion / structural sequence number / pin-dot-Y return / flow-transition self-operation phase
-120~121 = SeedBase working memory asset system / CoreDot ambiguity boundary closure phase
+link_candidate
+=
+관계 후보
+
+active_connect_candidate
+=
+작동 가능성이 높은 연결 후보
+
+reference_only
+=
+강하지만 직접 승격하지 않는 참조 관계
+
+active_connect
+=
+현재 작동 중인 연결
+
+confirmed_link
+=
+확정된 연결
+
+pending
+=
+보류된 연결
+
+forbidden
+=
+오독을 막기 위해 금지된 연결
 ```
 
-## 4. primary flow map
+AI는 relation을 발견했다고 해서 바로 confirmed로 읽는 것이 아니라,  
+relation_state를 보존한 채 읽어야 한다.
+
+---
+
+## 10. forbidden edge
+
+Coremap에서 forbidden edge는 실패한 관계가 아니라,  
+오독을 막기 위해 보존되는 guard relation이다.
 
 ```text
-000 dot
-→ 001 line
-→ 002 surface
-→ 003 cell
-→ 004 boundary
-→ 005 position
-→ 006 entity
-→ 007 safety
-→ 008 integer
-→ 009 vector
-→ 010 sequence
-→ 011 swap
-→ 012 matrix_product
-→ 013 return_preservation
-→ 014 structure_judgment
+forbidden
+=
+guard
+not failure
 ```
 
-Meaning:
+예를 들어 CoreDot이 dot을 대체한다는 읽기는 forbidden edge로 잠가야 한다.
 
 ```text
-minimum place
-→ connection
-→ closure
-→ unit place area
-→ separation interface
-→ value/state place
-→ bounded independent unit
-→ boundary preservation
-→ count / structure measure
-→ directional relation flow
-→ repeated relation
-→ position exchange
-→ matrix operation
-→ return / preservation
-→ structure validation
+CoreDot
+≠
+dot의 본명
 ```
 
-## 5. operation-axis flow
+이 경우 forbidden은 relation이 없다는 뜻이 아니라,  
+잘못된 방향의 relation을 막는 boundary guard이다.
+
+---
+
+## 11. dot preservation
+
+`000_dot`은 dot의 최종 identity가 아니라,  
+dot 자리개념 문서가 현재 놓인 origin coordinate이다.
+
+`dot.meta.md`는 field 안에서 최초로 드러나는 최소 place-state를 설명한다.
 
 ```text
-014 structure_judgment
-→ 015 XAWF
-→ 016 ABCD_relation
-→ 017 diagonal_relation
-→ 018 eight_direction
-→ 019 center_point
-→ 020 crossing_point
-→ 021 fold_unfold
-→ 022 scale_change
-→ 023 reading_protocol
-→ 024 operation_axis_judgment
+dot
+=
+field 안에서 최초로 드러나는 최소 place-state
 ```
 
-Meaning:
+Coremap은 dot을 후속 core와 연결할 수 있지만,  
+후속 core가 dot을 대체하는 식으로 읽으면 안 된다.
 
 ```text
-structure validation
-→ fixed reading coordinate
-→ direct / non-direct relation frame
-→ diagonal non-direct reading
-→ direction field
-→ balance center
-→ shared relation point
-→ layout transformation
-→ scale reinterpretation
-→ AI reading protocol
-→ operation-axis validation
+refinement
+≠
+replacement
 ```
 
-## 6. Active unit formation map
+---
+
+## 12. CoreDot ambiguity boundary
+
+`121_coredot_ambiguity_boundary`는 CoreDot이 dot을 대체하지 않도록 막는 boundary로 읽는다.
 
 ```text
-024 operation_axis_judgment
-→ 025 AI_memory_field
-→ 026 dot_dot_system
-→ 027 Seed.Base
-→ 028 Active.Schema
-→ 029 human_relation_structure
-→ 030 Naiad_Thalassa_73_69
+121_coredot_ambiguity_boundary
+=
+CoreDot ambiguity guard
 ```
 
-Meaning:
+AI는 `CoreDot`을 dot의 본명으로 읽는 것이 아니라,  
+dot과 CoreDot의 ambiguity를 보존하기 위한 boundary로 읽어야 한다.
 
 ```text
-operation axis checkpoint
-→ AI memory field
-→ image + metadata pair
-→ baseline
-→ operational schema unit
-→ human relation field example
-→ orbital / sequence relation example
+CoreDot
+≠
+dot identity
 ```
 
-## 7. repository / archive / index map
+---
+
+## 13. 100_empty_position
+
+`100_empty_position`은 결손 번호가 아니라,  
+formed-to-rebuilt 사이의 reserved gate로 읽는다.
 
 ```text
-030 strong relation example
-→ 031 GitHub as DB
-→ 032 local Linux support
-→ 033 archive rule
-→ 034 README / MAIN index
+100_empty_position
+=
+reserved empty gate
 ```
 
-Meaning:
+AI는 100을 비어 있으므로 채워야 할 결손으로 읽는 것이 아니라,  
+비어 있음이 보존된 자리로 읽어야 한다.
 
 ```text
-strong example
-→ structure DB
-→ support environment
-→ separated preservation
-→ AI reading route
+empty position
+=
+preserved slot
 ```
 
-## 8. renderer / orbit / route map
+---
+
+## 14. thinking_flow와 Coremap
+
+`thinking_flow_relation_*.md` 문서는 thinking_flow가 기존 schema, meta.md, Coremap, relation 후보와 어떻게 연결되는지 표시한다.
 
 ```text
-035 connectome
-→ 036 orbit
-→ 037 disk array torus
-→ 038 DIR
-→ 039 genealogy root
-→ 040 filesystem genealogy
-→ 041 dynamic engine
-→ 042 dynamic renderer
-→ 043 forming SVG renderer
-→ 044 angle structure
+thinking_flow_relation
+=
+candidate relation map
 ```
 
-Meaning:
+Coremap은 thinking_flow_relation을 확정 relation으로 바로 흡수하는 것이 아니라,  
+candidate / pending / reference_only / confirmed 상태를 구분해서 반영해야 한다.
 
 ```text
-real system mapping
-→ repeated path
-→ closed overlapping orbit
-→ interval route
-→ root relation
-→ filesystem path mapping
-→ learning cycle
-→ dynamic renderer
-→ SVG forming state
-→ planar-to-spatial angle bridge
+relation found
+≠
+relation confirmed
 ```
 
-## 9. field reveal / renderer correction map
+---
+
+## 15. Coremap과 meta.md 후보
+
+thinking_flow에서 새로운 Seed 후보가 발견되면,  
+먼저 기존 Coremap과 schema에 중복되는지 확인한다.
 
 ```text
-045 warp_weft_DIR
-→ 046 flip_cycle
-→ 047 shell_flip_orbit
-→ 048 sphere_shell_distinction
-→ 049 flip_boundary_spread
-→ 050 Hunminjeongeum vector operation
-→ 051 failure as Seed
-→ 052 HyperRendererCore
-→ 053 Structure_Principle flow
-→ 054 balance center
+thinking_flow Seed candidate
+→
+existing schema check
+→
+existing coremap relation check
+→
+duplicate or new boundary judgment
+→
+meta.md candidate decision
 ```
 
-Meaning:
+기존 schema와 Coremap 안에 이미 같은 자리개념이 있다면,  
+새 meta.md를 만들기보다 relation을 연결한다.
 
 ```text
-DIR grid reinforcement
-→ transition overlap
-→ shell difference
-→ sphere/shell distinction
-→ field reveal
-→ sound/stroke/letter forming reveal
-→ unclosed path preservation
-→ renderer architecture
-→ definition emergence process
-→ movable balance center
+이미 schema에 있음
+→
+새 meta.md 생성보다 relation 연결 우선
 ```
 
-## 10. runtime / SeedBase / place map
+---
+
+## 16. Coremap과 CFD
+
+CFD는 Coremap의 schema core identity가 아니라,  
+현시점 `epluone`의 `[body]` slot에 놓인 target value이다.
 
 ```text
-055 Active.Schema purpose
-→ 056 runtime core alignment
-→ 057 SeedBase data definition
-→ 058 SeungeFlow Thinking pre-alignment
-→ 059 empty_place present understanding
-→ 060 coherency
-→ 061 vector_unlock
-→ 062 place_domain
-→ 063 boundary_place_requirement
-→ 064 place_overlap
+epluone
+=
+[body] slot directory
+
+CFD
+=
+current target value in [body] slot
 ```
 
-Meaning:
+CFD와 Structure_Principle 사이에는 application relation이 있을 수 있지만,  
+CFD를 schema core로 직접 병합하면 안 된다.
 
 ```text
-purpose preservation
-→ runtime alignment
-→ data scope definition
-→ human-side pre-alignment
-→ empty place / present / dot-anchor
-→ input-output vector alignment
-→ vectorizing unlock trace
-→ place as between-domain
-→ boundary required for place
-→ shared boundary absorption
+CFD
+≠
+schema core identity
+
+CFD
+=
+current application target value
 ```
 
-## 11. relation / Ctp / triangle map
+---
+
+## 17. Coremap과 path
+
+Coremap은 path를 relation identity로 읽는 것이 아니라,  
+현재 문서가 놓인 visible coordinate로 읽는다.
 
 ```text
-064 place_overlap
-→ 065 ⊕ common operator
-→ 066 principle entity rule
-→ 067 relation boundary bridge
-→ 068 x dx ddx
-→ 069 ddx right triangle
-→ 070 right triangle fold/unfold
-→ 071 3→2 place overlap
-→ 072 2→1 triangle overlap
-→ 073 structural triangle 73/69
-→ 074 science-based implementation
+path
+=
+visible coordinate
+
+path
+≠
+relation identity
 ```
 
-Meaning:
+같은 디렉토리에 있다는 사실은 relation 후보가 될 수 있지만,  
+그 자체로 confirmed relation은 아니다.
 
 ```text
-place overlap
-→ boundary-preserving combination
-→ independent principle entity
-→ relation bridge
-→ coordinate transition
-→ ddx bend point
-→ right triangle place occupancy
-→ visible/effective count split
-→ square cell formation
-→ structural triangle relation
-→ science-value implementation guard
+same directory
+≠
+confirmed relation
 ```
 
-## 12. science / vector external engine / vowel map
+---
+
+## 18. Coremap 작성 시 금지되는 방식
+
+AI는 Coremap을 작성하거나 읽을 때 다음을 하면 안 된다.
 
 ```text
-074 science implementation
-→ 075 chemical formula renderer
-→ 076 electron shell
-→ 077 H2O angle implementation
-→ 078 vector operation external engine rule
-→ 079 Cheonjiin vowel direction
-→ 080 Sejong body observer frame
-→ 081 inner vowel pull
-→ 082 square center vowel orbit
-→ 083 WAXF vowel rhombus
-→ 084 BADㆍC orbit reference
+Coremap을 file list로 만들기
+Coremap을 concept dictionary로 만들기
+Coremap을 summary table로 만들기
+Coremap을 merge map으로 만들기
+number를 identity로 사용하기
+directory path를 relation identity로 사용하기
+candidate relation을 confirmed로 승격하기
+forbidden relation을 삭제하기
+CoreDot을 dot의 본명으로 읽기
+100_empty_position을 결손으로 채우기
+CFD를 schema core로 병합하기
 ```
 
-Meaning:
+이 금지 목록은 Coremap을 막기 위한 것이 아니라,  
+Coremap을 boundary-preserving relation map으로 유지하기 위한 guard이다.
+
+---
+
+## 19. Coremap entry 예시
+
+예시:
 
 ```text
-science-value implementation
-→ chemical formula as structure
-→ shell / valence boundary
-→ H2O 104.5 condition rendering
-→ external vector engine separation
-→ input-order vowel direction
-→ observer body frame
-→ inner pull
-→ center orbit
-→ rhombus direction field
-→ orbit reference separation
-```
-
-## 13. language / principle hidden layer map
-
-```text
-084 BADㆍC
-→ 085 opposed correspondence
-→ 086 ani boundary judgment
-→ 087 mat boundary correspondence
-→ 088 ani/chai vowel overlap
-→ 089 Hangul word layer distinction
-→ 090 Hanja compression
-→ 091 Structure_Principle rename
-→ 092 principle hidden layer
-→ 093 SVO/SOV subject anchor
-→ 094 left principle explains right phenomenon
-```
-
-Meaning:
-
-```text
-orbit reference
-→ center-axis opposed correspondence
-→ inner boundary judgment
-→ boundary correspondence
-→ vowel place overlap
-→ word layer distinction
-→ compressed meaning direction
-→ naming alignment
-→ hidden why-layer
-→ subject dot-anchor
-→ principle explains phenomenon
-```
-
-## 14. source / sorting / rebuilt active gate map
-
-```text
-094 principle explains phenomenon
-→ 095 place source index
-→ 096 vector operation relation index
-→ 097 science renderer candidate index
-→ 098 reference_only trace index
-→ 099 document sorting index
-→ 100 understanding_flow empty gate
-→ 101 three-dot reading mode
-```
-
-Meaning:
-
-```text
-phenomenon explained by principle
-→ source trace preservation
-→ external vector relation index
-→ science candidate index
-→ high-density reference-only buffer
-→ sorting gate
-→ reserved empty gate
-→ rebuilt active opening
-```
-
-## 15. rebuilt active chain map
-
-```text
-101 three-dot reading
-→ 102 phase boundary
-→ 103 Circle definition
-→ 104 inscribed/circumscribed relation
-→ 105 radius/center/diagonal/right-angle/crossing
-→ 106 cell-center segment rule
-→ 107 triangle/vector/point distinction
-→ 108 inside-left condition
-→ 109 structure integer property table
-→ 110 9-0 transition
-→ 111 angle-grid resolution
-→ 112 candle subobject orbit
-→ 113 BADㆍC-OHLC mapping
-→ 114 Close→Next Open
-→ 115 Y branch guard
-→ 116 circle container inclusion
-→ 117 structural sequence integer cell
-→ 118 pin-dot-Y return
-→ 119 flow transition self-operation
-→ 120 SeedBase working memory asset
-→ 121 CoreDot ambiguity boundary
-```
-
-Meaning:
-
-```text
-raw reading
-→ phase boundary
-→ closed return field
-→ contact relation
-→ center-axis vocabulary
-→ center-to-center segment
-→ triangle phase distinction
-→ conditional direction/interiority
-→ structure integer properties
-→ end/start overlap
-→ angle resolution
-→ candle parent field
-→ OHLC rhombus mapping
-→ time transition
-→ branch guard
-→ container boundary
-→ structural number sequence
-→ pin branch return
-→ event flow self-operation
-→ working memory asset system
-→ terminology ambiguity boundary
-```
-
-## 16. critical cross-links
-
-### dot preservation cross-link
-
-```yaml
 edge:
-  from: schema.000.dot
-  to: schema.121.coredot_ambiguity_boundary
-  relation: preserved_against_coredot_merge
-  meaning: "dot은 000에서 최초 최소 자리로 보존되며, 121은 CoreDot이 dot을 덮어쓰지 못하게 한다."
-  state: confirmed_link
+  from: dot
+  to: coredot_ambiguity_boundary
+  relation_type: boundary_guard
+  relation_state: confirmed_link
+  meaning: CoreDot이 dot을 대체하지 못하도록 ambiguity boundary를 보존한다.
+  guard: CoreDot ≠ dot identity
 ```
 
-### empty place cross-link
+이 edge는 dot과 CoreDot을 병합하는 relation이 아니라,  
+dot의 boundary를 보존하기 위한 guard relation이다.
 
-```yaml
-edge:
-  from: schema.059.empty_place_present_understanding
-  to: schema.000.dot
-  relation: retroactive_present_anchor_refinement
-  meaning: "059는 dot을 현시점 anchor로 후속 보완하지만 000_dot을 replace하지 않는다."
-  state: confirmed_link
+---
+
+## 20. Coremap과 main guide
+
+`Coremap.main.md`는 main guide layer에 놓인 문서이다.
+
+따라서 Coremap.main.md는 primary source 자체가 아니라,  
+primary source의 relation을 읽기 위한 guide map이다.
+
+```text
+primary source:
+Structure_Principle/schema/
+SeungeFlow_Thinking/thinking_flow/
+
+guide map:
+main/Coremap.main.md
 ```
 
-### relation bridge cross-link
+AI는 Coremap.main.md를 schema보다 우선하는 identity로 읽는 것이 아니라,  
+schema와 thinking_flow relation을 읽기 위한 guide map으로 읽어야 한다.
 
-```yaml
-edge:
-  from: schema.067.meta_relation_boundary_bridge
-  to: main.coremap
-  relation: defines_coremap_edge_logic
-  meaning: "coremap edge는 merge가 아니라 boundary-preserving relation bridge다."
-  state: active_connect
+---
+
+## 21. Reading Guard
+
+AI는 Coremap을 읽을 때 다음을 지켜야 한다.
+
+```text
+Coremap은 file list가 아니라 boundary-preserving relation map이다.
+Coremap은 concept dictionary가 아니라 core relation map이다.
+Coremap은 summary table이 아니라 relation state map이다.
+Coremap은 merge map이 아니라 relation guard map이다.
+number는 identity가 아니라 order_hint이다.
+path는 relation identity가 아니라 visible coordinate이다.
+forbidden은 failure가 아니라 guard이다.
+candidate는 confirmed가 아니다.
 ```
 
-### source sorting cross-link
+---
 
-```yaml
-edge:
-  from: schema.099.document_sorting_index
-  to: main.coremap
-  relation: defines_node_classification
-  meaning: "principle_entity / interpretation_layer / applied_example / reference_only / pending 분류는 coremap 생성 기준이 된다."
-  state: active_connect
-```
-
-### working schema cross-link
-
-```yaml
-edge:
-  from: schema.120.seedbase_working_schema_memory_asset_structure
-  to: main.coremap
-  relation: defines_link_connect_distinction
-  meaning: "coremap의 link는 relation potential이고, connect는 실제 작동 연결이다."
-  state: active_connect
-```
-
-## 17. forbidden global edges
-
-```yaml
-forbidden_edges:
-  - from: schema.121.coredot_ambiguity_boundary
-    to: schema.000.dot
-    forbidden_relation: replace_dot_with_coredot
-    reason: "CoreDot은 ambiguity boundary 대상이며 dot의 본명이 아니다."
-
-  - from: schema.078.vector_operation_external_engine_rule
-    to: Structure_Principle.mainline
-    forbidden_relation: merge_external_vector_engine_into_mainline
-    reason: "벡터연산기법은 external engine relation으로 보존한다."
-
-  - from: schema.098.reference_only_high_density_trace_index
-    to: active_schema.mainline
-    forbidden_relation: promote_reference_only_to_active_core
-    reason: "강한 trace는 폐기하지 않지만 본류에 즉시 승격하지 않는다."
-
-  - from: science_examples
-    to: science_proof
-    forbidden_relation: treat_visible_relation_field_as_scientific_proof
-    reason: "과학 branch는 검증이 아니라 기존 과학값 기반 구현이다."
-```
-
-## 18. shortest
+## 22. 최단 정의
 
 ```text
 Coremap.main.md
 =
-122개 core의 boundary를 보존하면서
-relation / source / candidate / reference / pending / link / connect를 구분하는
-Active.Schema relation map
+Structure_Principle/schema/ 내부 core들의 relation을 boundary-preserving 방식으로 표시하는 main guide map이다.
+
+Coremap은 file list, concept dictionary, summary table, merge map이 아니라,
+각 core boundary를 보존한 채 relation state를 표시하는 core relation map이다.
 ```
