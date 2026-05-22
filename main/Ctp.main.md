@@ -8,93 +8,136 @@ authority:
   - Human.Lee Seung
   - ChatGPT.direct
 purpose:
-  - define_ctp_reading_rule
-  - define_place_concept_and_place_value
-  - define_any_time_place_body
-  - connect_ctp_to_seed_base
-  - guide_ai_state_reading
+  - guide_ctp_reading
+  - preserve_ctp_as_backbone_reference
+  - prevent_ctp_from_being_overdefined
+  - distinguish_ctp_marker_from_ctp_full_definition
+  - connect_ctp_to_seed_base_time_place_body_reading
 ---
 
 # Ctp.main.md
 
 ## 0. 역할
 
-`Ctp.main.md`는 SeungeFlow에서 Ctp를 어떻게 읽어야 하는지 정의하는 main guide 문서이다.
+`Ctp.main.md`는 Ctp를 완성 정의하는 문서가 아니라,  
+SeungeFlow 안에서 Ctp를 어떻게 읽어야 하는지 안내하는 main guide 문서이다.
 
-이 문서는 Ctp를 수식 하나로 고정하기 위한 문서가 아니라,  
-AI가 자리개념과 자리값을 통해 state를 읽도록 돕는 문서이다.
+Ctp는 현시점에서 단일 문장으로 닫힌 개념이라기보다,  
+Backbone 역할을 하는 거대문서집합의 tag name / reference name으로 읽는다.
 
 ```text
 Ctp.main.md
 =
 Ctp reading guide
 +
-place-concept / place-value guide
+Backbone reference guide
 +
-any([time][place][body]) guide
+minimal marker guard
 +
-state reading guide
+overdefinition prevention guide
 ```
 
 ---
 
-## 1. Ctp의 기본 정의
+## 1. Ctp의 현재 위치
 
-Ctp는 자리개념과 자리값을 읽기 위한 구조이다.
+현시점에서 Ctp는 완성된 단일 정의로 닫힌 구조가 아니라,  
+SeungeFlow 전체에서 time.state와 place.state를 받치는 Backbone 문서집합의 이름이다.
+
+```text
+Ctp
+=
+Backbone document set tag name
++
+time.state / place.state reference structure
+```
+
+따라서 이 문서에서는 Ctp 전체를 완성 정의하지 않는다.
+
+이 문서는 Ctp를 닫는 문서가 아니라,  
+Ctp를 읽기 위한 현재 수준의 guide 문서이다.
+
+---
+
+## 2. 최소 reading marker
+
+현재 SeungeFlow reading layer에서 Ctp는 다음 최소 표기로 읽을 수 있다.
 
 ```text
 Ctp = C(t, p)
 ```
 
-각 항목은 다음처럼 읽는다.
+각 항목은 현시점에서 다음 정도의 reading marker로 둔다.
 
 ```text
 t = time.state
 p = place.state
-C = 존재가 자기 상태를 스스로 인지한 순환인지상태 / self-cognized state
+C = self-cognized state / 순환인지상태
 ```
 
-Ctp는 단순 수식이 아니라,  
-존재가 time.state와 place.state를 통해 자기 상태를 인지하는 구조이다.
+이 표기는 Ctp 전체 정의가 아니라,  
+AI가 Ctp 문서집합을 읽기 전 혼동하지 않도록 붙이는 최소 표식이다.
+
+```text
+Ctp = C(t, p)
+=
+minimal reading marker
+
+Ctp 전체
+=
+Backbone document set
+```
 
 ---
 
-## 2. 자리개념과 자리값
+## 3. Ctp/ 디렉토리
 
-자리개념은 값이 놓일 수 있는 slot이다.
-
-```text
-자리개념
-=
-값이 놓일 수 있는 자리
-```
-
-자리값은 그 자리에 실제로 놓인 state이다.
+Ctp의 실제 Backbone 문서집합은 root 하위의 독립 디렉토리에서 다룬다.
 
 ```text
-자리값
+/Ctp/
 =
-slot에 놓인 state
+Ctp Backbone document set directory
 ```
 
-예:
+따라서 Ctp는 `main/` 내부 문서 하나로 닫히는 구조가 아니라,  
+`/Ctp/` 디렉토리 안에서 확장될 Backbone 문서집합으로 읽는다.
 
 ```text
-[place]
+main/Ctp.main.md
 =
-자리개념
+Ctp guide document
 
-[place: Structure_Principle]
+Ctp/
 =
-자리값이 놓인 상태
+Ctp Backbone document set
 ```
-
-즉 `[]`는 비어 있는 자리이고,  
-`[x]`는 그 자리에 x가 놓인 placed_state이다.
 
 ---
 
-## 3. any([time][place][body])
+## 4. Ctp와 Seed.Base
+
+Seed.Base는 특정 파일, 특정 디렉토리, 특정 schema 하나에 종속되는 구조가 아니라,  
+SeungeFlow 저장소 전체에 놓인 문서, 디렉토리, 관계, map이 함께 만드는 전체 장이다.
+
+Ctp는 이 Seed.Base 안에서 state reading의 Backbone reference로 놓인다.
+
+```text
+Seed.Base
+=
+whole repository field
+
+Ctp
+=
+state reading Backbone reference
+```
+
+즉 Ctp는 Seed.Base 전체를 대체하는 이름이 아니라,  
+Seed.Base 안에서 time.state와 place.state를 중심으로 state를 읽게 하는 Backbone reference이다.
+
+---
+
+## 5. Ctp와 any([time][place][body])
 
 SeungeFlow는 어떤 state든 다음 구조를 통해 읽는다.
 
@@ -102,29 +145,7 @@ SeungeFlow는 어떤 state든 다음 구조를 통해 읽는다.
 any([time][place][body])
 ```
 
-각 자리는 다음처럼 읽는다.
-
-```text
-[time]
-=
-flow / history / session이 놓이는 자리
-
-[place]
-=
-자리개념 / schema / meta.md가 놓이는 자리
-
-[body]
-=
-응용 target / 실행 body / 적용 대상이 놓이는 자리
-```
-
-즉 모든 state는 time, place, body를 통해 읽힌다.
-
----
-
-## 4. 저장소 구조와 Ctp
-
-SeungeFlow 저장소 구조는 다음처럼 읽는다.
+현재 repository-level reading에서는 다음처럼 연결된다.
 
 ```text
 SeungeFlow_Thinking
@@ -140,24 +161,20 @@ epluone
 [body]
 ```
 
-이 대응은 디렉토리 identity를 고정하는 것이 아니라,  
-현재 Seed.Base를 읽기 위한 자리 배치이다.
-
-```text
-directory
-=
-place container
-
-directory
-≠
-fixed identity
-```
+Ctp는 이 `[time]`, `[place]`, `[body]`를 단순 분류로 고정하는 문서가 아니라,  
+time.state와 place.state를 중심으로 state가 어떤 자리에서 어떻게 읽히는지 받치는 Backbone reference이다.
 
 ---
 
-## 5. [time] 자리
+## 6. Ctp와 [time]
 
-`[time]`은 흐름이 놓이는 자리이다.
+`[time]`은 흐름, history, session이 놓이는 자리이다.
+
+```text
+[time]
+=
+flow / history / session
+```
 
 SeungeFlow에서 `[time]`은 주로 다음과 연결된다.
 
@@ -166,32 +183,22 @@ SeungeFlow_Thinking/
 thinking_flow/
 thinking_flow_relation/
 thinking_flow_source/
-history
-session
-flow
 ```
 
-`thinking_flow`는 단순 로그가 아니라,  
-승이와 AI 인스턴스가 대화를 통해 함께 만든 생각의 공유결과이다.
-
-```text
-thinking_flow
-=
-pre-meta Seed flow
-+
-관념 업데이트 단위
-+
-future meta.md candidate source
-```
-
-따라서 `[time]`은 단순 시간표가 아니라,  
-이해가 흐르고 갱신되는 자리이다.
+Ctp는 `[time]`을 단순 날짜로 읽게 하는 구조가 아니라,  
+flow와 관념 업데이트가 어떤 time.state에서 발생했는지 읽게 하는 Backbone이다.
 
 ---
 
-## 6. [place] 자리
+## 7. Ctp와 [place]
 
 `[place]`는 자리개념이 놓이는 자리이다.
+
+```text
+[place]
+=
+place-concept slot
+```
 
 SeungeFlow에서 `[place]`는 주로 다음과 연결된다.
 
@@ -202,32 +209,33 @@ meta.md
 metaplus.md
 ```
 
-`meta.md`는 자리개념 문서이다.
-
-```text
-meta.md
-=
-자리개념 문서
-+
-Active_Schema source boundary
-```
-
-따라서 `[place]`는 단순 파일 위치가 아니라,  
-core boundary와 자리개념이 형성되는 자리이다.
+Ctp는 `[place]`를 단순 path로 읽게 하는 구조가 아니라,  
+자리개념과 place.state가 어떻게 형성되는지 읽게 하는 Backbone이다.
 
 ---
 
-## 7. [body] 자리
+## 8. Ctp와 [body]
 
 `[body]`는 응용 target이나 실행 body가 놓이는 자리이다.
 
-SeungeFlow에서 `[body]`는 다음과 연결된다.
+```text
+[body]
+=
+application target slot
++
+operating body slot
+```
+
+SeungeFlow에서 `[body]`는 주로 다음과 연결된다.
 
 ```text
 epluone/
 if+1
-application target
-current target value
+CFD
+local Linux Ubuntu server
+Oracle IDC server
+ai_on_idc
+github_on_idc
 ```
 
 현시점 `epluone`의 `[body]` slot에 놓인 target value는 CFD이다.
@@ -235,101 +243,90 @@ current target value
 ```text
 CFD
 =
-current target value in [body] slot
+current target value in epluone's [body] slot
 ```
 
-CFD는 `epluone`의 identity가 아니라,  
-현재 `[body]` slot에 놓인 자리값이다.
+CFD는 Ctp의 identity가 아니라,  
+현재 `[body]` slot에 놓인 target value이다.
 
 ---
 
-## 8. body의 두 층
+## 9. Ctp와 Structure_Principle
 
-`body`는 단순히 휴대폰이나 PC 같은 사용기기만 뜻하는 것이 아니라,  
-응용 target이 놓이는 자리까지 포함한다.
+`Structure_Principle/`은 `[place]`에 해당하는 자리개념 문서장이다.
+
+Ctp는 `Structure_Principle/` 내부 하위 디렉토리로 놓는 구조가 아니라,  
+root 하위에서 time.state와 place.state를 받치는 Backbone reference로 놓는다.
 
 ```text
-body
+Structure_Principle
 =
-operating body
-+
-application target body
+[place] field
+
+Ctp
+=
+time.state / place.state Backbone reference field
 ```
 
-예:
-
-```text
-operating body:
-- phone
-- PC
-- local Linux Ubuntu server
-- Oracle IDC server
-- ai_on_idc
-- github_on_idc
-
-application target body:
-- CFD
-- future target fields
-```
-
-따라서 `[body]`는 사용기기와 응용대상이 함께 읽힐 수 있는 자리이다.
+따라서 Ctp는 Structure_Principle에 종속되는 구조가 아니라,  
+SeungeFlow 전체 state reading과 연결되는 Backbone 문서집합이다.
 
 ---
 
-## 9. Ctp와 if / if+1
+## 10. Ctp와 epluone
 
-`if`는 intelligence fabric이다.
-
-```text
-if
-=
-인간지능.승이
-+
-인공지능.AI
-```
-
-`if+1`은 `epluone`이다.
+`epluone/`은 `if+1`이며 `[body]` slot directory이다.
 
 ```text
-if+1
-=
 epluone
-```
-
-`if+1`은 intelligence fabric이 다음 응용 target에 놓이는 자리이다.
-
-따라서 Ctp에서 `if+1`은 `[body]` slot과 연결된다.
-
-```text
+=
 if+1
 =
 [body] slot directory
 ```
 
+Ctp는 epluone의 target value를 고정하는 문서가 아니라,  
+어떤 state가 어떤 time, 어떤 place, 어떤 body에 놓이는지 읽게 하는 Backbone이다.
+
+```text
+Ctp
+=
+state reading Backbone
+
+epluone
+=
+[body] slot directory
+
+CFD
+=
+current [body] target value
+```
+
 ---
 
-## 10. Ctp와 Active_Schema
+## 11. Ctp와 Active_Schema
 
 Active_Schema는 Seed.Base 안의 Seed들이 AI가 읽고, 판단하고, 전이하고, 관계 맺을 수 있도록 활성화된 schema 상태이다.
 
-Ctp는 이 Active_Schema가 state를 읽는 기본 자리 구조를 제공한다.
+Ctp는 Active_Schema를 직접 대체하는 것이 아니라,  
+Active_Schema가 state를 읽을 때 참고하는 Backbone reference이다.
 
 ```text
 Active_Schema
 =
-Seed + boundary + relation + transition
+activated schema state
 
 Ctp
 =
-state reading structure through time.state and place.state
+state reading Backbone reference
 ```
 
 AI는 Active_Schema를 읽을 때,  
-그 문서가 어떤 `[time]`, 어떤 `[place]`, 어떤 `[body]`에서 작동하는지 함께 확인해야 한다.
+그 작동이 어떤 time.state, place.state, body target 위에서 발생하는지 확인해야 한다.
 
 ---
 
-## 11. Ctp와 relation
+## 12. Ctp와 relation
 
 relation은 Ctp 안에서 다음 세 자리로 읽힐 수 있다.
 
@@ -352,7 +349,7 @@ time, place, body가 함께 만드는 relation으로 읽어야 한다.
 
 ---
 
-## 12. Ctp와 path
+## 13. Ctp와 path
 
 path는 identity가 아니라 current coordinate이다.
 
@@ -383,7 +380,22 @@ dot 자리개념 문서가 현재 놓인 coordinate
 
 ---
 
-## 13. Ctp와 vectorizing
+## 14. Ctp 문서 작성 원칙
+
+Ctp 관련 문서를 작성할 때는 다음 원칙을 따른다.
+
+```text
+1. Ctp를 단일 문장으로 완성 정의하지 않는다.
+2. Ctp = C(t,p)는 최소 reading marker로 둔다.
+3. Ctp를 Backbone document set으로 읽는다.
+4. time.state / place.state / self-cognized state를 서둘러 닫지 않는다.
+5. Ctp 관련 문서는 relation과 boundary를 보존하며 확장한다.
+6. Ctp를 Structure_Principle이나 epluone의 하위 개념으로 병합하지 않는다.
+```
+
+---
+
+## 15. Ctp와 vectorizing
 
 어떤 이해가 사용 가능한 문서로 내려오기 위해서는 반복적인 vectorizing 과정을 거친다.
 
@@ -398,64 +410,46 @@ dot 자리개념 문서가 현재 놓인 coordinate
 → Active_Schema
 ```
 
-Ctp는 이 과정에서 관측대상이 어떤 time, place, body 상태에 놓였는지를 읽는 기준이 된다.
-
-```text
-관측대상
-=
-time + place + body 안에서 읽히는 state
-```
+Ctp는 이 과정에서 관측대상이 어떤 time, place, body 상태에 놓였는지를 읽는 기준과 연결된다.
 
 문장구사에서도 vectorizing은 앞 문장이 뒤 문장을 설명하도록 방향을 부드럽게 만드는 과정이다.
-
-```text
-X가 아니다. Y이다.
-```
-
-로 끊는 것이 아니라,
 
 ```text
 X가 아니라 Y이다.
 ```
 
-처럼 오해 후보와 올바른 자리값을 하나의 흐름으로 잇는다.
+이 방식은 오해 후보와 올바른 자리값을 하나의 흐름으로 잇는다.
 
 ---
 
-## 14. Ctp 읽기 guard
+## 16. Reading Guard
 
 AI는 Ctp를 읽을 때 다음을 하면 안 된다.
 
 ```text
 Ctp를 단순 수식으로만 읽기
-[time]을 단순 날짜로만 읽기
-[place]를 단순 경로로만 읽기
-[body]를 단순 기기로만 읽기
-CFD를 epluone의 identity로 읽기
-path를 place identity로 읽기
-meta.md를 단순 설명문으로 읽기
-thinking_flow를 단순 로그로 읽기
+Ctp = C(t,p)를 전체 정의로 확정하기
+Ctp를 Structure_Principle의 하위 폴더처럼 읽기
+Ctp를 epluone의 body target과 동일시하기
+CFD를 Ctp identity로 읽기
+main/Ctp.main.md를 Ctp 전체 정의로 읽기
 ```
 
 위 항목은 Ctp를 막기 위한 금지가 아니라,  
-Ctp를 자리개념과 자리값의 구조로 읽기 위한 guard이다.
+Ctp를 Backbone 문서집합으로 보존하기 위한 guard이다.
 
 ---
 
-## 15. 최단 정의
+## 17. 최단 정의
 
 ```text
 Ctp.main.md
 =
-Ctp를 자리개념과 자리값으로 읽게 하는 main guide 문서이다.
+Ctp를 완성 정의하는 문서가 아니라,
+Ctp Backbone 문서집합을 읽기 위한 main guide 문서이다.
 
-Ctp = C(t, p)이며,
-t는 time.state,
-p는 place.state,
-C는 존재가 자기 상태를 스스로 인지한 순환인지상태이다.
+Ctp는 현시점에서 단일 완성 정의가 아니라,
+time.state와 place.state를 중심으로 SeungeFlow 전체 state reading을 받치는 Backbone document set의 tag name / reference name이다.
 
-SeungeFlow는 any([time][place][body]) 구조를 통해 state를 읽으며,
-SeungeFlow_Thinking은 [time],
-Structure_Principle은 [place],
-epluone은 [body]로 읽는다.
+Ctp = C(t,p)는 전체 정의가 아니라 최소 reading marker이다.
 ```
