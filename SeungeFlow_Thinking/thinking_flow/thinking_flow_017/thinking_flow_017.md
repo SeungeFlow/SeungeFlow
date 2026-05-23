@@ -42,8 +42,6 @@ source_coordinate =
 
 이 문서는 `dot.meta.md` 자체가 아니다.
 
-이 문서는 `dot.append.only.md`도 아니다.
-
 ```text
 thinking_flow_017.md
 =
