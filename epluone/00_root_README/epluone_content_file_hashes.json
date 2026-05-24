@@ -1,0 +1,262 @@
+[
+  {
+    "path": "epluone/00_root_README/epluone_content_populated_manifest.csv",
+    "size_bytes": 12810,
+    "sha256": "0d91428657b9396d3fd2314d0ec9292c69e6ea27599c9bb843ead8bce3e7962d"
+  },
+  {
+    "path": "epluone/00_root_README/epluone_content_populated_manifest.json",
+    "size_bytes": 23959,
+    "sha256": "2f91cf2bef1227c8330c290f8d979d11dc78495a2128519e4fd31e74fd3ce322"
+  },
+  {
+    "path": "epluone/00_root_README/epluone_content_populated_manifest.md",
+    "size_bytes": 10226,
+    "sha256": "0bea69e8eda930a3d0a45e48b40d64421a830e6ecb917978f05cc9105589382e"
+  },
+  {
+    "path": "epluone/00_root_README/epluone_content_populated_manifest_en.md",
+    "size_bytes": 10194,
+    "sha256": "2de029342b6ff36a1e2a0184ced93f8b6c65068d3fd8b7182bb8e6629288d27e"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0001(1).py",
+    "size_bytes": 39895,
+    "sha256": "a95277956a388698d0aff7add651a20c097d95c54952a06baed1bb50e122f85b"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0002(1).py",
+    "size_bytes": 38284,
+    "sha256": "bb539ebdd9af8e894bcdae9860db965765c7c7d16c6b4cab4c766f4b500065f8"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0003(1).py",
+    "size_bytes": 35605,
+    "sha256": "70b00603f664efaecee1f242dbbf54bf5ce5f8d9dbe6b6ce11870c0cb549a708"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0004(1).py",
+    "size_bytes": 30211,
+    "sha256": "7337797fb7dd3c69fb826bf4b40a03f6c419b8f3d5393355f24bd25c55ddcdc3"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0005.py",
+    "size_bytes": 92890,
+    "sha256": "47be284aafe41ce16fade634741986be032d612745eb9d4a4395df94fc7aa21a"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0006.py",
+    "size_bytes": 16358,
+    "sha256": "72b9981f6db0842ffda61307102684f19994d8de58f34c42ec9652897cba5e8e"
+  },
+  {
+    "path": "epluone/01_formation_trace/MyBrain_ThisPoint/_source_original/MyBrain_ThisPoint_0007.md",
+    "size_bytes": 197569,
+    "sha256": "81706a9ab33877f5f0418fcaacb9a413d1c929db0b3ac21b6e18f016f0f4f2a9"
+  },
+  {
+    "path": "epluone/02_theory_core/C_equals_t_p/_source_original/Ctp_SeungeFlow.py",
+    "size_bytes": 6339,
+    "sha256": "3f562a06d5772b74d25a81957e923ccd3314ed060053b747f24b37ec0990b158"
+  },
+  {
+    "path": "epluone/02_theory_core/C_equals_t_p/_source_original/Ctp_SeungeFlow_FULL.py",
+    "size_bytes": 2962,
+    "sha256": "bb4b3f10feff3c921f7b8fd23651c25e4b0fc458d0a0461b07a53ad6d4d9a6e7"
+  },
+  {
+    "path": "epluone/02_theory_core/C_equals_t_p/_source_original/Ctp_SeungeFlow_analysis_report(1).py",
+    "size_bytes": 8918,
+    "sha256": "3764b975ed74348dbec3b738032c2764626d6b21962f113274b065b7f9c9feed"
+  },
+  {
+    "path": "epluone/02_theory_core/Ctp_당연한이론/_source_original/Ctp_당연한이론.zip",
+    "size_bytes": 104163,
+    "sha256": "53a43bf80a995784439b5c0e4c4da52ddc6f8fc548131270cef72800de531cb8"
+  },
+  {
+    "path": "epluone/02_theory_core/c_tp_C/_source_original/SeungeFlow_Ctp_v3(1).md",
+    "size_bytes": 1388,
+    "sha256": "da15a1fcd85928145cfe328fe065c3b8da246e9430cf648924470b0721b508c8"
+  },
+  {
+    "path": "epluone/02_theory_core/c_tp_C/_source_original/SeungeFlow_Ctp_v3_Theorem.md",
+    "size_bytes": 425,
+    "sha256": "07d5bb21054ee8af7277dfb2d079737765c706e8ef84004b0321b9df3d939b87"
+  },
+  {
+    "path": "epluone/03_vector_operation/flow_formula/_source_original/SEUNGE.E.FLOW TEXT-BASED VECTOR SPACE.py",
+    "size_bytes": 5949,
+    "sha256": "e8f503cef1ce73a44bf0a228fc781a88a12d3ad4ba46b9d271ae08d7bdaddfcd"
+  },
+  {
+    "path": "epluone/03_vector_operation/structure_formula/_source_original/SeungeFlow_vectorizing.md",
+    "size_bytes": 1365,
+    "sha256": "104622d602eb4fbfab37a00fd2fa05b398b5a54105cf8483ab95a5a6fdba50a0"
+  },
+  {
+    "path": "epluone/04_vectorizing_tests/_source_original/vectorizing.zip",
+    "size_bytes": 622915,
+    "sha256": "16b5667c3c9bab3b2e14b9901b8fefff7bb061b343bb6741ea4ff8292301b3bd"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/blackhole/_source_original/SeungeFlow_blackhole_accretiondisk_bundle_v2(1).zip",
+    "size_bytes": 3234586,
+    "sha256": "319a9fc0077399e1d247b9ba56842c754a4dc58c0bb424784a0ce9ceb1784248"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/blackhole/_source_original/SeungeFlow_blackhole_accretiondisk_structured_bundle(1).zip",
+    "size_bytes": 3170958,
+    "sha256": "6cacaf980360a3480e992ef51f1fb05a446c40bac5749e5e3246c1664b58424c"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/cassini_gap/_source_original/SeungeFlow_Cassini(2).zip",
+    "size_bytes": 12080,
+    "sha256": "38eee122ec641812da7e1d8dc97cc00ee846e0d58cd9020d3de7cdddcbeb7c74"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/cassini_gap/_source_original/seunge_flow_cassini_engine.py",
+    "size_bytes": 5068,
+    "sha256": "51d4b6edfbe49d453744694f6a2de178c3344921c551b8ceee6b21813dd43476"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/vortex/_source_original/SEUNGE.E.FLOW DYNAMIC RATIO_CGM ENGINE.py",
+    "size_bytes": 5075,
+    "sha256": "75a583f758f57ea47d1c28e488aa4c48601b6838aa7df13e52040f84ca29a7f5"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/vortex/_source_original/SEUNGE.E.FLOW F=ma ENGINE.py",
+    "size_bytes": 3860,
+    "sha256": "e6535b7028c96455a19e46b5e0e3311257aa05d124af2470f20cc4a15de7fd44"
+  },
+  {
+    "path": "epluone/05_dynamic_geometry/vortex/_source_original/벡터동역학시공간구현_0001.py",
+    "size_bytes": 5194,
+    "sha256": "e809099f0138bc2692397708b6d54e46496bdd5faa93fb64f075ea19456ec1e7"
+  },
+  {
+    "path": "epluone/06_ai_cognitive_os/AI인지OS/_source_original/AI_Cognitive_OS_v1.py",
+    "size_bytes": 6650,
+    "sha256": "80d1042583a9a6abb7141e37e77285c39fcb14d31ab9d69eab7cf14332aa3c64"
+  },
+  {
+    "path": "epluone/06_ai_cognitive_os/AI인지OS/_source_original/AI인지OS(5).zip",
+    "size_bytes": 4723,
+    "sha256": "3604b29b91dde47e52dceb2fa16647dcc8ae39750a83d7bf9bd634c3fceb44b3"
+  },
+  {
+    "path": "epluone/06_ai_cognitive_os/AI인지OS_백데이터/_source_original/AI인지OS_백데이터(3).zip",
+    "size_bytes": 6941,
+    "sha256": "f28057e984fac9d848136403e105c234084e3a37e77da00d1b76efc8b06b8327"
+  },
+  {
+    "path": "epluone/06_ai_cognitive_os/heterogeneous_ai_protocol/_source_original/자동구현프로토콜.md",
+    "size_bytes": 1483,
+    "sha256": "ed3d2d8afcfa5f6bcb3b6781db0649c6ba301d0aa1f2ede7a4809df160660035"
+  },
+  {
+    "path": "epluone/07_the_things_os/_source_original/L7OS_for_M7DQ(12).zip",
+    "size_bytes": 305891,
+    "sha256": "ad068b1611b87f607e1ad62d3cde30ec518377afb8bb7332744afe913efcb1ff"
+  },
+  {
+    "path": "epluone/07_the_things_os/_source_original/더띵즈시스템_OS_Restore핵심(2).md",
+    "size_bytes": 168284,
+    "sha256": "3f9dcf85c8027fbfa365bd50abeac151e127e4657d4d5185c13e472fc795c662"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/000_dot.meta.md",
+    "size_bytes": 6911,
+    "sha256": "59d15412f63eca238f3579f76035cdfc7d23fc46bf55d8fee3d1e88d9b5dfc9f"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/100_empty_position.meta.md",
+    "size_bytes": 8517,
+    "sha256": "7c02b90299ecb4dff46abfc9e082fa153591514f830420551605f7a91f6aa2a9"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/101부터121까지.zip",
+    "size_bytes": 197081,
+    "sha256": "ef3cd2a97d4bc81bbc0207711829a29651fbbd8a035ac590290df55524b5fab4"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/29b2d775__thinking_flow_021.md",
+    "size_bytes": 13544,
+    "sha256": "64b9ef600cdece56a000881436c6933b4f31b8ac1d4963f6be9ec285b6e772cb"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/SeungeFlow_IDX_01_to_33_originals.zip",
+    "size_bytes": 84463,
+    "sha256": "30b614e4805b6fd8b84f7e1e138f603cff36b24c45ede7c78d3a1b084ab324ae"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/contact_en.png",
+    "size_bytes": 336344,
+    "sha256": "bd2add63c60e8efea8f043a0ea3d62b3445a4fe750bc1d52f19dee61cfa9b420"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/contact_ko.png",
+    "size_bytes": 309869,
+    "sha256": "e6e591e1cd78f870b0924bc4aa76a03f145e434d6ef58fff26fea7c183ae060f"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/dot_empty_position_meta_bundle.zip",
+    "size_bytes": 5967,
+    "sha256": "b34826a409c355f3b5166c9083cba961160c328c3a7aab4b09accc91d3e28162"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/empty_position.meta.md",
+    "size_bytes": 19735,
+    "sha256": "63a4b28ef9d057ec7b0e618e92e49160da75dbd65a632698319a6e4d585b8b41"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/empty_position.metaplus.md",
+    "size_bytes": 10908,
+    "sha256": "ad88c74b89f24ae22f19917464009c15d9f069ac49dea16b19907de6bbd116ba"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/image(136).png",
+    "size_bytes": 25873,
+    "sha256": "aa025d178822fb505dace12c001c28b7972a7e79f23496cb08f4a3d2407dbcfb"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/new_instance_alignment_after_thinking_flow_020.md",
+    "size_bytes": 8123,
+    "sha256": "0fe93d567baf02873a199ec4f9ebfed9db0c45351150cd45615c0bc5b000bfd4"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/paper_en.md",
+    "size_bytes": 15911,
+    "sha256": "33cc16dc215cd530791059a27d5370e8be47e779eb45662ecc680b145e42db39"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/paper_ko.md",
+    "size_bytes": 17197,
+    "sha256": "3a6022a571ac8553bb845f26325e891700c8a82f2ce41e9e36cf65c8afb43d88"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/thinking_flow_019(5).md",
+    "size_bytes": 13929,
+    "sha256": "1ac763d49998fff43b681b677700b4b6cecd93749730127b151026860b01d275"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/thinking_flow_020(1).md",
+    "size_bytes": 18229,
+    "sha256": "e0e0b65d6c4b2605c0acbefbe4079ed0b43dbbd8f407285c6b3c1afbdbf0c0bf"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/thinking_flow_021.md",
+    "size_bytes": 15800,
+    "sha256": "8ab3accfbe6f083378617d93bf67d44b4180df2721bd54fef492277155c3bf8c"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/thinking_flow_021_en.md",
+    "size_bytes": 10089,
+    "sha256": "174b7feab2ce0d42063d223a84e98613fcffbdde1d4995788ab13b6b0b3e98f0"
+  },
+  {
+    "path": "epluone/09_branch_experiments/archived_candidates/_source_original/thinking_flow_source_021.md",
+    "size_bytes": 21485,
+    "sha256": "1048f7cfe2e4e6ae408bc4a98c32402d7bfdea306a8676e49708f3d08e635709"
+  }
+]
