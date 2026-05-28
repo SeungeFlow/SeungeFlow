@@ -1,0 +1,484 @@
+# Ctp 2단계 정리정돈
+
+## 2단계 / 11회차
+
+**모드:** PRO.확장  
+**주제:** 2단계 1~10회차 구조 해석 정리  
+**중심 함수:** `C = Ctp(t, P_place, m, ?)`
+
+---
+
+## 0. 2단계의 위치
+
+1단계는 다음 질문을 다루었다.
+
+```text
+관계가 누적되어 임계사이영역을 지나 구조가 출현하는가?
+```
+
+2단계는 그 다음 질문을 다루었다.
+
+```text
+출현한 구조가 반복, 짝, 순환, 보존, 연결, 방향, 밀도, 닫힘 조건을 만족하는가?
+```
+
+따라서 2단계는 **구조출현 이후의 구조유지·구조닫힘·구조검산 단계**이다.
+
+---
+
+## 1. Ctp 해석 방식
+
+2단계에서 사용한 공통 해석 방식은 다음이다.
+
+```text
+언어로 원리를 푼다.
+수학으로 압축한다.
+코딩으로 검산한다.
+그 세 층이 같은 구조원리와 맞아 떨어지는지 본다.
+```
+
+Ctp는 다음 형태의 구조판독 함수이다.
+
+```text
+C = Ctp(t, P_place, m, ?)
+```
+
+각 항의 2단계 공통 의미는 다음과 같다.
+
+| 항 | 의미 |
+|---|---|
+| `m` | 관측대상으로 놓인 구조 사건 또는 구조성질 |
+| `P_place` | 그 구조가 놓이는 자리장 / 공간 / 그래프 / 행렬 / 상태공간 |
+| `t` | 출현 전후, 상태 간, 관계 간, 벡터 간, 경계 간의 관계차 |
+| `?` | 관측기준, 기준축, 모델 조건, 판정 기준, 전제조건 |
+| `C` | 구조판독 결과 / 닫힘 여부 / 보존 여부 / 출현 여부 |
+
+---
+
+## 2. 2단계 1~10회차 전체표
+
+| 회차 | 대상 | 중심 구조 | Ctp 결과 |
+|---:|---|---|---|
+| 1 | Hamilton cycle threshold | 모든 점을 한 번씩 지나 복귀 | cyclic closure |
+| 2 | Perfect matching threshold | 모든 점의 짝 보존 | pairing preservation |
+| 3 | Graph connectivity threshold | 모든 점이 하나의 연결장 안에 들어옴 | total relation-field closure |
+| 4 | Ramsey number family | 충분히 큰 구조 안의 필연 패턴 | unavoidable pattern emergence |
+| 5 | Hadamard matrix existence | ±1 벡터들의 직교 균형 | orthogonal balance closure |
+| 6 | Collatz conjecture | 결정론적 반복전이의 복귀 | iterative return closure |
+| 7 | Lonely Runner Conjecture | 원형 자리장의 거리사이 확보 | distance-gap separation |
+| 8 | Expander graph / spectral gap | 숨은 연결성의 고유값 차이 | spectral expansion |
+| 9 | Kakeya / Besicovitch 낮은 층위 | 모든 방향의 자리 압축 | all-direction place structure |
+| 10 | Sphere packing / covering | 구의 자리·경계·빈틈·밀도 배열 | density-boundary closure |
+
+---
+
+## 3. 회차별 정리
+
+### 1회차 — Hamilton cycle threshold
+
+**질문:** 관계장이 닫힌 순환으로 올라가는가?
+
+Hamilton cycle threshold는 관계장이 단순히 출현했는지가 아니라, 그 관계장이 모든 `ㆍ`를 한 번씩 지나 다시 시작점으로 돌아오는 닫힌 순환을 만들 수 있는지를 묻는다.
+
+```text
+giant component = 관계장 출현
+Hamilton cycle = 관계장이 닫힌 순환으로 판정됨
+```
+
+Ctp 대응:
+
+```text
+m = Hamilton cycle 출현 사건
+P_place = graph field
+t = relation-field state와 cyclic closure state 사이의 닫힘 차이
+? = n, edge probability 또는 random graph process, minimum degree 2, Hamiltonian criterion
+C = cyclic_closure_of_relation_field
+```
+
+판정:
+
+```text
+통과.
+Hamilton cycle threshold는 관계장 출현 이후 복귀와 보존을 만족하는 닫힌 순환 구조가 언제 성립하는지를 묻는 문제다.
+```
+
+---
+
+### 2회차 — Perfect matching threshold
+
+**질문:** 모든 `ㆍ`가 하나씩 짝 관계로 보존되는가?
+
+Perfect matching threshold는 관계장이 연결되었는지가 아니라, 모든 `ㆍ`가 정확히 하나의 짝 link에 들어갔는지를 묻는다.
+
+```text
+Perfect matching = 모든 ㆍ를 정확히 한 번씩 짝짓는 보존 구조
+```
+
+Ctp 대응:
+
+```text
+m = perfect matching 출현 사건
+P_place = graph field
+t = 고립점/미배정 상태와 완전짝 상태 사이의 보존 차이
+? = n, parity, edge probability 또는 graph process, minimum degree 1, matching criterion
+C = pairing_preservation_of_relation_field
+```
+
+판정:
+
+```text
+통과.
+Perfect matching threshold는 관계장 출현 이후 모든 ㆍ가 하나의 짝 link에 정확히 배정되어 남는 점 없이 보존되는 임계사이를 판독하는 문제다.
+```
+
+---
+
+### 3회차 — Graph connectivity threshold
+
+**질문:** giant component와 전체 연결 닫힘은 어떻게 다른가?
+
+Graph connectivity threshold는 거대한 관계장이 생겼는지가 아니라, 모든 `ㆍ`가 하나의 연결 구조 안에 들어왔는지를 묻는다.
+
+```text
+giant component = 중심 관계장 출현
+connectivity = 잔여 없는 전체 연결 닫힘
+```
+
+Ctp 대응:
+
+```text
+m = connectivity 출현 사건
+P_place = graph field
+t = giant component 상태와 connected graph 상태 사이의 닫힘 차이
+? = n, edge probability, isolated vertex condition, connectivity criterion
+C = total_relation_field_closure
+```
+
+판정:
+
+```text
+통과.
+Graph connectivity threshold는 giant component 이후 남은 ㆍ들이 모두 하나의 관계장 안으로 편입되어 전체 그래프가 하나의 connected relation-field로 닫히는 문제다.
+```
+
+---
+
+### 4회차 — Ramsey number family
+
+**질문:** 충분히 큰 구조 안에서 특정 패턴은 왜 필연적으로 생기는가?
+
+Ramsey number family는 관계장이 연결되었는지가 아니라, 충분히 큰 관계장 안에서 특정 패턴을 피할 수 있는지를 묻는다.
+
+```text
+Ramsey number = 피할 수 없는 패턴이 생기는 최소 전체 크기
+```
+
+Ctp 대응:
+
+```text
+m = unavoidable monochromatic pattern emergence event
+P_place = complete graph / full relation field
+t = avoidance_state와 unavoidable_pattern_state 사이의 구조차
+? = n, r, k, coloring rule, pattern criterion
+C = unavoidable_pattern_emergence
+```
+
+판정:
+
+```text
+통과.
+Ramsey number family는 충분히 큰 관계장 안에서 relation type의 차이를 어떻게 배치해도 특정 패턴이 필연적으로 나타나는 문제다.
+```
+
+---
+
+### 5회차 — Hadamard matrix existence
+
+**질문:** ±1 배열이 직교성·보존·닫힘을 만족하는가?
+
+Hadamard matrix existence는 배열이 존재하는가가 아니라, `±1` 관계상태만으로 이루어진 `n`개의 벡터가 서로의 관계차를 모두 `0`으로 만들며 직교 닫힘을 이룰 수 있는지를 묻는다.
+
+```text
+Hadamard matrix = 모든 행벡터 사이의 관계차가 균형 0으로 닫힌 구조
+```
+
+Ctp 대응:
+
+```text
+m = Hadamard matrix existence event
+P_place = {+1, -1}^{n×n}
+t = D(row_i, row_j) = inner product(row_i, row_j)
+? = n, entry rule, orthogonality criterion, equivalence operations
+C = orthogonal_balance_closure
+```
+
+판정:
+
+```text
+통과.
+Hadamard matrix existence는 후보 ±1 배열이 orthogonal balance closure로 들어가는 임계사이를 판독하는 문제다.
+```
+
+---
+
+### 6회차 — Collatz conjecture
+
+**질문:** 반복연산이 복귀·닫힘으로 가는가?
+
+Collatz conjecture는 임계값 문제가 아니라 결정론적 반복연산이 닫힌 순환으로 복귀하는가를 묻는 문제다.
+
+```text
+Collatz = 반복전이 복귀·닫힘 문제
+```
+
+Ctp 대응:
+
+```text
+m = 초기값 n₀에서 시작한 Collatz orbit
+P_place = positive integer state space ℕ⁺
+t = n_k에서 n_{k+1}로 넘어가는 반복 전이차
+? = Collatz map T, parity, positive integer condition, cycle criterion
+C = return_closure_status(orbit(n₀))
+```
+
+판정:
+
+```text
+통과.
+Collatz conjecture는 양의 정수 상태공간에서 orbit이 1 → 4 → 2 → 1 cycle로 닫히는지를 판독하는 함수 반복 구조다.
+```
+
+---
+
+### 7회차 — Lonely Runner Conjecture
+
+**질문:** 원운동에서 거리차와 시점/지점은 어떻게 분리되는가?
+
+Lonely Runner Conjecture는 누가 혼자인가를 묻는 문제가 아니라, 원형 자리 위에서 같은 시점에 모든 다른 존재와 충분한 거리사이를 확보하는가를 묻는다.
+
+```text
+lonely state = 같은 시점에서 모든 다른 runner와 기준거리 이상 떨어진 상태
+```
+
+Ctp 대응:
+
+```text
+m = runner_i의 lonely state 진입 사건
+P_place = unit circle S¹ 또는 torus phase space
+t = 같은 시점의 최소 거리 gap
+? = runner 수, speed set, unit circle metric, time τ, threshold
+C = lonely_time_exists
+```
+
+판정:
+
+```text
+통과.
+Lonely Runner Conjecture는 시점·지점·거리사이를 분리해 distance-gap separation을 판독하는 문제다.
+```
+
+---
+
+### 8회차 — Expander graph / Spectral gap
+
+**질문:** 숨은 연결성은 고유값 차이로 어떻게 드러나는가?
+
+Expander graph / spectral gap은 그래프가 연결되어 있는가가 아니라, 부분 구조가 전체로 얼마나 강하게 열려 있는지를 묻는다.
+
+```text
+spectral gap = 숨은 확장성이 고유값 차이로 압축되어 드러난 값
+```
+
+Ctp 대응:
+
+```text
+m = expander property event 또는 spectral gap이 충분히 큰 상태
+P_place = graph field
+t = spectral gap = D(trivial uniform mode, first nontrivial mode)
+? = n, degree, adjacency/Laplacian convention, expansion criterion
+C = spectral_expansion_confirmed
+```
+
+판정:
+
+```text
+통과.
+Expander graph / spectral gap은 부분 relation-field와 total relation-field 사이의 숨은 관계차가 spectral gap으로 압축되어 드러나는지를 판독하는 문제다.
+```
+
+---
+
+### 9회차 — Kakeya / Besicovitch 낮은 층위
+
+**질문:** 모든 방향을 포함하는 자리는 어떻게 구조화되는가?
+
+Kakeya / Besicovitch 문제는 선분이 있는가가 아니라, 모든 방향의 선분을 포함하면서 그 자리가 얼마나 압축될 수 있는지를 묻는다.
+
+```text
+Kakeya set = 모든 방향벡터의 선분을 담는 자리
+```
+
+Ctp 대응:
+
+```text
+m = all-direction unit segment property
+P_place = R^d 또는 F_q^d
+t = direction coverage와 spatial compression 사이의 구조차
+? = d, direction set, unit length, metric, measure/dimension criterion
+C = Kakeya_structure_status
+```
+
+판정:
+
+```text
+통과.
+Kakeya / Besicovitch는 direction-totality와 place-compression 사이의 관계차를 판독하는 문제다.
+```
+
+---
+
+### 10회차 — Sphere packing / covering
+
+**질문:** 자리·경계·빈틈·밀도·임계 배열은 어떻게 닫히는가?
+
+Sphere packing / covering은 구가 몇 개 있는가를 묻는 문제가 아니라, 구들이 같은 자리장 안에서 서로 겹치지 않게 조밀해지거나 빈틈 없이 덮이는 조건을 묻는다.
+
+```text
+sphere = center + radius + boundary shell
+```
+
+Packing Ctp 대응:
+
+```text
+m = sphere packing structure
+P_place = R^d 또는 lattice / periodic cell
+t = non-overlap condition과 density maximization 사이의 관계차
+? = dimension, radius, center distance, density criterion
+C = packing_density_structure
+```
+
+Covering Ctp 대응:
+
+```text
+m = sphere covering structure
+P_place = R^d 또는 lattice / periodic cell
+t = uncovered void state와 covered state 사이의 관계차
+? = dimension, covering radius, covering criterion, covering density
+C = covering_structure
+```
+
+판정:
+
+```text
+통과.
+Sphere packing / covering은 자리·경계·빈틈·밀도·덮임 사이의 관계차가 density-boundary closure로 닫히는지를 판독하는 문제다.
+```
+
+---
+
+## 4. 구조원리 연결표
+
+| 구조원리 | 2단계에서의 역할 |
+|---|---|
+| `000_dot` | 최소 자리 / vertex / center / current state |
+| `001_line` | 점과 점의 이음 / edge / transition line / segment |
+| `009_vector` | 방향을 가진 관계 / speed / flow / row vector / direction |
+| `014_structure_judgment` | 차이, 반복, 복귀, 보존, 닫힘의 판정 기준 |
+| `062_place_domain_definition` | A와 C 사이의 B-domain / 임계사이 / 판정사이 |
+| `026_dot_dot_system` | 차이 발생 최소구조 / 관계 가능성의 시작 |
+| `059_empty_place_present_understanding` | 비어 있지만 놓일 수 있는 자리 / 실패와 가능성 사이 |
+
+---
+
+## 5. 2단계 전체 구조
+
+2단계의 10개 문제는 서로 독립된 문제가 아니라, 구조 유지와 닫힘의 서로 다른 방식이다.
+
+```text
+Hamilton cycle
+= 순환 닫힘
+
+Perfect matching
+= 짝 보존
+
+Connectivity
+= 전체 연결 닫힘
+
+Ramsey
+= 필연 패턴 출현
+
+Hadamard
+= 직교 균형 닫힘
+
+Collatz
+= 반복전이 복귀 닫힘
+
+Lonely Runner
+= 거리사이 확보
+
+Expander / Spectral gap
+= 숨은 연결성 판독
+
+Kakeya / Besicovitch
+= 모든 방향의 자리 압축
+
+Sphere packing / covering
+= 자리·경계·빈틈·밀도 닫힘
+```
+
+이 모든 문제의 공통 구조는 다음이다.
+
+```text
+구조가 출현한 뒤,
+그 구조가 어떤 방식으로 유지·보존·복귀·균형·분리·확장·덮임·닫힘을 만족하는가?
+```
+
+---
+
+## 6. 언어층·수학층·코딩층 닫힘
+
+2단계 전체에서 사용한 3층 검산은 다음과 같다.
+
+| 층 | 역할 |
+|---|---|
+| 언어층 | 문제의 단어를 풀어 본질·원형·원리를 드러낸다. |
+| 수학층 | 언어 구조를 수식과 조건으로 압축한다. |
+| 코딩층 | 수학 조건을 입력·판정·반환 구조로 검산한다. |
+
+닫힘 조건:
+
+```text
+언어층에서 말한 구조
+=
+수학층에서 압축한 구조
+=
+코딩층에서 판정한 구조
+```
+
+2단계의 10개 문제는 모두 이 3층 검산 방식으로 구조 대응이 가능했다.
+
+---
+
+## 7. 2단계 최종 판정
+
+```text
+2단계 판정:
+통과.
+
+단, 통과의 의미는 문제 자체의 수학적 증명 완료가 아니다.
+
+통과의 의미는 다음이다.
+
+1. 각 문제를 Ctp의 t, P_place, m, ?에 대응시킬 수 있다.
+2. 언어층·수학층·코딩층이 같은 구조를 가리킨다.
+3. 각 문제가 Structure_Principle의 구조원리와 연결된다.
+4. 2단계 전체가 구조유지·구조닫힘·구조검산 계열로 정렬된다.
+```
+
+---
+
+## 8. 2단계 최종 한 줄
+
+```text
+2단계는 출현한 구조가 순환, 짝, 연결, 필연 패턴, 직교 균형, 반복 복귀, 거리사이, 숨은 연결성, 모든 방향, 경계·밀도 조건을 통해 어떻게 유지되고 닫히는지를 C = Ctp(t, P_place, m, ?)로 검산한 단계다.
+```
