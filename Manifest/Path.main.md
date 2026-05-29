@@ -499,41 +499,305 @@ reliable directory listing
 https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/
 ```
 
-`Structure_Principle/schema/101_* ~ 121_*` 계열은 명시 목록으로 판독해야 한다.
+`Structure_Principle/schema/101_* ~ 121_*` 계열은 단순 디렉토리명 목록이 아니라,  
+각 디렉토리의 GitHub view 주소와 Raw meta 파일 주소를 함께 제공하여 판독해야 한다.
 
 ```text
-Structure_Principle/schema/101_three_dot_reading_mode_structure/
-Structure_Principle/schema/102_phase_boundary_layer_distinction/
-Structure_Principle/schema/103_circle_definition_structure/
-Structure_Principle/schema/104_inscribed_circumscribed_boundary_relation/
-Structure_Principle/schema/105_radius_center_diagonal_right_angle_crossing/
-Structure_Principle/schema/106_cell_center_segment_connection_rule/
-Structure_Principle/schema/107_triangle_vector_point_distinction/
-Structure_Principle/schema/108_inside_left_reference_condition/
-Structure_Principle/schema/109_ctp_structure_integer_property_table/
-Structure_Principle/schema/110_nine_zero_overlap_transition/
-Structure_Principle/schema/111_angle_grid_resolution_structure/
-Structure_Principle/schema/112_candle_subobject_orbit_structure/
-Structure_Principle/schema/113_badc_ohlc_rotation_mapping_revised/
-Structure_Principle/schema/114_close_next_open_bada_prime_transition/
-Structure_Principle/schema/115_y_branch_structure_expression_guard/
-Structure_Principle/schema/116_circle_container_inclusion_structure/
-Structure_Principle/schema/117_structural_sequence_integer_cell_structure/
-Structure_Principle/schema/118_pin_dot_y_branch_return_structure/
-Structure_Principle/schema/119_flow_transition_self_operation_structure/
-Structure_Principle/schema/120_seedbase_working_schema_memory_asset_structure/
-Structure_Principle/schema/121_coredot_ambiguity_boundary/
+GitHub view URL
+=
+human-readable directory coordinate
+
+Raw meta URL
+=
+AI-readable file-content coordinate
 ```
 
-이 목록은 path identity 확정이 아니라,  
+아래 목록은 path identity 확정이 아니라,  
 AI가 GitHub directory listing 한계 때문에 존재하는 디렉토리를 누락하지 않도록 하기 위한 explicit detection guard이다.
 
 ```text
-explicit schema 101~121 list
+explicit schema 101~121 address list
 =
 directory detection guard
++
+GitHub view coordinate
++
+Raw meta coordinate
 ≠
 semantic identity replacement
+```
+
+### 101_three_dot_reading_mode_structure
+
+```text
+path:
+Structure_Principle/schema/101_three_dot_reading_mode_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/101_three_dot_reading_mode_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/101_three_dot_reading_mode_structure/three_dot_reading_mode_structure.meta.md
+```
+
+### 102_phase_boundary_layer_distinction
+
+```text
+path:
+Structure_Principle/schema/102_phase_boundary_layer_distinction/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/102_phase_boundary_layer_distinction
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/102_phase_boundary_layer_distinction/phase_boundary_layer_distinction.meta.md
+```
+
+### 103_circle_definition_structure
+
+```text
+path:
+Structure_Principle/schema/103_circle_definition_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/103_circle_definition_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/103_circle_definition_structure/circle_definition_structure.meta.md
+```
+
+### 104_inscribed_circumscribed_boundary_relation
+
+```text
+path:
+Structure_Principle/schema/104_inscribed_circumscribed_boundary_relation/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/104_inscribed_circumscribed_boundary_relation
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/104_inscribed_circumscribed_boundary_relation/inscribed_circumscribed_boundary_relation.meta.md
+```
+
+### 105_radius_center_diagonal_right_angle_crossing
+
+```text
+path:
+Structure_Principle/schema/105_radius_center_diagonal_right_angle_crossing/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/105_radius_center_diagonal_right_angle_crossing
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/105_radius_center_diagonal_right_angle_crossing/radius_center_diagonal_right_angle_crossing.meta.md
+```
+
+### 106_cell_center_segment_connection_rule
+
+```text
+path:
+Structure_Principle/schema/106_cell_center_segment_connection_rule/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/106_cell_center_segment_connection_rule
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/106_cell_center_segment_connection_rule/cell_center_segment_connection_rule.meta.md
+```
+
+### 107_triangle_vector_point_distinction
+
+```text
+path:
+Structure_Principle/schema/107_triangle_vector_point_distinction/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/107_triangle_vector_point_distinction
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/107_triangle_vector_point_distinction/triangle_vector_point_distinction.meta.md
+```
+
+### 108_inside_left_reference_condition
+
+```text
+path:
+Structure_Principle/schema/108_inside_left_reference_condition/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/108_inside_left_reference_condition
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/108_inside_left_reference_condition/inside_left_reference_condition.meta.md
+```
+
+### 109_ctp_structure_integer_property_table
+
+```text
+path:
+Structure_Principle/schema/109_ctp_structure_integer_property_table/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/109_ctp_structure_integer_property_table
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/109_ctp_structure_integer_property_table/ctp_structure_integer_property_table.meta.md
+```
+
+### 110_nine_zero_overlap_transition
+
+```text
+path:
+Structure_Principle/schema/110_nine_zero_overlap_transition/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/110_nine_zero_overlap_transition
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/110_nine_zero_overlap_transition/nine_zero_overlap_transition.meta.md
+```
+
+### 111_angle_grid_resolution_structure
+
+```text
+path:
+Structure_Principle/schema/111_angle_grid_resolution_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/111_angle_grid_resolution_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/111_angle_grid_resolution_structure/angle_grid_resolution_structure.meta.md
+```
+
+### 112_candle_subobject_orbit_structure
+
+```text
+path:
+Structure_Principle/schema/112_candle_subobject_orbit_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/112_candle_subobject_orbit_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/112_candle_subobject_orbit_structure/candle_subobject_orbit_structure.meta.md
+```
+
+### 113_badc_ohlc_rotation_mapping_revised
+
+```text
+path:
+Structure_Principle/schema/113_badc_ohlc_rotation_mapping_revised/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/113_badc_ohlc_rotation_mapping_revised
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/113_badc_ohlc_rotation_mapping_revised/badc_ohlc_rotation_mapping_revised.meta.md
+```
+
+### 114_close_next_open_bada_prime_transition
+
+```text
+path:
+Structure_Principle/schema/114_close_next_open_bada_prime_transition/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/114_close_next_open_bada_prime_transition
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/114_close_next_open_bada_prime_transition/close_next_open_bada_prime_transition.meta.md
+```
+
+### 115_y_branch_structure_expression_guard
+
+```text
+path:
+Structure_Principle/schema/115_y_branch_structure_expression_guard/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/115_y_branch_structure_expression_guard
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/115_y_branch_structure_expression_guard/y_branch_structure_expression_guard.meta.md
+```
+
+### 116_circle_container_inclusion_structure
+
+```text
+path:
+Structure_Principle/schema/116_circle_container_inclusion_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/116_circle_container_inclusion_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/116_circle_container_inclusion_structure/circle_container_inclusion_structure.meta.md
+```
+
+### 117_structural_sequence_integer_cell_structure
+
+```text
+path:
+Structure_Principle/schema/117_structural_sequence_integer_cell_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/117_structural_sequence_integer_cell_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/117_structural_sequence_integer_cell_structure/structural_sequence_integer_cell_structure.meta.md
+```
+
+### 118_pin_dot_y_branch_return_structure
+
+```text
+path:
+Structure_Principle/schema/118_pin_dot_y_branch_return_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/118_pin_dot_y_branch_return_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/118_pin_dot_y_branch_return_structure/pin_dot_y_branch_return_structure.meta.md
+```
+
+### 119_flow_transition_self_operation_structure
+
+```text
+path:
+Structure_Principle/schema/119_flow_transition_self_operation_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/119_flow_transition_self_operation_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/119_flow_transition_self_operation_structure/flow_transition_self_operation_structure.meta.md
+```
+
+### 120_seedbase_working_schema_memory_asset_structure
+
+```text
+path:
+Structure_Principle/schema/120_seedbase_working_schema_memory_asset_structure/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/120_seedbase_working_schema_memory_asset_structure
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/120_seedbase_working_schema_memory_asset_structure/seedbase_working_schema_memory_asset_structure.meta.md
+```
+
+### 121_coredot_ambiguity_boundary
+
+```text
+path:
+Structure_Principle/schema/121_coredot_ambiguity_boundary/
+
+GitHub view:
+https://github.com/SeungeFlow/SeungeFlow/tree/main/Structure_Principle/schema/121_coredot_ambiguity_boundary
+
+Raw meta:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/121_coredot_ambiguity_boundary/coredot_ambiguity_boundary.meta.md
 ```
 
 AI는 `schema/` 주소만 보고 101~121이 없다고 판단하지 말고,  
