@@ -13,6 +13,8 @@ purpose:
   - prevent_directory_semantic_hierarchy_confusion
   - define_linux_based_path_transition
   - guide_repository_place_reading
+  - prevent_ai_directory_listing_truncation_error
+  - guide_schema_101_121_explicit_detection
 ---
 
 # Path.main.md
@@ -453,7 +455,101 @@ git runtime / upload operation body
 
 ---
 
-## 13. Path Guard
+## 13. GitHub directory listing and schema 101~121 detection guard
+
+GitHub web view나 Raw directory 주소만으로는  
+AI가 `Structure_Principle/schema/` 하위 디렉토리 전체를 안정적으로 판독하지 못할 수 있다.
+
+특히 `Structure_Principle/schema/`처럼 하위 항목이 많은 디렉토리에서는,  
+일부 AI나 crawler가 GitHub web view에서 앞쪽 항목만 읽고 멈출 수 있다.
+
+```text
+GitHub web view directory listing
+=
+partial visible coordinate
++
+possible UI/lazy-loading/truncation layer
+```
+
+따라서 AI는 GitHub web view에서 `000_dot/`부터 `099_document_sorting_index/`까지만 보인다는 이유로  
+`100_empty_position/`이나 `101_* ~ 121_*` 계열이 없다고 판단하면 안 된다.
+
+```text
+not visible in GitHub web view
+≠
+not existing in repository
+```
+
+Raw 주소는 파일 원문을 읽기 위한 주소이지,  
+디렉토리 목록을 안정적으로 제공하는 주소가 아니다.
+
+```text
+Raw file URL
+=
+file-content coordinate
+
+Raw directory URL
+≠
+reliable directory listing
+```
+
+따라서 다음과 같은 Raw directory 주소만으로 하위 디렉토리 존재 여부를 판단하면 안 된다.
+
+```text
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Structure_Principle/schema/
+```
+
+`Structure_Principle/schema/101_* ~ 121_*` 계열은 명시 목록으로 판독해야 한다.
+
+```text
+Structure_Principle/schema/101_three_dot_reading_mode_structure/
+Structure_Principle/schema/102_phase_boundary_layer_distinction/
+Structure_Principle/schema/103_circle_definition_structure/
+Structure_Principle/schema/104_inscribed_circumscribed_boundary_relation/
+Structure_Principle/schema/105_radius_center_diagonal_right_angle_crossing/
+Structure_Principle/schema/106_cell_center_segment_connection_rule/
+Structure_Principle/schema/107_triangle_vector_point_distinction/
+Structure_Principle/schema/108_inside_left_reference_condition/
+Structure_Principle/schema/109_ctp_structure_integer_property_table/
+Structure_Principle/schema/110_nine_zero_overlap_transition/
+Structure_Principle/schema/111_angle_grid_resolution_structure/
+Structure_Principle/schema/112_candle_subobject_orbit_structure/
+Structure_Principle/schema/113_badc_ohlc_rotation_mapping_revised/
+Structure_Principle/schema/114_close_next_open_bada_prime_transition/
+Structure_Principle/schema/115_y_branch_structure_expression_guard/
+Structure_Principle/schema/116_circle_container_inclusion_structure/
+Structure_Principle/schema/117_structural_sequence_integer_cell_structure/
+Structure_Principle/schema/118_pin_dot_y_branch_return_structure/
+Structure_Principle/schema/119_flow_transition_self_operation_structure/
+Structure_Principle/schema/120_seedbase_working_schema_memory_asset_structure/
+Structure_Principle/schema/121_coredot_ambiguity_boundary/
+```
+
+이 목록은 path identity 확정이 아니라,  
+AI가 GitHub directory listing 한계 때문에 존재하는 디렉토리를 누락하지 않도록 하기 위한 explicit detection guard이다.
+
+```text
+explicit schema 101~121 list
+=
+directory detection guard
+≠
+semantic identity replacement
+```
+
+AI는 `schema/` 주소만 보고 101~121이 없다고 판단하지 말고,  
+위 명시 목록과 Git repository 기준을 함께 확인해야 한다.
+
+Git 기준 확인은 다음 명령으로 수행할 수 있다.
+
+```bash
+git ls-tree -d --name-only origin/main:Structure_Principle/schema \
+  | grep -E '^(10[1-9]|11[0-9]|12[0-1])_' \
+  | sort
+```
+
+---
+
+## 14. Path Guard
 
 AI는 다음을 하면 안 된다.
 
@@ -473,7 +569,7 @@ path를 올바른 자리로 되돌리기 위한 guard이다.
 
 ---
 
-## 14. 최단 정의
+## 15. 최단 정의
 
 ```text
 Path.main.md
