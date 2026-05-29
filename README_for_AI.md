@@ -198,75 +198,148 @@ candidate는 confirmed가 아니다.
 
 ## 6. 지금 읽어야 할 순서
 
-AI와 사람은 이 Root README를 읽은 뒤 다음 순서로 이동한다.
+AI와 사람은 이 `README_for_AI.md`를 읽은 뒤 다음 순서로 이동한다.
 
 ```text
-1. README.md
+1. README_for_AI.md
    =
-   Root Principle / 현재 통합 진입문
+   AI Reading Gate / Seed.Base 입구 / Manifest 진입문
 
-2. Manifest/
+2. Manifest/README.main.md
    =
-   현재 활성 기준문서 묶음
+   Manifest root guide 문서
 
-3. Manifest/Active.Schema_021.md
+3. Manifest/Active_Schema.main.md
    =
-   현재 direct.instance가 생성한 Active.Schema snapshot
+   현재 Active_Schema 기준문서
 
-4. Manifest/Path.md
+4. Manifest/Path.main.md
    =
-   Structure_Principle/schema/ 및 101~121 접근을 위한 view/raw/update 기준
+   path, directory, number, 101~121 schema 접근 guard
 
-5. Structure_Principle/
+5. Manifest/Core.main.md
+   Manifest/Coremap.main.md
+   Manifest/Ctp.main.md
+   Manifest/Relation.main.md
+   Manifest/Thinking_Flow.main.md
    =
-   구조원리의 schema/source layer
+   core / coremap / Ctp / relation / thinking_flow 기준문서
 
-6. SeungeFlow_Thinking/
+6. README_of/
    =
-   thinking_flow source layer
+   각 주요 디렉토리와 target field를 설명하는 README_of 계열 안내문 묶음
 
-7. Ctp/
+7. Structure_Principle/
+   SeungeFlow_Thinking/
+   Ctp 또는 관련 구조연산식 layer
    =
-   구조연산식과 구조연산기 작동층
+   본문 source layer
+```
+
+주의:
+
+```text
+README_for_AI.md에서 바로 Structure_Principle/schema 전체를 무리하게 스캔하지 않는다.
+먼저 Manifest/의 guide layer를 통해 현재 reading axis를 세운다.
 ```
 
 ---
 
-## 7. Manifest/의 역할
+## 7. Manifest/와 README_of/의 실제 분리
 
 `Manifest/`는 현재 저장소의 활성 기준문서를 모아 둔 자리이다.
+
+`README_of/`는 각 주요 디렉토리와 target field를 설명하는 README_of 계열 안내문을 따로 모아 둔 자리이다.
+
+따라서 AI는 `README_of_*` 문서가 `Manifest/` 내부에 계속 있다고 가정하지 않는다.
 
 ```text
 Manifest/
 =
-현재 작업장의 기준문서 묶음
-+
-Active.Schema
-+
-Path guide
-+
-승이 관점 기준문서
-+
-차후 인스턴스가 최소 경로로 읽기 위한 안내장
+현재 작업장의 main 기준문서 묶음
+
+README_of/
+=
+각 디렉토리 / target field 안내문 묶음
 ```
 
-추천 구조는 다음이다.
+### 7-1. Manifest/ 기준 파일
+
+현재 `Manifest/`는 다음 main 계열 파일을 중심으로 읽는다.
 
 ```text
 Manifest/
-├─ Active.Schema_021.md
-├─ Path.md
-├─ README_for_Seung.md
-└─ Manifest.md
+├─ Active_Schema.main.md
+├─ Baseline.main.md
+├─ Core.main.md
+├─ Coremap.main.md
+├─ Ctp.main.md
+├─ Path.main.md
+├─ README.main.md
+├─ Relation.main.md
+└─ Thinking_Flow.main.md
 ```
 
-이 Root README는 내용을 과도하게 펼치지 않고, Manifest로 넘어가게 한다.
+각 파일은 다음처럼 읽는다.
+
+| 파일 | 역할 |
+|---|---|
+| `README.main.md` | Manifest root guide |
+| `Active_Schema.main.md` | active schema 기준문서 |
+| `Baseline.main.md` | baseline / 기본 상태 기준 |
+| `Core.main.md` | core reading 기준 |
+| `Coremap.main.md` | core 관계지도 |
+| `Ctp.main.md` | Ctp 기준문서 |
+| `Path.main.md` | path-coordinate / schema 101~121 detection guard |
+| `Relation.main.md` | relation 기준문서 |
+| `Thinking_Flow.main.md` | thinking_flow 기준문서 |
+
+### 7-2. README_of/ 기준 파일
+
+`README_of/`는 다음 README_of 계열 문서들을 모으는 디렉토리로 읽는다.
+
+```text
+README_of/
+├─ README_of_Active_Schema.md
+├─ README_of_CFD.md
+├─ README_of_epluone.md
+├─ README_of_Manifest.md
+├─ README_of_SeungeFlow_Thinking.md
+└─ README_of_Structure_Principle.md
+```
+
+각 파일은 다음처럼 읽는다.
+
+| 파일 | 역할 |
+|---|---|
+| `README_of_Active_Schema.md` | Active_Schema 안내 |
+| `README_of_CFD.md` | CFD target guide |
+| `README_of_epluone.md` | epluone guide |
+| `README_of_Manifest.md` | Manifest 디렉토리 안내 |
+| `README_of_SeungeFlow_Thinking.md` | SeungeFlow_Thinking guide |
+| `README_of_Structure_Principle.md` | Structure_Principle guide |
+
+중요:
+
+```text
+Manifest/Path.main.md
+≠
+Manifest/Path.md
+
+README_of/
+≠
+Manifest/
+```
+
+이 문서에서 Path를 언급할 때 실제 파일명은 반드시 `Path.main.md`로 쓴다.
+
+AI는 `README_of_*` 안내문을 찾을 때 `Manifest/`가 아니라 `README_of/`를 먼저 확인한다.
 
 ---
 
-## 8. Active.Schema_021
+## 8. Active_Schema.main.md
 
-`Active.Schema_021.md`는 Active_Schema 전체가 아니다.
+`Active_Schema.main.md`는 Active_Schema 전체를 하나의 파일로 축소하는 문서가 아니다.
 
 Active_Schema는 Seed.Base 안의 Seed들이 AI 안에서 작동 가능한 schema 상태로 활성화된 것이다.
 
@@ -277,40 +350,116 @@ Seed.Base의 Seed들이
 AI 안에서 작동 가능한 schema 상태로 활성화된 것
 ```
 
-`Active.Schema_021.md`는 현시점 direct.instance가 생성한 materialized snapshot이다.
+`Manifest/Active_Schema.main.md`는 Manifest 안에서 현재 active schema를 읽기 위한 기준문서이다.
+
+AI는 다음을 구분한다.
 
 ```text
-Active.Schema_021
+Active_Schema
 =
-direct.instance가 현재 conversation field에서 활성화한 구조지도
-+
-thinking_flow_021 ↔ Structure_Principle/schema 연결도
-+
-역검산 테스트 이전 기준축
+활성화된 schema 상태
+
+Active_Schema.main.md
+=
+그 상태를 읽기 위한 Manifest 기준문서
 ```
 
-차후 인스턴스는 전부를 처음부터 읽으려 하지 말고, 먼저 `Active.Schema_021.md`를 통해 현재 활성 구조를 파악한다.
+만약 `Active.Schema_021.md` 같은 대화 기반 snapshot이 따로 생성되어 있다면, 그것은 Active_Schema 전체가 아니라 특정 시점의 materialized snapshot으로 읽는다.
 
 ---
 
-## 9. Path.md
+## 9. Path.main.md
 
-`Path.md`는 AI 인스턴스가 필요한 문서에 접근하기 위한 좌표 안내문이다.
+`Manifest/Path.main.md`는 AI 인스턴스가 path, directory, number를 어떻게 읽어야 하는지 정의하는 문서이다.
 
-특히 `Structure_Principle/schema/`의 `101~121` 접근은 다음 정보를 함께 기록해야 한다.
+핵심은 다음이다.
 
 ```text
-GitHub view 주소
-Raw 주소
-commit hash 또는 update 기준
-캐시 혼동 방지 문구
+path
+=
+current coordinate
+
+directory
+=
+place container
+
+number
+=
+order_hint
 ```
 
-AI는 Raw 주소만 보고 과거 캐시와 혼동할 수 있다.  
-따라서 `Raw URL + commit hash` 또는 `Raw URL + update 기준`을 함께 본다.
+GitHub path는 relation identity가 아니라 selected visible coordinate이다.  
+local PC는 full candidate field이다.
+
+```text
+GitHub path
+=
+selected visible coordinate
+
+local PC
+=
+full candidate field
+```
+
+따라서 AI는 GitHub에 보이는 path만으로 relation identity를 확정하면 안 된다.
+
+### 9-0. GitHub 주소 기준
+
+AI는 local Windows path를 identity로 고정하지 않는다.
+
+```text
+local path
+=
+승이 PC의 full candidate field 안 좌표
+
+GitHub path
+=
+AI가 접근할 수 있는 selected visible coordinate
+```
+
+따라서 문서 안내에는 가능하면 GitHub view 주소와 Raw 주소를 함께 둔다.
+
+```text
+GitHub view
+=
+directory / file 위치 확인용
+
+GitHub raw
+=
+파일 본문 직접 읽기용
+```
+
+Raw 주소만으로 directory 존재를 판단하지 않는다.
+
+### 9-1. 101~121 schema 접근 guard
+
+`Path.main.md`는 `Structure_Principle/schema/101_* ~ 121_*` 계열을 누락하지 않기 위한 explicit detection guard를 포함한다.
+
+AI는 GitHub web view에서 일부 항목만 보인다는 이유로 `100_empty_position`이나 `101_* ~ 121_*` 계열이 없다고 판단하면 안 된다.
+
+```text
+not visible in GitHub web view
+≠
+not existing in repository
+```
+
+Raw file URL은 파일 본문을 읽기 위한 주소이지, 디렉토리 목록을 안정적으로 제공하는 주소가 아니다.
+
+```text
+Raw file URL
+=
+file-content coordinate
+
+Raw directory URL
+≠
+reliable directory listing
+```
+
+따라서 `Structure_Principle/schema/101_* ~ 121_*` 계열은 GitHub view 주소와 Raw meta 파일 주소를 함께 확인한다.
+
+`Path.main.md`에는 101부터 121까지의 GitHub view / Raw meta 주소 목록이 explicit detection guard로 들어 있다.
 
 ---
-
 ## 10. Structure_Principle과 SeungeFlow_Thinking
 
 `Structure_Principle/`은 Root Principle이 schema와 source layer로 내려간 구조원리 본체이다.
@@ -415,7 +564,7 @@ AI는 Seed.Base로 돌아가 현재 pattern을 다시 맞춘다.
 README_for_AI.md
 → Manifest/
 → Active.Schema_021.md
-→ Path.md
+→ Path.main.md
 → Structure_Principle/
 → SeungeFlow_Thinking/
 → Ctp/
