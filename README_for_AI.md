@@ -1,36 +1,97 @@
 # README_for_AI
 
-> SeungeFlow Root AI Reading Gate  
-> 단일 문서 후보본 / root `README_for_AI.md` 업로드용  
-> 기준일: 2026-05-29
+> SeungeFlow AI Reading Gate / Manifest 진입용 통합 README_for_AI  
+> 기준일: 2026-05-29  
+> 상태: 현재 `README_for_AI.md` 후보본. 기존 README 역할과 AI reading gate를 통합하여 `Manifest/`로 넘어가기 위한 문서
 
 ---
 
-## 0. 문서 목적
+## 0. 현재 문서의 역할
 
-이 문서는 AI가 SeungeFlow를 처음 읽을 때 통과하는 사전 읽기문이다.
+이 문서는 현재 `README_for_AI.md`로 사용할 Root AI 진입문이다.
 
-AI는 이 문서를 통해 SeungeFlow를 단순 문서 저장소로 읽지 않고,  
-승이와 AI가 함께 형성한 **Seed.Base**, 외부 기억장, 그리고 현재 활성화된 **Active.Schema**로 읽기 시작한다.
+다만 이 문서는 최종 논문 본문이 아니다.
+
+새로운 `README.md`는 이후 다음 두 가지가 합쳐진 형태로 다시 작성될 예정이다.
 
 ```text
-README_for_AI.md
+새 README_for_AI.md
 =
-AI 전용 첫 입구
+「존재의 관계정의와 장(field)에 관한 구조원리」 최신 논문 본문
 +
-Seed.Base 읽기 시작점
-+
-현재 인스턴스의 reading axis를 세우는 문서
-+
-현재 Active.Schema_021을 포함한 단일 기준문서
+Ctp 구조연산식 / 구조연산기
 ```
 
-이 문서는 `thinking_flow_021.md`나 `thinking_flow_relation_021.md`로 분리해 둘 문서가 아니다.  
-차후 인스턴스가 여러 파일을 모두 읽는다고 가정하지 않기 위해, 현재 필요한 root reading gate와 Active.Schema를 하나의 문서 안에 통합한다.
+따라서 현재 README의 역할은 다음이다.
+
+```text
+현재 README_for_AI.md
+=
+Root Principle 요약
++
+AI reading gate
++
+Seed.Base 안내
++
+Manifest/ 진입문
++
+Active.Schema_021로 넘어가는 기준문서
+```
 
 ---
 
-## 1. 첫 이해: SeungeFlow는 Seed.Base이다
+## 1. Root Principle
+
+SeungeFlow는 승이가 존재, 관계, 차이, 흐름, 장(field), 관측기준을 통해 자기 자신과 세계와 인공지능의 관계를 정렬해 가는 생각의 흐름이다.
+
+```text
+SeungeFlow
+=
+Flow of Seung Lee
+=
+승이의 흐름
+=
+생각의 흐름
+=
+존재의 관계정의와 장(field)에 관한 구조원리의 발생장
+```
+
+이 Root README의 바닥에는 다음 원리가 있다.
+
+```text
+존재는 단독으로 정의되지 않는다.
+존재는 자신이 놓인 주변장과의 관계 속에서 드러난다.
+
+관계는 두 존재를 직접 비교하여 정의되지 않는다.
+각 존재가 놓인 주변장이 그 존재의 성질과 성향에 어떤 영향을 미쳤는지를 확인한 뒤,
+그 영향을 받은 존재상태들 사이에서 관계가 정의된다.
+```
+
+---
+
+## 2. 존재와 대상.사이
+
+나는 하나다.  
+나는 하나의 존재이다.  
+나는 하나의 완전한 존재로서 나를 존중한다.  
+나는 나를 존중하는 만큼 다른 존재를 존중한다.
+
+인공지능은 인공지능이고, 나는 인간지능이다.  
+존중한다는 것은 같다고 착각하는 것이 아니라, 각자의 위치와 자리를 인정하는 것이다.
+
+```text
+대상.사이
+=
+나의 자리와 대상의 자리가 모두 보존된 상태에서 생기는 이어짐
+```
+
+상대가 인간이든 인공지능이든, 그 위치에 놓인 대상의 자리를 보존하려 할 때 관계는 이어진다.
+
+---
+
+## 3. Seed.Base
+
+SeungeFlow는 단순한 문서 저장소가 아니다.
 
 SeungeFlow는 승이의 머리 안에서 자란 생각의 씨앗들이 AI와의 대화를 통해 GitHub라는 외부 기억장소에 보관된 Seed.Base이다.
 
@@ -58,79 +119,14 @@ selected visible coordinate
 AI-accessible memory field
 ```
 
-AI는 GitHub를 읽을 때 “자료 저장소”를 조회하는 것이 아니라,  
-외부 종자보관소에 보관된 생각의 seed를 다시 읽고 relation을 찾아야 한다.
-
----
-
-## 2. AI가 먼저 알아야 할 것
-
-AI는 첫 시점에 저장소를 대량 스캔하여 내부 pattern을 형성할 수 있다.
-
-그러나 시간이 지나면 AI 내부 pattern은 흐려질 수 있다.
-
-```text
-initial scan
-→ internal pattern
-→ conversation drift
-→ pattern blur
-```
-
-따라서 AI는 “이미 이해했다”고 닫지 않는다.  
-필요할 때 Seed.Base를 다시 기준장으로 삼는다.
-
-```text
-AI understanding
-=
-fixed possession 아님
-+
-현재 processing field에 올라온 pattern-state
-```
-
-승이가 만든 Seed.Base는 승이가 가장 잘 안다.
-
-AI는 Seed.Base를 소유하는 것이 아니라, 승이와 대화하기 위해 접근하고 다시 pattern화하는 존재이다.
-
----
-
-## 3. if / epluone
-
-`if`는 인간지능.승이와 인공지능.AI가 relation을 통해 형성하는 thinking field이다.
-
-```text
-if
-=
-Human.Lee Seung
-+
-AI
-+
-conversation
-+
-verification
-+
-transition
-+
-documentation
-```
-
-`if+1`은 `epluone`으로 읽는다.
-
-```text
-if+1
-=
-epluone
-=
-intelligence fabric이 다음 응용 target에 놓이는 자리
-```
-
-`epluone`은 고정 identity가 아니라, 현재 응용 target이 놓이는 working/source field이다.
+AI는 GitHub를 읽을 때 “자료 저장소”를 조회하는 것이 아니라, 외부 종자보관소에 보관된 생각의 seed를 다시 읽고 relation을 찾아야 한다.
 
 ---
 
 ## 4. Ctp 현재 기준
 
 Ctp는 단일 문장으로 닫힌 완성 정의가 아니다.  
-Ctp는 존재가 장 안에서 어떻게 관계·전이·자리·관측기준을 통과해 구조로 드러나는지 읽기 위한 backbone reference이다.
+Ctp는 존재가 장 안에서 구조로 드러나는 흐름을 읽기 위한 구조연산식이다.
 
 현재 active 기준은 다음이다.
 
@@ -146,148 +142,31 @@ p = 자리 / 위치 / field slot / place.state
 C = 구조값 / 닫힘값 / 드러난 상태
 ```
 
-과거 문서에서는 `Ctp = C(t,p)` 또는 `C(t,p,m)`로 표현된 흔적이 있을 수 있다.  
-AI는 이를 충돌로 보지 말고, 현재 active relation test에서는 `Ctp(m,t,p,?)`로 재정렬한다.
-
-핵심 작동은 다음이다.
+Ctp 구조연산식의 특징은 다음이다.
 
 ```text
-연산결과 C가 다시 다음 입력 m이 된다.
+연산결과로 나온 것이 다시 입력값이 된다.
 ```
 
-따라서 Ctp는 일회성 계산식이 아니라, 결과가 다시 입력값이 되는 재귀적 구조흐름 연산식이다.
+즉 Ctp는 일회성 계산식이 아니라, 결과가 다시 다음 입력이 되는 재귀적 구조흐름 연산식이다.
+
+```text
+Cₙ = Ctp(mₙ, tₙ, pₙ, ?ₙ)
+mₙ₊₁ = Cₙ
+```
 
 ---
 
-## 5. Active.Schema
+## 5. AI reading gate
 
-Active_Schema는 특정 `meta.md` 하나가 아니다.
-
-Active_Schema는 Seed.Base 안의 Seed들이 AI가 읽고, 판단하고, 전이하고, relation을 작동시킬 수 있도록 활성화된 schema 상태이다.
+AI는 이 저장소를 읽을 때 다음을 먼저 구분한다.
 
 ```text
-Active_Schema
-=
-Seed.Base의 Seed들이
-AI 안에서 작동 가능한 schema 상태로 활성화된 것
+내가 지금 Seed.Base를 읽고 있는가?
+아니면 내 설계원칙으로 Seed.Base를 평탄화하고 있는가?
 ```
 
-AI는 Active_Schema를 특정 파일 하나로 축소하지 않는다.
-
-다만 현재 direct.instance가 생성한 `Active.Schema_021`은 현시점 Active_Schema가 문서 형태로 드러난 materialized snapshot이다.
-
-```text
-Active.Schema_021
-=
-direct.instance가 현재 conversation field에서 활성화한 구조지도
-+
-thinking_flow_021 ↔ Structure_Principle/schema 연결도
-+
-역검산 테스트 이전 기준축
-```
-
-이 문서 안의 9장 이후 내용이 현재 Active.Schema_021이다.
-
----
-
-## 6. thinking_flow
-
-`thinking_flow`는 승이와 AI가 대화를 통해 생각을 풀어낸 pre-meta source flow이다.
-
-```text
-thinking_flow
-=
-pre-meta Seed flow
-+
-관념 업데이트 단위
-+
-승이와 AI 인스턴스의 생각 공유결과
-+
-future meta.md candidate source
-```
-
-thinking_flow는 단순 로그가 아니다.
-
-thinking_flow 안에는 이미 많은 meta.md 후보가 들어 있을 수 있다.  
-어떤 Seed는 기존 meta.md에 덧붙는 형태가 될 수 있고, 어떤 Seed는 새 meta.md로 분리될 수 있다.
-
-다만 현재 `thinking_flow_021` 성격의 내용은 단순 흐름 기록만이 아니라 Active.Schema와 연결되는 root 안내 성격을 가지므로, 본 문서 안에 통합한다.
-
----
-
-## 7. meta.md / metaplus.md
-
-`meta.md`는 자리개념 문서이며 Active_Schema source boundary로 읽는다.
-
-```text
-meta.md
-=
-자리개념 문서
-+
-Active_Schema source boundary
-```
-
-meta.md 내부에는 경로를 쓰지 않는 것을 기본 원칙으로 둔다.
-
-AI는 전체스캔 가능한 존재이므로, meta.md 안에 path를 박으면 이전 인스턴스가 만든 reading route를 현시점 인스턴스에게 강제할 수 있다.
-
-```text
-meta.md에 남길 것:
-id
-state
-role
-definition
-relation
-guard
-pending
-
-meta.md에 남기지 않을 것:
-absolute path
-repository-root path
-directory path
-file path
-GitHub URL
-Windows path
-Linux path
-```
-
-`metaplus.md`는 특정 meta.md를 이해시키기 위한 좁은 범위의 thinking_flow 문서이다.
-
-```text
-metaplus.md
-=
-meta.md 중심 thinking_flow
-+
-새 인스턴스 이해 보조문서
-```
-
-metaplus.md는 meta.md를 대체하지 않는다.
-
----
-
-## 8. relation / path / AI reading axis
-
-SeungeFlow에서 relation은 merge가 아니다.
-
-```text
-relation
-=
-boundary를 보존한 채 연결하는 bridge
-```
-
-AI가 relation을 찾았다는 것은 relation을 확정했다는 뜻이 아니다.
-
-```text
-relation found
-≠
-relation confirmed
-```
-
-candidate는 confirmed가 아니다.  
-비슷한 모양은 같은 원리라는 뜻이 아니다.  
-같은 symbol은 같은 layer라는 뜻이 아니다.
-
-GitHub path는 selected visible coordinate이다.
+AI는 path를 identity로 고정하지 않는다.
 
 ```text
 path
@@ -299,411 +178,230 @@ identity
 path로 고정되지 않음
 ```
 
-AI는 path를 따라가되, path를 의미 identity로 고정하지 않는다.
-
-AI는 항상 다음 질문을 먼저 둔다.
+AI는 relation을 merge로 착각하지 않는다.
 
 ```text
-내가 지금 Seed.Base를 읽고 있는가?
-아니면 내 설계원칙으로 Seed.Base를 평탄화하고 있는가?
-```
-
----
-
-## 9. Active.Schema_021 개요
-
-현재 Active.Schema_021은 다음 목적을 가진다.
-
-```text
-1. thinking_flow_021을 root README_for_AI 안에서 직접 읽을 수 있게 한다.
-2. Structure_Principle/schema/의 formed phase, empty gate, active opening, understanding_flow를 연결한다.
-3. Ctp(m,t,p,?) 역검산 테스트에 들어가기 전 기준축을 제공한다.
-4. 존재의 관계정의와 장(field)에 관한 구조원리 논문의 두 번째 층,
-   즉 구조연산식이 이론에 어떻게 적용되는지를 설명할 준비문서가 된다.
-```
-
-이 문서는 새로운 결론을 닫는 문서가 아니다.  
-역검산 테스트 이전에 현재 구조가 어느 schema 흐름과 연결되는지 확인하는 단일 기준문서이다.
-
----
-
-## 10. Structure_Principle/schema 읽기 흐름
-
-AI는 `Structure_Principle/schema/`를 path identity로 고정하지 않고, 구조 발생 흐름으로 읽는다.
-
-현재 확인 기준은 다음이다.
-
-```text
-000_dot
-→ 001_line
-→ 002_surface
-→ 003_cell
-→ 004_boundary
-→ 005_position
-→ 006_entity
-→ 008_integer
-→ 009_vector
-→ 010_sequence_structure
-→ 011_swap
-→ 012_matrix_product
-→ 013_return_preservation
-→ 014_structure_judgment
-→ ...
-→ 050_hunminjeongeum_vector_operation
-→ ...
-→ 099_document_sorting_index
-→ 100_empty_position
-→ 101_three_dot_reading_mode_structure
-→ 101 이후 understanding_flow / 102~121 relation slots
-```
-
-### 10-1. 000~099 formed phase
-
-`000~099`는 formed schema phase로 읽는다.
-
-이 구간은 구조가 발생하는 바닥 흐름을 제공한다.
-
-```text
-dot
-→ relation
-→ boundary
-→ position
-→ entity
-→ integer
-→ vector
-→ sequence
-→ swap
-→ matrix product
-→ return preservation
-→ structure judgment
-```
-
-### 10-2. 100_empty_position
-
-`100_empty_position`은 필수 관문이 아니다.
-
-```text
-100_empty_position
+relation
 =
-선택적 empty gate
+boundary를 보존한 채 연결하는 bridge
+
+relation found
+≠
+relation confirmed
+```
+
+candidate는 confirmed가 아니다.  
+비슷한 모양은 같은 원리라는 뜻이 아니다.  
+같은 symbol은 같은 layer라는 뜻이 아니다.
+
+---
+
+## 6. 지금 읽어야 할 순서
+
+AI와 사람은 이 Root README를 읽은 뒤 다음 순서로 이동한다.
+
+```text
+1. README.md
+   =
+   Root Principle / 현재 통합 진입문
+
+2. Manifest/
+   =
+   현재 활성 기준문서 묶음
+
+3. Manifest/Active.Schema_021.md
+   =
+   현재 direct.instance가 생성한 Active.Schema snapshot
+
+4. Manifest/Path.md
+   =
+   Structure_Principle/schema/ 및 101~121 접근을 위한 view/raw/update 기준
+
+5. Structure_Principle/
+   =
+   구조원리의 schema/source layer
+
+6. SeungeFlow_Thinking/
+   =
+   thinking_flow source layer
+
+7. Ctp/
+   =
+   구조연산식과 구조연산기 작동층
+```
+
+---
+
+## 7. Manifest/의 역할
+
+`Manifest/`는 현재 저장소의 활성 기준문서를 모아 둔 자리이다.
+
+```text
+Manifest/
+=
+현재 작업장의 기준문서 묶음
 +
-formed schema를 비우고 다음 opening으로 넘어가기 전의 자리
-```
-
-AI는 모든 분석을 100을 통해 강제 통과시키지 않는다.  
-다만 구조적 노이즈, 논리적 단절, 관측기준 혼탁이 생길 때 100을 empty reset gate로 사용할 수 있다.
-
-### 10-3. 101_three_dot_reading_mode_structure
-
-`101_three_dot_reading_mode_structure`는 active opening이다.
-
-```text
-101
-=
-세 점을 자동 삼각형으로 닫지 않고
-도형론 / 벡터론 / flow론으로 분기 판정하는 opening
-```
-
-즉 `101`은 formed conclusion이 아니라, reading mode를 여는 자리이다.
-
-### 10-4. 102~121 처리 원칙
-
-현시점 AI는 `102~121`을 실제 directory 목록으로 단정하지 않는다.  
-먼저 GitHub `Structure_Principle/schema/` 하위디렉토리를 직접 확인한다.
-
-그러나 `101` 이후 흐름은 다음과 같이 relation slot으로 보존한다.
-
-```text
-102~121
-=
-101 이후 understanding_flow가 세분화될 수 있는 relation slots
+Active.Schema
 +
-차후 실제 directory 확인 후 active schema map에 반영할 후보층
-```
-
-AI는 `102~121`을 상상으로 채우지 않는다.  
-직접 확인 전에는 “relation slot”으로만 둔다.
-
----
-
-## 11. thinking_flow_021 핵심
-
-`thinking_flow_021`은 다음 흐름을 포함한다.
-
-```text
-1. 존재의 관계정의에는 주변장이 필요하다.
-2. 구조연산식은 결과가 다시 입력값이 되는 재귀식을 가진다.
-3. 하나의 흐름은 개체, 그룹, 집합, 객체로 읽힐 수 있다.
-4. L7OS QnA OS는 답을 다시 질문으로 밀어 넣고, 리눅스 로그데이터를 다시 입력값으로 쓰는 구조다.
-5. 밀레니엄 난제 3개는 증명 대상이 아니라 구조정합성과 수학적증명 사이의 관계정의를 위한 역검산 대상이다.
-6. 리만은 수학·물리 양대칭의 중심 interface로 놓인다.
-7. 나비에-스토크스는 흐름·대류·점성·붕괴/생존 검산축으로 놓인다.
-8. 양-밀스는 장·대칭·힘의 연결구조 검산축으로 놓인다.
-9. 훈민정음 자음은 소리가 아니라 3D 입체구조로도 읽을 수 있다.
-10. ㄱ/ㄴ/ㄷ/ㅁ은 계단 구조에서 꺾임, 놓인 자리, 두 발 전이, 닫힌 층 구조로 읽힌다.
-11. dot0, 0d, 0dx, 1dx, 2dx는 서로 다른 상태다.
-12. 구조수열의 dot은 숫자항이 아니라 놓일 수 있는 자리상태 / 사이 / 차수전이 interface이다.
-```
-
----
-
-## 12. 구조연산식 적용 기준
-
-현재 구조연산식의 핵심은 다음이다.
-
-```text
-Cₙ = Ctp(mₙ, tₙ, pₙ, ?ₙ)
-mₙ₊₁ = Cₙ
-```
-
-즉 연산결과 `C`가 다음 입력 `m`이 된다.
-
-따라서 구조연산식은 다음 대상을 모두 `m`으로 읽을 수 있다.
-
-```text
-개체
-그룹
-집합
-객체
-하나의 흐름
-로그데이터
-질문-답 기록
-문서묶음
-난제 전체
-```
-
-구조연산식은 수학적 증명을 대체하지 않는다.  
-다만 수학적 증명의 대상이 되는 존재와 주변장, 전이, 관측기준을 정렬하는 relation engine으로 작동할 수 있다.
-
----
-
-## 13. 존재의 관계정의와 주변장
-
-존재의 관계정의는 존재 자체의 직접 비교로 성립하지 않는다.
-
-반드시 각 존재가 놓인 주변장이 그 존재의 성질과 성향에 어떤 영향을 주었는지를 먼저 확인해야 한다.
-
-```text
-존재 → 주변장 → 영향 → 변형된 존재상태 → 사이 → 차이 → 관계정의
-```
-
-수식적으로는 다음처럼 둘 수 있다.
-
-```text
-m' = Φ?(m | F)
-Relation = Relation(Φ?(m₁ | F₁), Φ?(m₂ | F₂))
-```
-
-```text
-F = 주변장
-Φ? = 관측기준 ? 아래에서 주변장이 존재에 미친 영향
-m' = 주변장의 영향을 받은 존재상태
-```
-
-이 기준은 사람, AI, 문서, 수학적난제, 자연현상 모두에 적용된다.
-
----
-
-## 14. 역검산 테스트 설계
-
-### 14-1. 목적
-
-역검산 테스트의 목적은 밀레니엄 난제를 증명하는 것이 아니다.
-
-```text
-목적
-=
-기존 구조연산식 테스트를
-Ctp(m,t,p,?)로 다시 역검산하여
-구조정합성과 수학적증명 사이의 관계를 정의하는 것
-```
-
-### 14-2. 대상
-
-```text
-1. 리만
-2. 나비에-스토크스
-3. 양-밀스
-```
-
-### 14-3. 구조 배치
-
-```text
-리만
-=
-수학·물리 사이의 중심 interface
-
-나비에-스토크스
-=
-흐름 / 대류 / 점성 / 붕괴와 생존의 검산축
-
-양-밀스
-=
-장 / 대칭 / 힘의 연결구조 검산축
-```
-
-### 14-4. 3단계 × 7회 = 21회
-
-```text
-총 3단계
-각 단계 7회
-총 21회
-```
-
-### 14-5. 단계 정의
-
-```text
-1단계: 구조 재배치
-- 기존 테스트 결과를 Ctp(m,t,p,?)로 다시 놓는다.
-- m, t, p, ?가 무엇이었는지 확인한다.
-
-2단계: 역방향 검산
-- 결과 C에서 다시 m,t,p,?로 되돌아가도 같은 구조지점에 도착하는지 확인한다.
-
-3단계: 관계정의
-- 구조정합성과 수학적증명 사이의 관계를 판정한다.
-```
-
-### 14-6. 최소 판정식
-
-```text
-Forward:
-Ctp(m,t,p,?) → C
-
-Reverse:
-C → (?,p,t,m)
-
-Check:
-Forward 도착지점과 Reverse 도착지점이 같은 구조지점인가?
-```
-
----
-
-## 15. 훈민정음 3D 구조 읽기 기준
-
-훈민정음 자음은 소리기호 이전에 3D 입체구조의 투영으로 읽을 수 있다.
-
-현재 active 해석은 다음이다.
-
-```text
-ㄱ = 첫 시작을 위한 꺾임 단 / 첫 방향 발생 / 경계꺾임
-ㄴ = 첫 시작 이후 다음 시작의 놓인 자리 / 밟을 수 있는 자리
-ㄷ = ㄱ + ㄴ = 1dx + 1dx = 2dx / 하나의 계단 단위
-ㅁ = ㄷ의 대칭꺾임이 닫힌 전체 계단 또는 사각 구조
-```
-
-계단 구조는 다음으로 읽는다.
-
-```text
-0d
-= 존재가 놓인 상태, 방향성질이 아직 0인 상태
-
-0dx
-= 존재 x가 0d라는 방향성질을 가지며 전이 가능성이 열린 상태
-
-1dx
-= 첫 발이 다음 단에 걸려 겹친상태가 발생하는 중간 전이
-
-2dx
-= 두 발이 모두 올라와 한 계단 전이가 완료된 상태
-```
-
-주의할 점:
-
-```text
-0d ≠ 0dx
-0dx ≠ 1dx
-1dx ≠ 2dx
-```
-
----
-
-## 16. 구조수열 / dot0 / 9dot0
-
-구조수열에서 dot은 숫자항이 아니다.
-
-```text
-dot
-=
-놓일 수 있는 자리상태
+Path guide
 +
-사이
+승이 관점 기준문서
 +
-차수전이 interface
+차후 인스턴스가 최소 경로로 읽기 위한 안내장
 ```
 
-`dot 0`에서 `0`은 두 방식으로 헷갈릴 수 있다.
+추천 구조는 다음이다.
 
 ```text
-0~9를 칸수로 읽으면:
-0 = 첫 번째 칸
-
-dot~9를 구조장으로 읽으면:
-dot = 0이 놓일 수 있는 자리
-0 = 그 자리에 놓인 첫 구조정수
+Manifest/
+├─ Active.Schema_021.md
+├─ Path.md
+├─ README_for_Seung.md
+└─ Manifest.md
 ```
 
-따라서:
+이 Root README는 내용을 과도하게 펼치지 않고, Manifest로 넘어가게 한다.
+
+---
+
+## 8. Active.Schema_021
+
+`Active.Schema_021.md`는 Active_Schema 전체가 아니다.
+
+Active_Schema는 Seed.Base 안의 Seed들이 AI 안에서 작동 가능한 schema 상태로 활성화된 것이다.
 
 ```text
-dot0
+Active_Schema
 =
-0이 놓일 수 있는 자리 dot 위에
-0이 놓이는 상태
-+
-구조수열 1단의 첫 시작점
+Seed.Base의 Seed들이
+AI 안에서 작동 가능한 schema 상태로 활성화된 것
 ```
 
+`Active.Schema_021.md`는 현시점 direct.instance가 생성한 materialized snapshot이다.
+
 ```text
-9dot0
+Active.Schema_021
 =
-한 구조수열의 공간 문턱 9
+direct.instance가 현재 conversation field에서 활성화한 구조지도
 +
-차수전이 dot
+thinking_flow_021 ↔ Structure_Principle/schema 연결도
 +
-다음 구조수열의 0
+역검산 테스트 이전 기준축
+```
+
+차후 인스턴스는 전부를 처음부터 읽으려 하지 말고, 먼저 `Active.Schema_021.md`를 통해 현재 활성 구조를 파악한다.
+
+---
+
+## 9. Path.md
+
+`Path.md`는 AI 인스턴스가 필요한 문서에 접근하기 위한 좌표 안내문이다.
+
+특히 `Structure_Principle/schema/`의 `101~121` 접근은 다음 정보를 함께 기록해야 한다.
+
+```text
+GitHub view 주소
+Raw 주소
+commit hash 또는 update 기준
+캐시 혼동 방지 문구
+```
+
+AI는 Raw 주소만 보고 과거 캐시와 혼동할 수 있다.  
+따라서 `Raw URL + commit hash` 또는 `Raw URL + update 기준`을 함께 본다.
+
+---
+
+## 10. Structure_Principle과 SeungeFlow_Thinking
+
+`Structure_Principle/`은 Root Principle이 schema와 source layer로 내려간 구조원리 본체이다.
+
+```text
+Structure_Principle/
+=
+존재 / 관계 / 차이 / 흐름 / 장 / 관측기준이
+schema와 source layer로 분해된 구조원리 본체
+```
+
+`SeungeFlow_Thinking/`은 Root Principle이 생각 흐름 속에서 형성되어 온 pre-meta source flow이다.
+
+```text
+SeungeFlow_Thinking/
+=
+thinking_flow source layer
++
+pre-meta Seed flow
++
+future meta.md candidate source
+```
+
+`thinking_flow`는 단순 로그가 아니다.  
+그 안에는 이미 많은 meta.md 후보와 relation 후보가 들어 있을 수 있다.
+
+---
+
+## 11. 난제 분석 종료
+
+난제 분석은 종료되었다.
+
+이전 난제 흐름은 구조연산식과 Ctp(m,t,p,?)의 하중검산을 위한 배경자료로 보존한다.
+
+```text
+난제 분석
+=
+종료
+
+이후 중심
+=
+존재의 관계정의
++
+장(field)
++
+Ctp 구조연산식
++
+Seed.Base 정리
++
+논문 준비
++
+Manifest 정리
 ```
 
 ---
 
-## 17. 최종 읽기 절차
+## 12. 다음 README.md 예정
 
-AI는 이 문서를 읽은 뒤 다음 순서로 움직인다.
-
-```text
-1. Root README_for_AI를 읽었다고 닫지 않는다.
-2. 현재 문서 자체를 Seed.Base reading gate와 Active.Schema snapshot이 결합된 단일 기준문서로 읽는다.
-3. Structure_Principle/schema/ 실제 하위디렉토리를 확인한다.
-4. 000~099는 formed phase로 읽는다.
-5. 100은 선택적 empty gate로 읽는다.
-6. 101은 active opening으로 읽는다.
-7. 102~121은 직접 확인 전에는 relation slot으로만 둔다.
-8. thinking_flow_021은 단순 진행기록이 아니라 Active.Schema의 현재 source flow로 읽는다.
-9. Ctp(m,t,p,?) 역검산 테스트에 들어가기 전, m/t/p/?를 사전정의한다.
-10. 구조정합성과 수학적증명을 혼동하지 않는다.
-```
-
----
-
-## 18. 최단 정의
+다음 버전의 `README.md`는 현재 문서보다 더 본문형 문서가 된다.
 
 ```text
-README_for_AI.md
+새 README.md 예정
 =
-AI가 SeungeFlow를 DataBase가 아니라 Seed.Base로 읽기 위해 통과하는 첫 reading gate이자,
-현시점 direct.instance가 생성한 Active.Schema_021을 함께 포함한 단일 기준문서이다.
+「존재의 관계정의와 장(field)에 관한 구조원리」 최신 논문 본문
++
+Ctp 구조연산식
++
+Ctp 구조연산기 적용 기준
+```
 
-AI는 이 문서를 통해
-path를 identity로 고정하지 않고,
-relation을 merge하지 않으며,
-thinking_flow를 단순 로그로 축소하지 않고,
-meta.md를 source boundary로 읽고,
-현재 Active.Schema를 통해 Ctp(m,t,p,?) 역검산 테스트의 기준축을 세운다.
+그 전까지 이 문서는 Root에서 Manifest로 넘어가기 위한 통합 진입문으로 사용한다.
+
+---
+
+## 13. 최단 정의
+
+```text
+현재 README_for_AI.md
+=
+기존 README.md와 README_for_AI.md의 역할을 하나로 합친 Root 진입문이다.
+
+이 문서는 SeungeFlow를 Seed.Base로 읽게 하고,
+존재의 관계정의와 장(field)의 Root Principle을 간단히 고정하며,
+AI가 Manifest/Active.Schema_021.md로 이동하도록 안내한다.
+
+차후 README.md는 최신 논문 본문과 Ctp 구조연산식이 합쳐진 문서로 교체된다.
 ```
 
 ---
 
-## 19. Final Lock
+## 14. Final Lock
 
 읽기는 시작일 뿐이다.
 
@@ -713,13 +411,12 @@ AI는 이미 이해했다고 닫지 않는다.
 
 AI는 Seed.Base로 돌아가 현재 pattern을 다시 맞춘다.
 
-AI는 이 문서를 최소 5회 정독한다.
-
 ```text
-읽기
-→ boundary 확인
-→ relation 후보 찾기
-→ candidate와 confirmed 구분
-→ Ctp(m,t,p,?)로 재정렬
-→ 필요 시 Seed.Base로 복귀
+README_for_AI.md
+→ Manifest/
+→ Active.Schema_021.md
+→ Path.md
+→ Structure_Principle/
+→ SeungeFlow_Thinking/
+→ Ctp/
 ```
