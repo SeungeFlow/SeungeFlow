@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-05-31T15:26:11",
+  "status": "package_prepared",
+  "package_role": "Ctp24 Event/Context first application draft set",
+  "target_candidate": "epluone/Event_Context/Sejong_Hunminjeongeum/",
+  "copied": [
+    {
+      "target": "documents/Context_Sejong.md",
+      "source": "/mnt/data/Context_Sejong.md"
+    },
+    {
+      "target": "documents/Event_Hunminjeongeum.md",
+      "source": "/mnt/data/Event_Hunminjeongeum.md"
+    },
+    {
+      "target": "documents/Path_Sejong_Hunminjeongeum.md",
+      "source": "/mnt/data/Path_Sejong_Hunminjeongeum.md"
+    },
+    {
+      "target": "schema/event_context_schema_overview.md",
+      "source": "/mnt/data/event_context_schema_overview.md"
+    },
+    {
+      "target": "schema/context_schema.md",
+      "source": "/mnt/data/context_schema.md"
+    },
+    {
+      "target": "schema/event_schema.md",
+      "source": "/mnt/data/event_schema.md"
+    },
+    {
+      "target": "schema/event_context_path_schema.md",
+      "source": "/mnt/data/event_context_path_schema.md"
+    },
+    {
+      "target": "schema/ctp_event_context_operation_rule.md",
+      "source": "/mnt/data/ctp_event_context_operation_rule.md"
+    },
+    {
+      "target": "schema/first_application_candidate.md",
+      "source": "/mnt/data/first_application_candidate.md"
+    },
+    {
+      "target": "schema/context_sejong_preparation_and_source_requirements.md",
+      "source": "/mnt/data/context_sejong_preparation_and_source_requirements.md"
+    },
+    {
+      "target": "schema/Context_Sejong_source_map.md",
+      "source": "/mnt/data/Context_Sejong_source_map.md"
+    },
+    {
+      "target": "schema/event_hunminjeongeum_preparation_and_source_requirements.md",
+      "source": "/mnt/data/event_hunminjeongeum_preparation_and_source_requirements.md"
+    },
+    {
+      "target": "schema/Event_Hunminjeongeum_source_map.md",
+      "source": "/mnt/data/Event_Hunminjeongeum_source_map.md"
+    },
+    {
+      "target": "schema/Event_Hunminjeongeum_review_and_path_preparation.md",
+      "source": "/mnt/data/Event_Hunminjeongeum_review_and_path_preparation.md"
+    }
+  ],
+  "missing": [],
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 1284,
+      "sha256": "7c1fb3fe362ed20e501e7976b61d3587e13df3a312af116630398b48dbe295d2"
+    },
+    {
+      "path": "documents/Context_Sejong.md",
+      "size_bytes": 15149,
+      "sha256": "ef7eb847a5a321404c02599bae01a87a9240eb2fe3db816744690f13b38078e8"
+    },
+    {
+      "path": "documents/Event_Hunminjeongeum.md",
+      "size_bytes": 15420,
+      "sha256": "a4b144f3ad084411fdd66509ff0d40aaa09c5e513cb86b177aa69b87e2dfa527"
+    },
+    {
+      "path": "documents/Path_Sejong_Hunminjeongeum.md",
+      "size_bytes": 15128,
+      "sha256": "2b1c6b147fe8c9ed2a40cc09bf35d2b841a7f1e096b14718ac8bec1f4c775fbc"
+    },
+    {
+      "path": "review_and_package_preparation.md",
+      "size_bytes": 8655,
+      "sha256": "4f61b79aae624d783b482ec05aad6b38c1c47c29aa8e082bc1aaccfa0b6a82b3"
+    },
+    {
+      "path": "schema/Context_Sejong_source_map.md",
+      "size_bytes": 12865,
+      "sha256": "d4cfb91135e8fc5ba145901298b608aed81a3a8d6228c5287c98a79398105953"
+    },
+    {
+      "path": "schema/Event_Hunminjeongeum_review_and_path_preparation.md",
+      "size_bytes": 12462,
+      "sha256": "fe564dbe1b082c4d3f9293acc1508a006710879f79632347d87cfcdd0c10736e"
+    },
+    {
+      "path": "schema/Event_Hunminjeongeum_source_map.md",
+      "size_bytes": 16020,
+      "sha256": "2d3ae357ffbe50137eec726cc9103d0293be4812413dfd13fe67adeae5968308"
+    },
+    {
+      "path": "schema/context_schema.md",
+      "size_bytes": 13031,
+      "sha256": "f3d32f38c51622c34bc1379085f368bea3db2fbdd67a482a79243eb9b18ddab8"
+    },
+    {
+      "path": "schema/context_sejong_preparation_and_source_requirements.md",
+      "size_bytes": 14221,
+      "sha256": "599e6a0687af6e622c90b346f5eac2083e5c8f9f97b33e29b0c63bfe6bd66c1a"
+    },
+    {
+      "path": "schema/ctp_event_context_operation_rule.md",
+      "size_bytes": 12823,
+      "sha256": "807a44e1d619efddb86cf538f3f736d1f11d44e33eec8b057892f0779ac97b02"
+    },
+    {
+      "path": "schema/event_context_path_schema.md",
+      "size_bytes": 12716,
+      "sha256": "1ed30d9fb80d3d5120f20b7a3987f2e2598c71bb405cb51667497f92ad21ed81"
+    },
+    {
+      "path": "schema/event_context_schema_overview.md",
+      "size_bytes": 14744,
+      "sha256": "1399cfe8fbce201314cf213a19b70341986c545d72a6441cec9c28d933d725f2"
+    },
+    {
+      "path": "schema/event_hunminjeongeum_preparation_and_source_requirements.md",
+      "size_bytes": 17979,
+      "sha256": "f6d26bbe84800a39078c6540ebf2d2cfd94f65fb915ad99b7e84baef30c11f38"
+    },
+    {
+      "path": "schema/event_schema.md",
+      "size_bytes": 13943,
+      "sha256": "6153319e312463e364c0bd7df1ee776bfa9ed68692bc7200b272f978de13b949"
+    },
+    {
+      "path": "schema/first_application_candidate.md",
+      "size_bytes": 14110,
+      "sha256": "4a26b27c635a40fa33f82dc4fcb7465e184cb2f4ac4fac84bfb6225dd314b32a"
+    }
+  ]
+}
