@@ -1,5 +1,7 @@
 # Core.md
 
+> 언어 기준: 한국어 원문
+
 > main.branch Manifest candidate  
 > 상태: 후보 초안  
 > 기준: active_schema OS / core.meta.md  
