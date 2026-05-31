@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-05-31T16:32:24",
+  "status": "ready_for_gpt_github_handoff",
+  "package_name": "Sejong_Hunminjeongeum_Verification_Update_Package",
+  "target_branch": "epluone",
+  "target_path": "Event_Context/Sejong_Hunminjeongeum/",
+  "update_type": "source verification update + Path update draft",
+  "c_plus_1_status": "provisional_candidate_not_final_judgment",
+  "copied": [
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/Sejong_Hunminjeongeum_operation_judgment.md",
+      "source": "/mnt/data/Sejong_Hunminjeongeum_operation_judgment.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/documents/Path_Sejong_Hunminjeongeum.md",
+      "source": "/mnt/data/Path_Sejong_Hunminjeongeum_update_draft.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/source_verification/Sejong_Hunminjeongeum_source_verification_0001.md",
+      "source": "/mnt/data/Sejong_Hunminjeongeum_source_verification_0001.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/source_verification/Context_Sejong_source_verification_0002.md",
+      "source": "/mnt/data/Context_Sejong_source_verification_0002.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/source_verification/Context_Sejong_source_verification_0003.md",
+      "source": "/mnt/data/Context_Sejong_source_verification_0003.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/source_verification/Event_Hunminjeongeum_source_verification_0002.md",
+      "source": "/mnt/data/Event_Hunminjeongeum_source_verification_0002.md"
+    },
+    {
+      "target": "Event_Context/Sejong_Hunminjeongeum/source_verification/Path_Sejong_Hunminjeongeum_source_verification_0001.md",
+      "source": "/mnt/data/Path_Sejong_Hunminjeongeum_source_verification_0001.md"
+    }
+  ],
+  "missing": [],
+  "files": [
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/Sejong_Hunminjeongeum_operation_judgment.md",
+      "size_bytes": 12591,
+      "sha256": "74e24a21184b245db9202c657b9b4ecf6ab486909e777c6fc1d7f0e165aa54de"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/documents/Path_Sejong_Hunminjeongeum.md",
+      "size_bytes": 15581,
+      "sha256": "06cb7a1b104fe7cd62b7528348669c9f1b7c05a63807b60ca356de757e23e259"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/source_verification/Context_Sejong_source_verification_0002.md",
+      "size_bytes": 13148,
+      "sha256": "46a811b54322eccd6a936a909031c9d919cd7d10fdc1b0e8fea1d2509988ee86"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/source_verification/Context_Sejong_source_verification_0003.md",
+      "size_bytes": 15661,
+      "sha256": "5c414d3dac8f65ec254cb63b8140af8e49aca97eabb3b292981944abf51955ee"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/source_verification/Event_Hunminjeongeum_source_verification_0002.md",
+      "size_bytes": 15103,
+      "sha256": "42403ba165a7cf6725a29a6ccc3caa2ba17aeda6ea92b515284dfa081267ec15"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/source_verification/Path_Sejong_Hunminjeongeum_source_verification_0001.md",
+      "size_bytes": 16409,
+      "sha256": "dc1fa0fa3aac14a965d645bb74fbdaee9910357b06a1a6fa7c216343df98c752"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/source_verification/Sejong_Hunminjeongeum_source_verification_0001.md",
+      "size_bytes": 13664,
+      "sha256": "0d2f73f9e822da001cfc6de1ad0c12586aa58052b056a68996e63f4b1fcccaa1"
+    },
+    {
+      "path": "Event_Context/Sejong_Hunminjeongeum/verification_update_README.md",
+      "size_bytes": 2728,
+      "sha256": "b7d059fca869ab2e2f6ca3c142e717bcfd1b7ed55c97257dcd5c644202e649bf"
+    },
+    {
+      "path": "gpt_github_handoff_sejong_hunminjeongeum_verification_update.md",
+      "size_bytes": 3410,
+      "sha256": "2c8ccc2c3dc1788099b223995c53321f7e040956c3d1784939040940efbae458"
+    }
+  ]
+}
