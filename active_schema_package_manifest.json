@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-05-31T07:32:15",
+  "package_name": "Ctp24_Active_Schema_Design_Package",
+  "package_dir": "/mnt/data/Ctp24_Active_Schema_Design_Package",
+  "status": "ready_for_gpt_github_handoff",
+  "copied_count": 8,
+  "missing_count": 0,
+  "copied": [
+    {
+      "path": "00_design_notes/active_schema_design_0001.md",
+      "source": "/mnt/data/active_schema_design_0001.md"
+    },
+    {
+      "path": "01_active_schema/active_schema.md",
+      "source": "/mnt/data/active_schema.md"
+    },
+    {
+      "path": "01_active_schema/package_reference.md",
+      "source": "/mnt/data/package_reference.md"
+    },
+    {
+      "path": "01_active_schema/runtime_mapping.md",
+      "source": "/mnt/data/runtime_mapping.md"
+    },
+    {
+      "path": "01_active_schema/source_mapping.md",
+      "source": "/mnt/data/source_mapping.md"
+    },
+    {
+      "path": "01_active_schema/current_rules.md",
+      "source": "/mnt/data/current_rules.md"
+    },
+    {
+      "path": "01_active_schema/core.meta.md",
+      "source": "/mnt/data/core.meta.md"
+    },
+    {
+      "path": "01_active_schema/current_path.md",
+      "source": "/mnt/data/current_path.md"
+    }
+  ],
+  "missing": [],
+  "files": [
+    {
+      "path": "00_design_notes/active_schema_design_0001.md",
+      "size_bytes": 9900,
+      "sha256": "e92b02e33b4b6cf78dbd8a6f74e83504e61e28560d8058d33bffb5f1d733d783"
+    },
+    {
+      "path": "01_active_schema/active_schema.md",
+      "size_bytes": 10609,
+      "sha256": "5bab687021084e4fa33122d86b74cf4eec8601a36e5dfa63dfa5b4d0f100f2e4"
+    },
+    {
+      "path": "01_active_schema/core.meta.md",
+      "size_bytes": 9484,
+      "sha256": "5b277928aa3974320ad83eb13dd78fc97255c779506cf7c7836949d527ef355e"
+    },
+    {
+      "path": "01_active_schema/current_path.md",
+      "size_bytes": 10738,
+      "sha256": "a7d4f8bc1aabd0f76f4204c51d8ad885669155d5cde21407b5977ff4d52cad5e"
+    },
+    {
+      "path": "01_active_schema/current_rules.md",
+      "size_bytes": 9861,
+      "sha256": "b5259f16ff110a34af998e18898b1cc83b349fa6b97ef439d271496584f478d9"
+    },
+    {
+      "path": "01_active_schema/package_reference.md",
+      "size_bytes": 6930,
+      "sha256": "7c1a8bba2f9bd3207114451522810fe626c05ff20024919bd4f7a9918a529d8b"
+    },
+    {
+      "path": "01_active_schema/runtime_mapping.md",
+      "size_bytes": 11087,
+      "sha256": "34c8dca84a5d2681fc518e4465668f31969a0f40172db968bbf2989fbbbda572"
+    },
+    {
+      "path": "01_active_schema/source_mapping.md",
+      "size_bytes": 11042,
+      "sha256": "56a2a3c1c0f6a5b85e76a136fefe500a73c515b35a8410448e95e7021cf7127a"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2390,
+      "sha256": "dd3375f9d084fa8976f2324fe54c3a5c7e7301282a3f0616c668d86450747678"
+    },
+    {
+      "path": "gpt_github_handoff_active_schema.md",
+      "size_bytes": 2835,
+      "sha256": "5d9534c0569554b52fe7e80860d2980e50e5abb07914816ac20fd2c59aee6b26"
+    }
+  ]
+}
