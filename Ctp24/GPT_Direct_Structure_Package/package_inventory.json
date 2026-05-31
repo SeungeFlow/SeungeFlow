@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-05-31T02:18:55",
+  "status": "final_zip_created",
+  "internal_root": "Ctp24_GPT_Direct_Structure_Package",
+  "total_files": 60,
+  "understanding_flow_count": 43,
+  "files": [
+    {
+      "path": "00_understanding_flow/Ctp24_0000_starting_point.md",
+      "size_bytes": 1925,
+      "sha256": "8c3d9ecf3f4e847185fa2e765c1874632cc01b38df202a1d013c28dc4cb72f09"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0001_triple_overlap_cycle.md",
+      "size_bytes": 3238,
+      "sha256": "04c950b968042e3f2d176a29a32b0d8aa60edadab8f38f51dc80884566236d42"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0002_century_orbit_volume_expansion.md",
+      "size_bytes": 5243,
+      "sha256": "cb0f06ceef376c213948367b8c6be3ad1f671b2dd9c024387a8b60a98add3820"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0003_year_orbit_365_day_line.md",
+      "size_bytes": 2890,
+      "sha256": "75dd15db970715be086e705d8105633f2653cf28314f556b1641b2c6b7fb243e"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0004_century_surface_start_zero.md",
+      "size_bytes": 4696,
+      "sha256": "62f262a4e6a5a03799c32c9900dbb1b7eaec2c37297852ede70c9ded35a83ae2"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0005_structural_sequence_dot_zero_to_nine.md",
+      "size_bytes": 4251,
+      "sha256": "b0a74658094a49a8b3670465fdfd8056128a7cd5e6f7a9316413b1f8e2689431"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0006_day_boundary_difference_between_between.md",
+      "size_bytes": 5203,
+      "sha256": "9fdd8147fc440c79a9bfd394d7ccf2360cbe03afb11a1e52cb3825881ac6da4c"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0007_one_plus_one_connected_one.md",
+      "size_bytes": 5064,
+      "sha256": "e34ac6dd30aad86757bce0e7b6df0191d5ae8851714600c9610082ca27f43044"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0008_breathing_open_state_ohlc.md",
+      "size_bytes": 5718,
+      "sha256": "a7d57e7b1603abd5b70e73329eb8d1cdfc0aeb729fa7cb90fe9599ec32d8ad94"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0009_breathing_cycle_micro_difference.md",
+      "size_bytes": 4798,
+      "sha256": "8ccc99e348ab1921e9b116710752511d7704e57154c93a58b96df994d284b0c7"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0010_perceived_time_difference_time_folding.md",
+      "size_bytes": 5136,
+      "sha256": "769b5594b5738d2a4c1de5a69ed2e33e0d99201ae6013e4808c4e06ee8ec0e30"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0011_speed_landscape_resolution_difference.md",
+      "size_bytes": 4424,
+      "sha256": "2f2b6a2b3cb9a2e94068adfbcbc280d1b97a9458891d9b8e84bafd0b0b7e3382"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0012_macro_observation_micro_observing.md",
+      "size_bytes": 3574,
+      "sha256": "467b4cf134836c445cd1f53f2bfa5d0f5c414fa731103cf4b4a396810ba6fd3c"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0013_global_century_observation_human_singularity.md",
+      "size_bytes": 6296,
+      "sha256": "250ad41fe2d42051c7fee01de8b8b3597e6b1e0f5ee5fff451cf3debd767665a"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0014_micro_observing_lineage_environment_descendant_influence.md",
+      "size_bytes": 6426,
+      "sha256": "4b95b90ce70c68f987081f054b58a66a96caab27d6d316388307117cb0576c82"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0015_m_is_not_only_human.md",
+      "size_bytes": 4599,
+      "sha256": "e4ed0332e9d3c7f3349d152816625e1c32c5fa4eb3764505617da09872f9f72f"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0016_t_is_not_only_time_flow.md",
+      "size_bytes": 4785,
+      "sha256": "9a219c507ac04c75c5f285ff90542828d5ddbb4252237b0ae2fe4e62d3982813"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0017_p_is_place_field_fabric_domain.md",
+      "size_bytes": 3691,
+      "sha256": "6a9a3f8dfea1610e31836231b95a5359bb13bf1f34605ff264a0995b9f1116bf"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0018_question_axis_explains_place.md",
+      "size_bytes": 4619,
+      "sha256": "2dbc4ce10f6b033dfb355d7ff7104da3ff5eac41e6f2481e41810d3483825d84"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0019_time_flow_connection_unit_division.md",
+      "size_bytes": 4171,
+      "sha256": "6484b6200e61be1c86a81ade9e61268f977929f3331866a2646689993eedd575"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0020_multiplication_division_scale_boundary.md",
+      "size_bytes": 6542,
+      "sha256": "670a61ea218f20cc4e9bc55a74d0e352ff51e9977ecf6f5c0ef12ea98e2cfcf9"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0021_ten_by_ten_century_matrix_scale_layer.md",
+      "size_bytes": 5912,
+      "sha256": "f86e67f63ef77d480ff730a5af07716ccd579b05791a2835a08dd21280db8077"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0022_arithmetic_direction_vector_past_future_distance.md",
+      "size_bytes": 8248,
+      "sha256": "92c6ad67bc13a5181e0c724678d9b6c190218d416835b49a297bcf57c3da2066"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0023_past_present_future_c_addition_dimension_shift.md",
+      "size_bytes": 6351,
+      "sha256": "56abe9d286a2547415c39691890d56c2d7ebc557cc75ee7d3f9e1b6c310c05d5"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0024_overall_flow_interpretation.md",
+      "size_bytes": 12538,
+      "sha256": "d552a52f5421df502eeb6d98ba5bca53966df1eb21593bed9aa84ee84719a044"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0025_horizontal_vertical_rotating_road_dimension_motion.md",
+      "size_bytes": 9946,
+      "sha256": "a54dedee4ba665dae7864c9053e2e8db654b83af0030644667bbd7e33be36d8b"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0026_force_cognition_energy_portal_transition.md",
+      "size_bytes": 11324,
+      "sha256": "734701715cd1eb399c07da5c7e541dd4ea5c101cc38864035fdc586716d2c6fc"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0027_f_e_c_horizontal_vertical_relation_core.md",
+      "size_bytes": 9281,
+      "sha256": "b3655200cf67018057781f381df8422a09105c567b7d259d90b063a9dbed6a97"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0028_matrix_multiplication_inside_one_set.md",
+      "size_bytes": 6464,
+      "sha256": "a1b5dc675b4db8abb5bda5395cb2eee9f45debca92b720adccece427ec2bf65a"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0029_ctp_horizontal_flow_vertical_structure_field.md",
+      "size_bytes": 5590,
+      "sha256": "233595040088c285e8ab1afbd6f5659c1870f3b75d75bb07725b9415b5dff3e7"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0030_fma_structural_sequence_core_principle_force.md",
+      "size_bytes": 6911,
+      "sha256": "6251b6abdb0f25264a4571331f8de408735febd9d2214b2105092848b9233f13"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0031_structural_sequence_fma_ctp_operator.md",
+      "size_bytes": 6775,
+      "sha256": "46aed2491d95fe1f9a3956e76ec83ba372cfb2f91c45bfe290ad9cc274daf636"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0032_three_layer_boundary_block_matrix_force.md",
+      "size_bytes": 8345,
+      "sha256": "db05d076cc6c37c373aa51bdb9213fb51dea95758fa42cfda56ac5bc1459bce3"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0033_ctp_fma_swap_matrix_cross_check.md",
+      "size_bytes": 6526,
+      "sha256": "caf60f25e110d8e04c771b7faa59b88d0739eaa747732058a849754a9feed150"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0034_swap_matrix_fma_into_ctp_latest_formula.md",
+      "size_bytes": 5869,
+      "sha256": "00d68b4cdf3857ec7b58ddc73abd9381de8ad00d88e7dc222577434e6ad95da2"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0035_ctp_curiosity_to_imprint_cognition_flow.md",
+      "size_bytes": 9444,
+      "sha256": "7a2d889e2f9c8789c9284961751843acc556e780f5cf634882d59b6b241ff491"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0036_ctp_decomposition_cycle_mtpq.md",
+      "size_bytes": 6915,
+      "sha256": "b24733b5d4cd04e103126e718caa76a95b9fb65408e5dddba962711014c5c6ba"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0037_boundary_schema_understanding_amplification.md",
+      "size_bytes": 9727,
+      "sha256": "61fc26ccd520b385587e74e8936fbbb9a1a9acef16ebe1e0dc832bcac5e8e104"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0038_nine_dot_zero_forming_observer_gaze.md",
+      "size_bytes": 7818,
+      "sha256": "03518bf3190d8f9e5ac4a999965a32022df1a276c86325a5493e680940cec0e5"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0039_seed_base_schema_thinking_flow_source.md",
+      "size_bytes": 6519,
+      "sha256": "e35937ffe73cd618223ea8359a773d37378b0d80d674b8889c1ace090c9ec6d4"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0040_reverse_thinking_core_word.md",
+      "size_bytes": 7307,
+      "sha256": "2fffe2a83bbd82f26b0d8520e246052528aa1486acbdacbe0d6d34a448a21d71"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0041_nine_dot_zero_reverse_condition_question_shared_area.md",
+      "size_bytes": 8952,
+      "sha256": "fa960fbcd5270e1825bf6df1ba133e24507f69456d9fd5d9dce64531ecb9a156"
+    },
+    {
+      "path": "00_understanding_flow/Ctp24_0042_relation_existence_field_multi_being_dimension_transition.md",
+      "size_bytes": 10102,
+      "sha256": "8a738829bc9573fd3390a6481a46e849703b4c16ae622eb3e5e8dedb99bf3ae8"
+    },
+    {
+      "path": "00_understanding_flow/README.md",
+      "size_bytes": 5736,
+      "sha256": "aa0dfb6f39da3d9150cf9389679aaa91722f5a6804c896411f33aa018acedc4b"
+    },
+    {
+      "path": "00_understanding_flow/understanding_flow_manifest.json",
+      "size_bytes": 14006,
+      "sha256": "a5acc10abb7b5099a3e4aa0a348073116f38092d4c77b0334a6f629bd9b9209c"
+    },
+    {
+      "path": "01_structure_core/Core.md",
+      "size_bytes": 11715,
+      "sha256": "cd3f817787f80500cb24d7f86ad6ea2353af1112863cdbe46a091ead23a13231"
+    },
+    {
+      "path": "01_structure_core/core_matrix_principle.md",
+      "size_bytes": 11861,
+      "sha256": "9374553213ae2b614fdfc626d2fbdd1f306ce209d592a1d72091610b10e15f70"
+    },
+    {
+      "path": "01_structure_core/core_notes.md",
+      "size_bytes": 5476,
+      "sha256": "7b83419842b06cb331fdac59bf60ac7b485aebcd4e8430dc040d5a56f9d34659"
+    },
+    {
+      "path": "02_path/Path.md",
+      "size_bytes": 10760,
+      "sha256": "340d4d0b601bcc0d3d261139709485506574c43d9cee851408bedd80396bccc8"
+    },
+    {
+      "path": "02_path/path_notes.md",
+      "size_bytes": 7862,
+      "sha256": "e23b1a38bf3b100190af824a3f6ade3c4fd4fd84ba9f94b4101be479a884699a"
+    },
+    {
+      "path": "02_path/path_relation_principle.md",
+      "size_bytes": 10775,
+      "sha256": "008f15483b57006575f0a74b77750621c1d7e358f6673f66c685d5ec16ee22a8"
+    },
+    {
+      "path": "03_readme_set/README.md",
+      "size_bytes": 9726,
+      "sha256": "667d8c9b4675da9fc3f4f7a470ce479bc9f993aace78477ee0f7b638e94f9bff"
+    },
+    {
+      "path": "03_readme_set/README_for_AI.md",
+      "size_bytes": 15501,
+      "sha256": "e96fb1bfe594dfef3043b7e95543e73d62f9e9eb7d4aba012aa254fbb2bdcc75"
+    },
+    {
+      "path": "03_readme_set/README_for_SeungLee.md",
+      "size_bytes": 13236,
+      "sha256": "acb24513dd6d2b9ee4c209e12f80067bf11933e26e8fc36121f76fbe2d544680"
+    },
+    {
+      "path": "04_gpt_direct_interpretation/final_zip_delivery.md",
+      "size_bytes": 502,
+      "sha256": "b452e79ab2c79957afb4cb8b4ca39e16b22dc5517a2ddeb652c7c589b2ec1a95"
+    },
+    {
+      "path": "04_gpt_direct_interpretation/gpt_direct_overall_interpretation.md",
+      "size_bytes": 12235,
+      "sha256": "ba04f2d1d7c4fb97fd811f2c0dce68119f0d236a93bdae788c7aba1e7a91d09a"
+    },
+    {
+      "path": "04_gpt_direct_interpretation/next_steps.md",
+      "size_bytes": 8876,
+      "sha256": "2a0f8913d224a13fb6eccf7c3e552127a58c872397ea73e6f2f2569ab07043d5"
+    },
+    {
+      "path": "04_gpt_direct_interpretation/package_audit_and_zip_preparation.md",
+      "size_bytes": 4257,
+      "sha256": "02574bc2aa4e56857463604d17efc4e6bbf91ae7913ba5326fec3dcf345f1621"
+    },
+    {
+      "path": "04_gpt_direct_interpretation/structure_body_formation.md",
+      "size_bytes": 8271,
+      "sha256": "3f425b5c0795bcab7f683282ba928f71973dd72b832ed3a37597ab09053f44e8"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7622,
+      "sha256": "30d89db75fd41879eb556a6e66d911571b53a01b99e031ff79d22a5f20c33181"
+    }
+  ]
+}

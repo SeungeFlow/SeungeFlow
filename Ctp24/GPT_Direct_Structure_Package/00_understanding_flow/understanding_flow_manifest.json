@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-05-31T02:18:55",
+  "flow_dir": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow",
+  "expected_count": 43,
+  "copied_count": 43,
+  "missing_count": 0,
+  "copied": [
+    {
+      "number": 0,
+      "source": "/mnt/data/starting_point.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0000_starting_point.md",
+      "filename": "Ctp24_0000_starting_point.md"
+    },
+    {
+      "number": 1,
+      "source": "/mnt/data/triple_overlap_cycle.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0001_triple_overlap_cycle.md",
+      "filename": "Ctp24_0001_triple_overlap_cycle.md"
+    },
+    {
+      "number": 2,
+      "source": "/mnt/data/century_orbit_volume_expansion.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0002_century_orbit_volume_expansion.md",
+      "filename": "Ctp24_0002_century_orbit_volume_expansion.md"
+    },
+    {
+      "number": 3,
+      "source": "/mnt/data/year_orbit_365_day_line.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0003_year_orbit_365_day_line.md",
+      "filename": "Ctp24_0003_year_orbit_365_day_line.md"
+    },
+    {
+      "number": 4,
+      "source": "/mnt/data/century_surface_start_zero.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0004_century_surface_start_zero.md",
+      "filename": "Ctp24_0004_century_surface_start_zero.md"
+    },
+    {
+      "number": 5,
+      "source": "/mnt/data/structural_sequence_dot_zero_to_nine.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0005_structural_sequence_dot_zero_to_nine.md",
+      "filename": "Ctp24_0005_structural_sequence_dot_zero_to_nine.md"
+    },
+    {
+      "number": 6,
+      "source": "/mnt/data/day_boundary_difference_between_between.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0006_day_boundary_difference_between_between.md",
+      "filename": "Ctp24_0006_day_boundary_difference_between_between.md"
+    },
+    {
+      "number": 7,
+      "source": "/mnt/data/one_plus_one_connected_one.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0007_one_plus_one_connected_one.md",
+      "filename": "Ctp24_0007_one_plus_one_connected_one.md"
+    },
+    {
+      "number": 8,
+      "source": "/mnt/data/breathing_open_state_ohlc.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0008_breathing_open_state_ohlc.md",
+      "filename": "Ctp24_0008_breathing_open_state_ohlc.md"
+    },
+    {
+      "number": 9,
+      "source": "/mnt/data/breathing_cycle_micro_difference.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0009_breathing_cycle_micro_difference.md",
+      "filename": "Ctp24_0009_breathing_cycle_micro_difference.md"
+    },
+    {
+      "number": 10,
+      "source": "/mnt/data/perceived_time_difference_time_folding.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0010_perceived_time_difference_time_folding.md",
+      "filename": "Ctp24_0010_perceived_time_difference_time_folding.md"
+    },
+    {
+      "number": 11,
+      "source": "/mnt/data/speed_landscape_resolution_difference.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0011_speed_landscape_resolution_difference.md",
+      "filename": "Ctp24_0011_speed_landscape_resolution_difference.md"
+    },
+    {
+      "number": 12,
+      "source": "/mnt/data/macro_observation_micro_observing.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0012_macro_observation_micro_observing.md",
+      "filename": "Ctp24_0012_macro_observation_micro_observing.md"
+    },
+    {
+      "number": 13,
+      "source": "/mnt/data/global_century_observation_human_singularity.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0013_global_century_observation_human_singularity.md",
+      "filename": "Ctp24_0013_global_century_observation_human_singularity.md"
+    },
+    {
+      "number": 14,
+      "source": "/mnt/data/micro_observing_lineage_environment_descendant_influence.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0014_micro_observing_lineage_environment_descendant_influence.md",
+      "filename": "Ctp24_0014_micro_observing_lineage_environment_descendant_influence.md"
+    },
+    {
+      "number": 15,
+      "source": "/mnt/data/m_is_not_only_human.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0015_m_is_not_only_human.md",
+      "filename": "Ctp24_0015_m_is_not_only_human.md"
+    },
+    {
+      "number": 16,
+      "source": "/mnt/data/t_is_not_only_time_flow.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0016_t_is_not_only_time_flow.md",
+      "filename": "Ctp24_0016_t_is_not_only_time_flow.md"
+    },
+    {
+      "number": 17,
+      "source": "/mnt/data/p_is_place_field_fabric_domain.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0017_p_is_place_field_fabric_domain.md",
+      "filename": "Ctp24_0017_p_is_place_field_fabric_domain.md"
+    },
+    {
+      "number": 18,
+      "source": "/mnt/data/question_axis_explains_place.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0018_question_axis_explains_place.md",
+      "filename": "Ctp24_0018_question_axis_explains_place.md"
+    },
+    {
+      "number": 19,
+      "source": "/mnt/data/time_flow_connection_unit_division.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0019_time_flow_connection_unit_division.md",
+      "filename": "Ctp24_0019_time_flow_connection_unit_division.md"
+    },
+    {
+      "number": 20,
+      "source": "/mnt/data/multiplication_division_scale_boundary.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0020_multiplication_division_scale_boundary.md",
+      "filename": "Ctp24_0020_multiplication_division_scale_boundary.md"
+    },
+    {
+      "number": 21,
+      "source": "/mnt/data/ten_by_ten_century_matrix_scale_layer.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0021_ten_by_ten_century_matrix_scale_layer.md",
+      "filename": "Ctp24_0021_ten_by_ten_century_matrix_scale_layer.md"
+    },
+    {
+      "number": 22,
+      "source": "/mnt/data/arithmetic_direction_vector_past_future_distance.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0022_arithmetic_direction_vector_past_future_distance.md",
+      "filename": "Ctp24_0022_arithmetic_direction_vector_past_future_distance.md"
+    },
+    {
+      "number": 23,
+      "source": "/mnt/data/past_present_future_c_addition_dimension_shift.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0023_past_present_future_c_addition_dimension_shift.md",
+      "filename": "Ctp24_0023_past_present_future_c_addition_dimension_shift.md"
+    },
+    {
+      "number": 24,
+      "source": "/mnt/data/overall_flow_interpretation.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0024_overall_flow_interpretation.md",
+      "filename": "Ctp24_0024_overall_flow_interpretation.md"
+    },
+    {
+      "number": 25,
+      "source": "/mnt/data/horizontal_vertical_rotating_road_dimension_motion.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0025_horizontal_vertical_rotating_road_dimension_motion.md",
+      "filename": "Ctp24_0025_horizontal_vertical_rotating_road_dimension_motion.md"
+    },
+    {
+      "number": 26,
+      "source": "/mnt/data/force_cognition_energy_portal_transition.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0026_force_cognition_energy_portal_transition.md",
+      "filename": "Ctp24_0026_force_cognition_energy_portal_transition.md"
+    },
+    {
+      "number": 27,
+      "source": "/mnt/data/f_e_c_horizontal_vertical_relation_core.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0027_f_e_c_horizontal_vertical_relation_core.md",
+      "filename": "Ctp24_0027_f_e_c_horizontal_vertical_relation_core.md"
+    },
+    {
+      "number": 28,
+      "source": "/mnt/data/matrix_multiplication_inside_one_set.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0028_matrix_multiplication_inside_one_set.md",
+      "filename": "Ctp24_0028_matrix_multiplication_inside_one_set.md"
+    },
+    {
+      "number": 29,
+      "source": "/mnt/data/ctp_horizontal_flow_vertical_structure_field.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0029_ctp_horizontal_flow_vertical_structure_field.md",
+      "filename": "Ctp24_0029_ctp_horizontal_flow_vertical_structure_field.md"
+    },
+    {
+      "number": 30,
+      "source": "/mnt/data/fma_structural_sequence_core_principle_force.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0030_fma_structural_sequence_core_principle_force.md",
+      "filename": "Ctp24_0030_fma_structural_sequence_core_principle_force.md"
+    },
+    {
+      "number": 31,
+      "source": "/mnt/data/structural_sequence_fma_ctp_operator.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0031_structural_sequence_fma_ctp_operator.md",
+      "filename": "Ctp24_0031_structural_sequence_fma_ctp_operator.md"
+    },
+    {
+      "number": 32,
+      "source": "/mnt/data/three_layer_boundary_block_matrix_force.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0032_three_layer_boundary_block_matrix_force.md",
+      "filename": "Ctp24_0032_three_layer_boundary_block_matrix_force.md"
+    },
+    {
+      "number": 33,
+      "source": "/mnt/data/ctp_fma_swap_matrix_cross_check.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0033_ctp_fma_swap_matrix_cross_check.md",
+      "filename": "Ctp24_0033_ctp_fma_swap_matrix_cross_check.md"
+    },
+    {
+      "number": 34,
+      "source": "/mnt/data/swap_matrix_fma_into_ctp_latest_formula.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0034_swap_matrix_fma_into_ctp_latest_formula.md",
+      "filename": "Ctp24_0034_swap_matrix_fma_into_ctp_latest_formula.md"
+    },
+    {
+      "number": 35,
+      "source": "/mnt/data/ctp_curiosity_to_imprint_cognition_flow.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0035_ctp_curiosity_to_imprint_cognition_flow.md",
+      "filename": "Ctp24_0035_ctp_curiosity_to_imprint_cognition_flow.md"
+    },
+    {
+      "number": 36,
+      "source": "/mnt/data/ctp_decomposition_cycle_mtpq.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0036_ctp_decomposition_cycle_mtpq.md",
+      "filename": "Ctp24_0036_ctp_decomposition_cycle_mtpq.md"
+    },
+    {
+      "number": 37,
+      "source": "/mnt/data/boundary_schema_understanding_amplification.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0037_boundary_schema_understanding_amplification.md",
+      "filename": "Ctp24_0037_boundary_schema_understanding_amplification.md"
+    },
+    {
+      "number": 38,
+      "source": "/mnt/data/nine_dot_zero_forming_observer_gaze.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0038_nine_dot_zero_forming_observer_gaze.md",
+      "filename": "Ctp24_0038_nine_dot_zero_forming_observer_gaze.md"
+    },
+    {
+      "number": 39,
+      "source": "/mnt/data/seed_base_schema_thinking_flow_source.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0039_seed_base_schema_thinking_flow_source.md",
+      "filename": "Ctp24_0039_seed_base_schema_thinking_flow_source.md"
+    },
+    {
+      "number": 40,
+      "source": "/mnt/data/reverse_thinking_core_word.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0040_reverse_thinking_core_word.md",
+      "filename": "Ctp24_0040_reverse_thinking_core_word.md"
+    },
+    {
+      "number": 41,
+      "source": "/mnt/data/nine_dot_zero_reverse_condition_question_shared_area.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0041_nine_dot_zero_reverse_condition_question_shared_area.md",
+      "filename": "Ctp24_0041_nine_dot_zero_reverse_condition_question_shared_area.md"
+    },
+    {
+      "number": 42,
+      "source": "/mnt/data/relation_existence_field_multi_being_dimension_transition.md",
+      "target": "/mnt/data/Ctp24_GPT_Direct_Structure_Package_BUILD_FINAL/00_understanding_flow/Ctp24_0042_relation_existence_field_multi_being_dimension_transition.md",
+      "filename": "Ctp24_0042_relation_existence_field_multi_being_dimension_transition.md"
+    }
+  ],
+  "missing": []
+}
