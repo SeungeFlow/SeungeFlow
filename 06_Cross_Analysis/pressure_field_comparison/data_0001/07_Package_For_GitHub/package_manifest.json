@@ -1,0 +1,16 @@
+{
+  "package_name": "ogamdo_bimok_structure_overlay_package",
+  "temporary_data_id": "data_000X",
+  "github_branch": "music_language",
+  "target_path": "music_language/06_Cross_Analysis/pressure_field_comparison/data_000X",
+  "status": "FIRST_CLOSURE_DECLARED",
+  "contains_original_score_pdf": false,
+  "contains_score_image": false,
+  "stable_form_axis": [
+    "boundary_state",
+    "sequence_state",
+    "residue_crystallization",
+    "repetition_reinforcement"
+  ],
+  "file_count": 95
+}

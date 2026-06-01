@@ -1,0 +1,60 @@
+# file_list.md
+
+- `00_Source_Reference/original_source_policy.md`
+- `00_Source_Reference/source_reference_note.md`
+- `01_Extracted_Data/bimok_source_inventory/bimok_source_inventory_note.md`
+- `01_Extracted_Data/ogamdo_source_inventory/ogamdo_15_full_source_inventory_operator.md`
+- `01_Extracted_Data/overlay_source_units/music_language_artifact_inventory_0001.md`
+- `02_Structure_Candidates/bimok/bimok_crystallizing_structure_candidates_filter.md`
+- `02_Structure_Candidates/ogamdo/ogamdo_integer_sequence_swap_structure.md`
+- `02_Structure_Candidates/ogamdo/ogamdo_structure_candidates_filter.md`
+- `02_Structure_Candidates/shared_candidates/d_boundary_structure_ogamdo_bimok.md`
+- `03_State_and_Field/boundary_state/d_boundary_structure_ogamdo_bimok.md`
+- `03_State_and_Field/field_layer/field_layer_reference_note.md`
+- `03_State_and_Field/sequence_state/ogamdo_integer_sequence_swap_structure.md`
+- `03_State_and_Field/state_definition/state_based_reclassification_ogamdo_bimok.md`
+- `04_Overlay_Analysis/collision/collision_candidates_compression.md`
+- `04_Overlay_Analysis/overlap/overlay_candidates_compression.md`
+- `04_Overlay_Analysis/residue/residue_candidates_compression.md`
+- `04_Overlay_Analysis/slippage/slippage_candidates_compression.md`
+- `05_Filter_and_Hold/conditional/conditional_candidates.md`
+- `05_Filter_and_Hold/hold/hold_candidates.md`
+- `05_Filter_and_Hold/ogamdo_bimok_stable_hold_filter.md`
+- `05_Filter_and_Hold/stable_form/stable_form_candidates.md`
+- `05_Filter_and_Hold/stable_support/stable_support_candidates.md`
+- `06_GptMusic_Judgment/boundary_judgment/gpt_music_ogamdo_bimok_d_boundary_structure.md`
+- `06_GptMusic_Judgment/closure_judgment/music_language_first_closure_declaration.md`
+- `06_GptMusic_Judgment/closure_judgment/music_language_first_closure_summary.md`
+- `06_GptMusic_Judgment/current_position/gpt_music_current_position_alignment.md`
+- `06_GptMusic_Judgment/first_judgment/gpt_music_ogamdo_bimok_overlay_first_judgment.md`
+- `07_Package_For_GitHub/github_upload_package_ogamdo_bimok_overlay.md`
+- `07_Package_For_GitHub/gpt_github_handoff.md`
+- `07_Package_For_GitHub/package_manifest.md`
+- `99_BackData/conversation_stage_logs/Fabric_0001(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_0002(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_0003(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_0004-2회(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_3회차_20회(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_4회차_20회(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_5회차_20회(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_6회차_20회(1).md`
+- `99_BackData/conversation_stage_logs/Fabric_7회차_20회(1).md`
+- `99_BackData/instance_instructions/instance_boundary_rule_music_language.md`
+- `99_BackData/operator_outputs/ogamdo_15_full_source_inventory_operator_raw.txt`
+- `99_BackData/raw_outputs/붙여넣은 마크다운(1)(84).md`
+- `99_BackData/raw_outputs/붙여넣은 마크다운(1)(87).md`
+- `99_BackData/raw_outputs/붙여넣은 마크다운(1)(88).md`
+- `99_BackData/raw_outputs/붙여넣은 마크다운(1)(90).md`
+- `99_BackData/raw_outputs/붙여넣은 마크다운(1)(92).md`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(100).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(101).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(102).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(107).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(109).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(113).txt`
+- `99_BackData/raw_outputs/붙여넣은 텍스트 (1)(115).txt`
+- `README.md`
+- `case_manifest.md`
+- `metadata.md`
+- `source_note.md`
+- `work_plan.md`
