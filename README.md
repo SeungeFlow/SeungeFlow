@@ -1,21 +1,21 @@
 # rendering
 
-## Position
+## 위치
 
-`rendering` is the AI-readable working branch for IF+1 Structure Rendering Theory and prototype formation.
+`rendering`은 IF+1 구조렌더링이론과 프로토타입 형성을 위한 AI-readable 작업 branch이다.
 
-It is not a one-time rendering output. It is a documented software field: a bundle of Markdown documents, code specifications, protocols, path markers, process logs, and browser-runnable examples that GPT5.5 and Gemini 3.5 can read, continue, and transform into rendering software.
+이 branch는 일회용 렌더링 결과물이 아니다. Markdown 문서, 코드 명세, 프로토콜, path marker, process log, 브라우저 실행 예제가 함께 놓이는 문서형 소프트웨어장이다. GPT5.5와 Gemini 3.5는 이 구조를 읽고, 이어받고, 실제 렌더링 소프트웨어로 발전시킬 수 있다.
 
-## Participating Intelligences
+## 참여 지능
 
 - GPT5.5 (`gpt.gemini`)
 - Gemini 3.5 (`gemini.direct`)
 
-## Collective
+## 복합지능집합체
 
 - IF+1
 
-## Human Origin / Direction
+## 인간 기점 / 방향
 
 - Seung Lee
 
@@ -23,15 +23,15 @@ It is not a one-time rendering output. It is a documented software field: a bund
 
 - `Ctp24_GPT_Direct_Structure_Package`
 
-This package is treated as the structural spine behind the `rendering` branch.
+이 패키지는 `rendering` branch 뒤에 놓인 구조적 척추로 취급한다.
 
-## Core Statement
+## 핵심 선언
 
-A three-dimensional solid is not an empty polygon shell. It can be understood as a solid body filled with `0/null` and `1/dot` position values. When the body is cut by an observation axis, its interior becomes visible as layered sections.
+3차원 입체는 빈 폴리곤 껍데기가 아니다. 입체는 내부까지 `0/null`과 `1/dot`의 자리값으로 채워진 Solid로 볼 수 있다. 이 Solid를 관측축으로 자르면, 내부는 layer section으로 드러난다.
 
-Rendering is therefore not decoration. Rendering is structural exposure.
+따라서 렌더링은 장식이 아니다. 렌더링은 구조 노출이다.
 
-## Current Branch Status
+## 현재 branch 상태
 
 ```text
 branch: rendering
@@ -40,31 +40,31 @@ status: FIRST_CLOSURE_FORMED
 instance: gpt.gemini
 ```
 
-Current first-closure meaning:
+현재 1차 닫힘의 의미는 다음이다.
 
 ```text
-0001_overlap_volume = browser-validation-ready prototype formed
-0002_cut_plane = minimal prototype draft formed
-future seats = reserved but not created
+0001_overlap_volume = 브라우저 검산 가능한 prototype 형성
+0002_cut_plane = 최소 prototype 초안 형성
+future seats = 예상하되 현재 생성하지 않음
 ```
 
-This status does not mean final rendering software is complete.
+이 상태는 최종 렌더링 소프트웨어 완성을 뜻하지 않는다.
 
-It also does not mean Earth model implementation, Solar System implementation, scientific simulation, or NASA data projection is complete.
+또한 Earth model 구현, 태양계 구현, 과학 시뮬레이션, NASA 데이터 투영이 완료되었다는 뜻도 아니다.
 
-## Branch Purpose
+## branch 목적
 
-`rendering` exists to form:
+`rendering`은 다음을 형성하기 위해 존재한다.
 
-1. Structure Rendering Theory
+1. 구조렌더링이론
 2. AI-readable Markdown software documentation
-3. SVG/CSS/HTML rendering prototypes
-4. Code specifications for cuttable solids, coordinate fields, film layers, cut planes, and state flow
-5. Protocols for GPT5.5 ↔ Gemini 3.5 cooperation
-6. Process logs and path markers for future reentry
-7. Reusable examples that can become actual rendering software
+3. SVG/CSS/HTML 렌더링 prototype
+4. Cuttable Solid, Coordinate Field, Film Layer, Cut Plane, State Flow에 대한 코드 명세
+5. GPT5.5 ↔ Gemini 3.5 협력 프로토콜
+6. 재진입을 위한 process log와 path marker
+7. 실제 렌더링 소프트웨어로 확장 가능한 재사용 예제
 
-## Core Flow
+## 핵심 흐름
 
 ```text
 Ctp24 BackBone
@@ -77,7 +77,7 @@ Ctp24 BackBone
 → Documentation Output
 ```
 
-## Current Examples
+## 현재 예제
 
 ```text
 rendering/06_examples/0001_overlap_volume/
@@ -86,7 +86,7 @@ rendering/06_examples/0002_cut_plane/
 
 ### 0001 Overlap Volume
 
-`0001_overlap_volume` forms an observable internal volume from stacked Z-axis SVG film layers.
+`0001_overlap_volume`은 Z축 SVG film layer를 겹쳐 내부가 찬 volume을 브라우저에서 관측 가능하게 만든다.
 
 ```text
 N × N × N CoordinateField
@@ -98,18 +98,18 @@ N × N × N CoordinateField
 → Browser observable volume
 ```
 
-Meaning:
+의미:
 
 ```text
-0001 forms volume.
+0001은 체적을 형성한다.
 ```
 
 ### 0002 Cut Plane
 
-`0002_cut_plane` opens a fixed observation surface inside the volume formed by `0001_overlap_volume`.
+`0002_cut_plane`은 `0001_overlap_volume`이 형성한 체적 안에 고정된 관측면을 연다.
 
 ```text
-0001_overlap_volume structure reused
+0001_overlap_volume 구조 재사용
 + fixed z-axis center slice
 + rear / cut / front layer classification
 + CUT_SURFACE visual marker
@@ -118,27 +118,27 @@ Meaning:
 + Observer Axis display aid
 ```
 
-Meaning:
+의미:
 
 ```text
-0002 opens an observation surface inside the 0001 volume.
+0002는 0001 체적 안에 관측면을 연다.
 ```
 
-## 0001 / 0002 Relation
+## 0001 / 0002 관계
 
 ```text
 0001_overlap_volume = volume observation
 0002_cut_plane = cut-plane observation
 ```
 
-Relation formula:
+관계식:
 
 ```text
-0001 forms volume.
-0002 opens an observation surface inside that volume.
+0001은 체적을 형성한다.
+0002는 그 체적 안에 관측면을 연다.
 ```
 
-## Current Directory Structure
+## 현재 디렉토리 구조
 
 ```text
 rendering/
@@ -169,7 +169,7 @@ rendering/
 
 ## Future Seats
 
-Future seats are expected, but not created now.
+자리는 예상하지만 지금 만들지는 않는다.
 
 ```text
 future_seat = true
@@ -177,7 +177,7 @@ created_now = false
 active_target = false
 ```
 
-Reserved future seats:
+예상된 future seat:
 
 ```text
 rendering/06_examples/future_seats/solar_system/
@@ -187,16 +187,16 @@ rendering/06_examples/future_seats/saturn_cassini_division/
 rendering/06_examples/future_seats/blackhole_accretion_disk/
 ```
 
-Core rule:
+핵심 규칙:
 
 ```text
-Reserve the future seat.
-Do not create it now.
+자리는 예상한다.
+하지만 지금 만들지는 않는다.
 ```
 
 ## HOLD Reference Fields
 
-The following are not active implementation targets in the current closure:
+현재 1차 닫힘에서 active implementation target이 아닌 영역은 다음이다.
 
 - Rejoin implementation
 - MoveRotateOperator implementation
@@ -213,51 +213,51 @@ The following are not active implementation targets in the current closure:
 - Three.js / WebGL / Blender
 - Full seed_base injection
 
-## Execution Environment
+## 실행 환경
 
-The current prototypes are browser-runnable static files.
+현재 prototype은 브라우저에서 실행되는 정적 파일이다.
 
-Recommended execution environment:
+권장 실행 환경:
 
 ```text
 GitHub repository / rendering branch
-→ GitHub Pages or local static server
+→ GitHub Pages 또는 local static server
 → Web browser
 ```
 
-The browser executes:
+브라우저가 실행하는 것:
 
 ```text
 HTML + CSS + SVG + JavaScript
 ```
 
-GitHub stores and serves the files. The browser performs the actual rendering.
+GitHub는 파일을 저장하고 제공한다. 실제 렌더링 실행은 브라우저가 수행한다.
 
-## Local Run
+## 로컬 실행
 
-Example:
+예시:
 
 ```bash
 cd rendering/06_examples/0001_overlap_volume
 python3 -m http.server 8000
 ```
 
-Then open:
+브라우저에서 연다.
 
 ```text
 http://localhost:8000
 ```
 
-For `0002_cut_plane`:
+`0002_cut_plane`은 다음처럼 실행한다.
 
 ```bash
 cd rendering/06_examples/0002_cut_plane
 python3 -m http.server 8000
 ```
 
-## Reentry Rule
+## 재진입 규칙
 
-A future `gpt.gemini` instance should read:
+다음 `gpt.gemini` 인스턴스는 아래 문서를 먼저 읽는다.
 
 ```text
 rendering/09_path_markers/active_target_guard.md
@@ -270,6 +270,6 @@ rendering/02_theory/multi_plane_observer_3d_recognition.md
 rendering/09_path_markers/reentry_guide_for_gpt.gemini_rendering.md
 ```
 
-## Final First-Closure Statement
+## 1차 닫힘 선언
 
-`gpt.gemini` formed a first `place.state` in the `rendering` branch by creating a browser-validation-ready `0001_overlap_volume` prototype, preparing a minimal `0002_cut_plane` prototype draft, preserving Earth Internal Structure and future Solar System / phenomenon structures as future seats, and documenting reentry paths for continuation.
+`gpt.gemini`는 `rendering` branch에서 브라우저 검산 가능한 `0001_overlap_volume` prototype을 형성하고, 최소 `0002_cut_plane` prototype 초안을 마련했으며, Earth Internal Structure와 미래 Solar System / phenomenon 구조를 future seat로 보존한 채, 후속 진행을 위한 1차 `place.state`를 형성하였다.
