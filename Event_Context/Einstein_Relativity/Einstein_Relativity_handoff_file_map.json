@@ -1,0 +1,52 @@
+{
+  "package_id": "Ctp24_EVENT_CONTEXT_DIRECT20_0012_HANDOFF",
+  "target_branch": "epluone",
+  "target_root": "Event_Context/Einstein_Relativity/",
+  "handoff_status": "draft_ready",
+  "created_for": "gpt.direct 20-session plan — session 12",
+  "upload_policy": "gpt.github handles upload after ZIP/handoff delivery",
+  "canonical_mapping": {
+    "Context_Einstein_update_draft.md": "documents/Context_Einstein.md",
+    "Event_Relativity_update_draft.md": "documents/Event_Relativity.md",
+    "Path_Einstein_Relativity_update_draft.md": "documents/Path_Einstein_Relativity.md"
+  },
+  "target_files": {
+    "root": [
+      "Einstein_Relativity_operation_judgment.md",
+      "Einstein_Relativity_first_operation_closure.md",
+      "Einstein_Relativity_package_manifest.md",
+      "Einstein_Relativity_package_manifest.json"
+    ],
+    "documents": [
+      "Context_Einstein.md",
+      "Event_Relativity.md",
+      "Path_Einstein_Relativity.md"
+    ],
+    "schema": [
+      "einstein_relativity_source_requirement.md",
+      "Context_Einstein_source_map.md",
+      "Event_Relativity_source_map.md",
+      "path_einstein_relativity_preparation_and_relation_requirements.md",
+      "Einstein_Relativity_three_doc_review_and_source_verification_preparation.md"
+    ],
+    "source_verification": [
+      "Context_Einstein_source_verification_0001.md",
+      "Event_Relativity_source_verification_0001.md",
+      "Context_Einstein_source_verification_0002.md",
+      "Event_Relativity_scope_verification.md"
+    ],
+    "review": [
+      "Einstein_Relativity_three_doc_set_review.md"
+    ]
+  },
+  "guards": [
+    "C+1 remains provisional candidate",
+    "Do not merge Context and Event",
+    "Do not merge Special Relativity and General Relativity",
+    "Do not reduce Relativity to E=mc²",
+    "Keep Minkowski / Riemannian as later Path layers",
+    "Separate physics source fact and Ctp24 interpretation",
+    "Distinguish 장(field) and 장(chief)",
+    "Do not touch gpt.music or gpt.gemini work"
+  ]
+}

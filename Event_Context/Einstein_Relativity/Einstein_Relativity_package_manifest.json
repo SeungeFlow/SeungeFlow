@@ -1,0 +1,173 @@
+{
+  "manifest_id": "Ctp24_EVENT_CONTEXT_DIRECT20_0011",
+  "title": "Einstein_Relativity package manifest",
+  "status": "draft_ready_for_package_preparation",
+  "target_branch": "epluone",
+  "target_root": "Event_Context/Einstein_Relativity/",
+  "created_for": "gpt.direct 20-session plan — session 11",
+  "mode": "Thinking 헤비",
+  "purpose": "문서군을 epluone/Event_Context/Einstein_Relativity/에 놓을 준비",
+  "c_plus_1_status": "provisional_candidate_not_final_judgment",
+  "upload_policy": {
+    "github_upload": "not_performed_in_primary_session",
+    "handoff": "20회차 종료 후 ZIP 형태로 gpt.github에게 전달",
+    "primary_instance_time_use": "gpt.direct는 GitHub 업로드 작업에 시간을 쓰지 않음"
+  },
+  "target_structure": {
+    "root": [
+      "README.md",
+      "Einstein_Relativity_operation_judgment.md",
+      "Einstein_Relativity_first_operation_closure.md",
+      "Einstein_Relativity_package_manifest.json",
+      "Einstein_Relativity_package_manifest.md"
+    ],
+    "documents": [
+      "Context_Einstein.md",
+      "Event_Relativity.md",
+      "Path_Einstein_Relativity.md"
+    ],
+    "schema": [
+      "einstein_relativity_source_requirement.md",
+      "Context_Einstein_source_map.md",
+      "Event_Relativity_source_map.md",
+      "path_einstein_relativity_preparation_and_relation_requirements.md",
+      "Einstein_Relativity_three_doc_review_and_source_verification_preparation.md"
+    ],
+    "source_verification": [
+      "Context_Einstein_source_verification_0001.md",
+      "Event_Relativity_source_verification_0001.md",
+      "Context_Einstein_source_verification_0002.md",
+      "Event_Relativity_scope_verification.md"
+    ],
+    "review": [
+      "Einstein_Relativity_three_doc_set_review.md"
+    ],
+    "update_drafts": [
+      "Context_Einstein_update_draft.md",
+      "Event_Relativity_update_draft.md",
+      "Path_Einstein_Relativity_update_draft.md"
+    ],
+    "future_or_pending": [
+      "Einstein_Relativity_gap_list.md",
+      "Core_reaction_candidate_summary.md",
+      "C_plus_1_provisional_candidate_stabilization.md",
+      "Einstein_Relativity_next_path_candidates.md",
+      "gpt_direct_first_closure_verification.md",
+      "gpt_direct_first_closure_summary.md",
+      "gpt_direct_first_closure_declaration.md"
+    ]
+  },
+  "document_records": [
+    {
+      "target_path": "schema/einstein_relativity_source_requirement.md",
+      "source_file": "einstein_relativity_source_requirement.md",
+      "role": "source requirement",
+      "status": "prepared"
+    },
+    {
+      "target_path": "schema/Context_Einstein_source_map.md",
+      "source_file": "Context_Einstein_source_map.md",
+      "role": "Context source map",
+      "status": "prepared"
+    },
+    {
+      "target_path": "schema/Event_Relativity_source_map.md",
+      "source_file": "Event_Relativity_source_map.md",
+      "role": "Event source map",
+      "status": "prepared"
+    },
+    {
+      "target_path": "schema/path_einstein_relativity_preparation_and_relation_requirements.md",
+      "source_file": "path_einstein_relativity_preparation_and_relation_requirements.md",
+      "role": "Path relation requirement",
+      "status": "prepared"
+    },
+    {
+      "target_path": "schema/Einstein_Relativity_three_doc_review_and_source_verification_preparation.md",
+      "source_file": "Einstein_Relativity_three_doc_review_and_source_verification_preparation.md",
+      "role": "3-doc review and source verification preparation",
+      "status": "prepared"
+    },
+    {
+      "target_path": "documents/Context_Einstein.md",
+      "source_file": "Context_Einstein_update_draft.md",
+      "role": "Context document update draft to become canonical document",
+      "status": "prepared_as_update_draft"
+    },
+    {
+      "target_path": "documents/Event_Relativity.md",
+      "source_file": "Event_Relativity_update_draft.md",
+      "role": "Event document update draft to become canonical document",
+      "status": "prepared_as_update_draft"
+    },
+    {
+      "target_path": "documents/Path_Einstein_Relativity.md",
+      "source_file": "Path_Einstein_Relativity_update_draft.md",
+      "role": "Path document update draft to become canonical document",
+      "status": "prepared_as_update_draft"
+    },
+    {
+      "target_path": "source_verification/Context_Einstein_source_verification_0001.md",
+      "source_file": "Context_Einstein_source_verification_0001.md",
+      "role": "Context source verification 1",
+      "status": "prepared"
+    },
+    {
+      "target_path": "source_verification/Event_Relativity_source_verification_0001.md",
+      "source_file": "Event_Relativity_source_verification_0001.md",
+      "role": "Event source verification 1",
+      "status": "prepared"
+    },
+    {
+      "target_path": "source_verification/Context_Einstein_source_verification_0002.md",
+      "source_file": "Context_Einstein_source_verification_0002.md",
+      "role": "Context source verification 2",
+      "status": "prepared"
+    },
+    {
+      "target_path": "source_verification/Event_Relativity_scope_verification.md",
+      "source_file": "Event_Relativity_scope_verification.md",
+      "role": "Event scope verification",
+      "status": "prepared"
+    },
+    {
+      "target_path": "review/Einstein_Relativity_three_doc_set_review.md",
+      "source_file": "Einstein_Relativity_three_doc_set_review.md",
+      "role": "3-doc set review",
+      "status": "prepared"
+    },
+    {
+      "target_path": "Einstein_Relativity_operation_judgment.md",
+      "source_file": "Einstein_Relativity_operation_judgment.md",
+      "role": "operation judgment",
+      "status": "prepared"
+    },
+    {
+      "target_path": "Einstein_Relativity_first_operation_closure.md",
+      "source_file": "Einstein_Relativity_first_operation_closure.md",
+      "role": "first operation closure",
+      "status": "prepared"
+    }
+  ],
+  "guards": [
+    "Context와 Event를 병합하지 않는다.",
+    "Special Relativity와 General Relativity를 병합하지 않는다.",
+    "E=mc²를 Relativity 전체로 환원하지 않는다.",
+    "Minkowski / Riemannian geometry는 later Path layer로 둔다.",
+    "C+1은 final judgment가 아니라 provisional candidate로 유지한다.",
+    "physics source fact와 Ctp24 structure interpretation을 분리한다.",
+    "장(field)와 장(chief)을 구분한다.",
+    "gpt.direct는 gpt.music / gpt.gemini 작업에 간섭하지 않는다."
+  ],
+  "pending_sessions": {
+    "12": "gpt.github handoff package 작성",
+    "13": "gpt.github 반영 결과 검토",
+    "14": "Einstein-Relativity source verification gap list 작성",
+    "15": "Core reaction 후보 정리",
+    "16": "C+1 provisional candidate 안정화",
+    "17": "다음 Path 후보 목록화",
+    "18": "gpt.direct 20회차 1차 마무리 검산",
+    "19": "gpt.direct first closure summary 작성",
+    "20": "gpt.direct 1차 닫힘 선언"
+  }
+}
