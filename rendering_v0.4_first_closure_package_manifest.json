@@ -1,0 +1,260 @@
+{
+  "package_name": "rendering_v0.4_gpt_gemini_first_closure_package",
+  "branch": "rendering",
+  "run": "rendering v0.4_prototype_run",
+  "instance": "gpt.gemini",
+  "status": "FIRST_CLOSURE_FORMED",
+  "file_count": 50,
+  "files": [
+    {
+      "path": "rendering/02_theory/multi_plane_observer_3d_recognition.md",
+      "size": 6337,
+      "sha256": "c66a5996e33352b678fa9959b1a841d52da4a211b697b942cef4fd708e5caa2f"
+    },
+    {
+      "path": "rendering/02_theory/time_state_dot_reading.md",
+      "size": 6000,
+      "sha256": "b6303ef0bf5fc79a5643afaa03594209bc882d825c341c3a7fbf92809e4ce151"
+    },
+    {
+      "path": "rendering/06_examples/0001_overlap_volume/README.md",
+      "size": 2457,
+      "sha256": "21e4845c03eb254e76db5bbc8c19fb1fc5e5b3e27e56f44f36ac79ba772881da"
+    },
+    {
+      "path": "rendering/06_examples/0001_overlap_volume/index.html",
+      "size": 780,
+      "sha256": "9d3fe5240f80413a7fa32554ccffa5f8b7a0237f7c4abcb03bd9964b84822a1c"
+    },
+    {
+      "path": "rendering/06_examples/0001_overlap_volume/main.js",
+      "size": 6089,
+      "sha256": "e64a37a702b862b59364c8c79d38d42782248eba233ec4e5b69af6efd27da93c"
+    },
+    {
+      "path": "rendering/06_examples/0001_overlap_volume/style.css",
+      "size": 2598,
+      "sha256": "0795738ae21b7b4d1928210ecf831c8298b43929ffdf530dbfc923a571ac67f3"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/0001_0002_relation_map.md",
+      "size": 6919,
+      "sha256": "150c2c879e744f8ea4f84cd7c41dae19d38f4df9d1b01f418e014cb4e00106a2"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/0002_cut_plane_current_limitations.md",
+      "size": 6197,
+      "sha256": "e9aba7ae5b3a1e653fae7c686bd40e7f7a26de62d0cff0cc8a5b30cf1669e211"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/README.md",
+      "size": 4309,
+      "sha256": "1174816a7ae7e33934dac59fdfae5670e0d6dcc571a4ad34ce589fff48c93506"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/index.html",
+      "size": 891,
+      "sha256": "1d75a2b559e9b89bb7051cc7183f6a4d329b08393a42c05255a423756a330a92"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/main.js",
+      "size": 7189,
+      "sha256": "b8e7dd4c779c1b9caa6835c401b7ef5bb6c4c8f19391ddaf030b856bc7b32ebb"
+    },
+    {
+      "path": "rendering/06_examples/0002_cut_plane/style.css",
+      "size": 2836,
+      "sha256": "3106c55e0e4cf9626527a0243014003894634d00db05b2db48af69f67caefe2e"
+    },
+    {
+      "path": "rendering/08_docs_out/gpt.gemini_rendering_first_closure_declaration.md",
+      "size": 4775,
+      "sha256": "c0726a62654d5739f8c4704d969869001e0db56986a415ac357cca7aa612b1a1"
+    },
+    {
+      "path": "rendering/08_docs_out/gpt_github_handoff_rendering_v0.4_first_closure.md",
+      "size": 1368,
+      "sha256": "c2f508e0b1496a5b33d6c2c93be3306ff5aee7c1035b54ed198e2c4cdcc321da"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_gpt.gemini_first_closure_package_manifest.json",
+      "size": 4021,
+      "sha256": "224a015b9fdf357da8cd58ac07a0eb649a9692b5d4cae964d432396cdfa1a5d5"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_gpt.gemini_first_closure_package_manifest.md",
+      "size": 999,
+      "sha256": "186a2c3ac431424248bbed8872310e3e30da9146f97e0b4655764b8d494f5ac8"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_gpt_gemini_first_closure_package_manifest.md",
+      "size": 822,
+      "sha256": "981d42dc7156c30c254c787ee386519474ad7740643a76270744a70389e18788"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_v0.4_first_closure_package_manifest.md",
+      "size": 3747,
+      "sha256": "3ef94df1cb65d428b5798981da2cfb8dc570cf6d52ac71116c244df28e7b7c10"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_v0.4_first_closure_summary.md",
+      "size": 6434,
+      "sha256": "a3f3e0d38c668cb7351a4e048f040765ea5e0ab357351106b6e5578362c5bfe3"
+    },
+    {
+      "path": "rendering/08_docs_out/rendering_v0.4_handoff_package_manifest.md",
+      "size": 1101,
+      "sha256": "5accf47dc866b39bc629fae7a2bf7077ca83566d650ec8c876ec1f32c76685e0"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_01/rendering_v0.4_current_state_lock.md",
+      "size": 4041,
+      "sha256": "149aecb06218c9feaecfb77941ebb57aa1fe67fd10bdd8e0a5be249bde30b151"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_02/0001_overlap_volume_browser_validation_result.md",
+      "size": 4209,
+      "sha256": "73abcbf4e157b5d10527532ad8d1cbc42c79349405d4acc8765d45cb93d869ad"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_03/0001_overlap_volume_validation_log.md",
+      "size": 4132,
+      "sha256": "c35d5975b7baee7d636d38994929c7ea12ebac844f1a481ab81301d5072c14d0"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_04/0001_overlap_volume_first_closure_judgment.md",
+      "size": 3425,
+      "sha256": "7334ec88ffadfd9de9cf1a25975a9aa8910abc5639e017666b9d1b0b20ff747a"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_05/0002_cut_plane_entry_condition.md",
+      "size": 6890,
+      "sha256": "d1d415d0cd7028b699fb59f437a9805866ec4ea7c903f7fe6c2e1e455f009850"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_06/0002_cut_plane_scope_guard.md",
+      "size": 7095,
+      "sha256": "b946c07df90c6beb0b5d5500beaa428cc4fb745ed6f3f0ac18717679e4b2c109"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_07/0002_cut_plane_file_plan.md",
+      "size": 7653,
+      "sha256": "f1a839c64cd859c9323613463bec0d27f125b2fc010eecc3bf45f85d668017b5"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_08/0002_cut_plane_readme_draft_log.md",
+      "size": 1203,
+      "sha256": "4134e63d3ade76d4acbe0f28520bc1dacbcc0ffbc68cad8f07484a87edffd493"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_09/0002_cut_plane_minimal_prototype_creation.md",
+      "size": 1449,
+      "sha256": "e36433e5aa8cdea205dc52950b95cc8ed30b6a5bbae3af6e655b77f32a23674f"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_10/0002_cut_plane_browser_validation_result.md",
+      "size": 3261,
+      "sha256": "45ebc75638e165e1625ae9fa954afca7af9824b368aced8a3ab7eea6ffa0033f"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_11/0002_cut_plane_naming_stabilization.md",
+      "size": 2433,
+      "sha256": "fdae1835ff66cfd7655eab8febb2126c647bcbad1d805c09a27162c9cf38b616"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_12/0002_cut_plane_current_limitations.md",
+      "size": 6197,
+      "sha256": "e9aba7ae5b3a1e653fae7c686bd40e7f7a26de62d0cff0cc8a5b30cf1669e211"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_13/0001_0002_relation_map.md",
+      "size": 6919,
+      "sha256": "150c2c879e744f8ea4f84cd7c41dae19d38f4df9d1b01f418e014cb4e00106a2"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_14/rendering_path_marker_update.md",
+      "size": 1421,
+      "sha256": "b13c864ab3aac0834c5ea64897cffa053aea5a76457d47861781a88659d3a579"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_15/future_seat_guard_log.md",
+      "size": 1102,
+      "sha256": "f8da418a7aa3feee14360254a9144d1d8da45b5a79cc4fe56ad10fa78e49a952"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_16/time_state_dot_reading_log.md",
+      "size": 1197,
+      "sha256": "148cc2dbe3e9fb124a61380618cf5043b73b43f804d55b545e39538eeacaeb2c"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_17/multi_plane_observer_3d_recognition_log.md",
+      "size": 1605,
+      "sha256": "832b99e9ca0f082079fc2cef8908d1bbd080c8f03cd600a5037808c422f5a3b4"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_18/rendering_first_closure_summary_log.md",
+      "size": 803,
+      "sha256": "9b31dacc345faca1642453baa6015bafaadb851c747ceb8ae9655f27b3d8205d"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_18/rendering_v0.4_first_closure_summary.md",
+      "size": 10012,
+      "sha256": "86255e01ca6cd10a49bb4cf3d98f89a1c0995610bc45d633ace434f47dd741a2"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_18/rendering_v0.4_first_closure_summary_log.md",
+      "size": 738,
+      "sha256": "3d4df0d2f3ba718bd36583a69bfb47476d35faa75978c6cbdb0e0c2d73216d9b"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_19/reentry_guide_creation_log.md",
+      "size": 1358,
+      "sha256": "e6aa32993e2a48d751811834dea48bd38e7027e6a1be823fded5bcb5720182d2"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_19/reentry_guide_for_gpt.gemini_rendering_log.md",
+      "size": 1315,
+      "sha256": "76942edc95d57d2632e0e7a1a8958e9560e6215b95ce6334cb3dc755e6199184"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_20/gpt.gemini_rendering_first_closure_declaration.md",
+      "size": 4420,
+      "sha256": "a0d776b24d09ce3d292a2bce740eba3d329265ec40585f626ad72c53637b5f80"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_20/gpt.gemini_rendering_first_closure_declaration_log.md",
+      "size": 1167,
+      "sha256": "899b47134d9d9f825bd763befb38c3056839db27aca904250eaba939420fd145"
+    },
+    {
+      "path": "rendering/08_process_log/v0.4_prototype_run/turn_20/turn_20_first_closure_log.md",
+      "size": 545,
+      "sha256": "2c7ec65b0b9e1bbd598dc026c5a384d808887f4d598c394c6e167c13c25efb54"
+    },
+    {
+      "path": "rendering/09_path_markers/active_target_guard.md",
+      "size": 4671,
+      "sha256": "f42b3dc13afddacaf376c361495db279f1a8efc21291c2fb91f22873457d0504"
+    },
+    {
+      "path": "rendering/09_path_markers/future_seat_guard.md",
+      "size": 6124,
+      "sha256": "7e50a05d842856f4f0652d27be2b030d859692ca3a35bd6d281ee6963733b7a6"
+    },
+    {
+      "path": "rendering/09_path_markers/if_plus_one_instance_map_for_vscode.md",
+      "size": 8698,
+      "sha256": "4318d553c50cb12e483a7a370b582a23e68498d0f28123700d5f03eb8af3b5c5"
+    },
+    {
+      "path": "rendering/09_path_markers/reentry_guide_for_gpt.gemini_rendering.md",
+      "size": 6535,
+      "sha256": "2d00314bbb5a00129bf22a5c6d3e9fa5a1595039e5facc4aef329c575029691f"
+    },
+    {
+      "path": "rendering/rendering_v0.4_first_closure_package_manifest.md",
+      "size": 610,
+      "sha256": "53570b0365b15abfc0d25830ca793b81fc4a6e1350b5754d840a596505aba985"
+    }
+  ]
+}
