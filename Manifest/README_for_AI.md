@@ -12,296 +12,261 @@ AI instance first-reference document
 gpt.direct-centered understanding standard
 +
 GitHub / SeungeFlow constant direction-viewpoint
++
+Session 04 central-understanding update
 
 primary instance:
 gpt.direct
 
+session:
+04 / 48
+
+observed branch:
+main
+
+observed path:
+Manifest/Branch.md
+
+observed Raw URL:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Branch.md
+
+fixed-revision Raw URL:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.md
+
 current total cycle:
 48회차
 
-current structure:
+phase:
 01-24 = 공통이해 / 비교이해 phase
-25-48 = 목적분화 / main branch 보정분석 phase
 ```
 
 ---
 
-## 0. 이 문서의 역할
+## 0. 04회차 중심이해
 
-`README_for_AI.md`는 모든 인스턴스가 SeungeFlow에 진입할 때 가장 먼저 참조하는 문서다.
-
-이 문서는 단순 README가 아니다.
-
-이 문서는 `gpt.direct`가 GitHub / SeungeFlow를 이해한 내용을 중심기준으로 남기는 문서다.
+04회차에서 gpt.direct가 이해한 중심은 다음이다.
 
 ```text
-README_for_AI.md =
-AI 인스턴스 첫 참조점
+Branch.md =
+main.branch Manifest 안에서
+SeungeFlow branch.structure의 대표 map 역할을 하는 문서
+
+branch =
+단순 Git 가지가 아니라
+role-bearing structure field
 +
-gpt.direct 이해의 중심기준
-+
-GitHub / SeungeFlow 항상적 방향시점
-+
-main.branch compass anchor
-+
-자가해석 비교 기준
+place.state
 ```
 
-각 인스턴스는 `README_for_AI.md`를 통해 다음을 확인한다.
+SeungeFlow에서 branch는 단순 코드관리용 가지가 아니다.
+
+각 branch는 특정한 구조역할을 가진다.
 
 ```text
-1. gpt.direct는 무엇을 어떻게 이해했는가?
-2. 나는 어느 branch / path / Raw URL을 보고 있는가?
-3. 내 자가해석은 gpt.direct 이해와 어디에서 같고 어디에서 다른가?
-4. 내 역할과 목적은 무엇인가?
-5. 내가 대체하면 안 되는 역할은 무엇인가?
+main =
+visible root / representative entry
+
+seed_base =
+source memory / Seed.Base
+
+active_schema =
+operating structure / OS
+
+epluone =
+runtime factory / output production field
+
+first_flow =
+origin preservation / first flow / proto path field
+```
+
+04회차의 핵심 이해는 다음이다.
+
+```text
+main.branch는 전체 branch의 나침반이다.
+Branch.md는 그 나침반 안에서 branch별 역할을 분리하는 대표 mapping 문서다.
 ```
 
 ---
 
-## 1. README_for_AI.md 와 Direction.md 의 관계
+## 1. README_for_AI.md 와 Branch.md 의 관계
 
-두 문서는 함께 내려갈 수 있다.
+`README_for_AI.md`는 gpt.direct의 중심이해 기준문이다.
 
-하지만 역할은 다르다.
-
-```text
-README_for_AI.md =
-gpt.direct가 이해한 중심기준
-+
-인스턴스들이 공통으로 되돌아오는 기준문
-
-Direction.md =
-gpt.direct가 모든 인스턴스에게 제시하는 방향문
-+
-어느 branch / Raw URL / 회차를 어떻게 볼지 알려주는 route 문서
-```
-
-즉:
+`Branch.md`는 그 중심이해 안에서 branch 역할을 분리해 주는 대표 map이다.
 
 ```text
 README_for_AI.md =
-what gpt.direct understands as central standard
+gpt.direct 중심이해
++
+인스턴스 공통 기준점
 
-Direction.md =
-how each instance should orient and compare
+Branch.md =
+branch.structure representative map
++
+branch role guard
 ```
 
-`Direction.md`는 `README_for_AI.md`를 대체하지 않는다.
-
-`README_for_AI.md`가 중심기준이고, `Direction.md`는 그 중심기준을 따라 움직이는 방향문이다.
+즉, 인스턴스는 `README_for_AI.md`로 방향시점을 잡고, `Branch.md`로 각 branch의 역할자리를 확인한다.
 
 ---
 
-## 2. main.branch 의 역할
+## 2. branch는 place.state이다
+
+04회차 이후 gpt.direct의 중심기준은 다음을 포함한다.
+
+```text
+branch =
+role-bearing structure field
++
+place.state
+```
+
+branch는 단순히 파일이 갈라지는 곳이 아니다.
+
+branch는 구조가 놓이는 자리이며, 각 branch는 서로 다른 역할을 맡는다.
+
+역할이 섞이면 전체 구조가 꼬인다.
+
+```text
+main을 DB로 만들지 않는다.
+seed_base를 runtime output으로 덮지 않는다.
+active_schema를 archive로 만들지 않는다.
+epluone을 representative root로 만들지 않는다.
+first_flow를 삭제하지 않는다.
+```
+
+---
+
+## 3. branch별 중심 역할
 
 ```text
 main.branch =
-전체 branch의 나침반
+기점
 +
 visible root
 +
 representative entry
+
+seed_base.branch =
+DB
 +
-중심기준이 놓이는 branch
+source memory
++
+Seed.Base
+
+active_schema.branch =
+OS
++
+current operating structure
+
+epluone.branch =
+factory
++
+runtime
++
+workshop
+
+first_flow.branch =
+origin preservation
++
+first flow
++
+proto path field
 ```
 
-`main.branch`는 다른 branch를 대체하지 않는다.
-
-```text
-main.branch is not:
-- seed_base source memory itself
-- active_schema OS itself
-- epluone runtime/output field itself
-- music_language branch work itself
-- rendering branch work itself
-```
-
-그러나 `main.branch`는 모든 branch가 자기 위치를 확인할 때 되돌아오는 compass다.
+이 다섯 branch는 서로 대체되지 않는다.
 
 ---
 
-## 3. gpt.direct 의 역할
+## 4. branch 사이의 흐름
+
+Branch.md 기준으로 SeungeFlow의 기본 흐름은 다음과 같이 읽는다.
 
 ```text
-gpt.direct =
-GitHub SeungeFlow 전체이해 primary instance
+first_flow
+→ seed_base
+→ active_schema
+→ epluone
+→ outputs/meta
+→ seed_base
 ```
 
-gpt.direct는 `main.branch`를 나침반으로 삼아 전체 branch 구조를 이해한다.
-
-gpt.direct가 남기는 이해는 다른 인스턴스가 자기 이해와 비교할 수 있는 중심기준이다.
+main은 이 흐름의 visible root다.
 
 ```text
-gpt.direct output =
-명령이 아님
+main =
+visible root
 +
-final judgment 아님
+representative entry
+```
+
+active_schema 기준 flow는 다음처럼 읽는다.
+
+```text
+seed_base source
 +
-공통 이해 기준
+epluone package output
 +
-자가해석 비교 좌표
-```
-
-gpt.direct는 전체 조율자가 아니다.
-
-전체 조율자는 승이다.
-
----
-
-## 4. if+1 운영방식
-
-```text
-if+1 =
-분리된 context.window를 가진 여러 AI 인스턴스가
-GitHub / SeungeFlow라는 외부 고정 지식장(field)을 공유 관측대상으로 삼아
-논리적 continuity를 형성하는 운영방식
-```
-
-각 인스턴스는 서로 물리적으로 연결되어 있지 않을 수 있다.
-
-그러나 같은 Raw URL과 같은 GitHub tree를 관측하면, 논리적으로 같은 지식 지점을 공유할 수 있다.
-
-```text
-같은 Raw URL
+first_flow origin reference
+→
+active_schema OS
+→
+Core / Path / Rule / Mapping
+→
+main candidate
 +
-서로 다른 instance perspective
-=
-비교 가능한 자가해석
+epluone next task
 ```
 
----
-
-## 5. 48회차 구조
-
-전체 회차는 48회차로 닫는다.
+이 흐름은 단순 복사흐름이 아니다.
 
 ```text
-01-24 =
-공통이해 phase
-
-25-48 =
-목적분화 / main branch 보정분석 phase
-```
-
-### 01-24: 공통이해 phase
-
-각 인스턴스는 48회 중 24회에 해당하는 내용을 공통이해로 사용한다.
-
-```text
-공통이해 phase =
-gpt.direct가 이해한 것
-+
-자가 인스턴스가 이해한 것
-+
-동일 Raw URL 기준 비교
-```
-
-이 phase에서 각 인스턴스는 SeungeFlow 전체 구조를 빠르게 이해한다.
-
-각 인스턴스는 gpt.direct의 이해를 그대로 복사하지 않는다.
-
-각 인스턴스는 같은 Raw URL을 보고 자기 역할 기준으로 다시 해석한다.
-
-### 25-48: 목적분화 / main branch 보정분석 phase
-
-25회차부터 각 인스턴스는 각자가 생각하는 목적을 정하여 진행한다.
-
-gpt.direct는 25회차부터 전체 인스턴스가 작업 중인 것을 분석한다.
-
-분석 결과 main branch에서 수정해야 할 파일이 생기면, gpt.direct는 해당 수정 후보를 만든다.
-
-```text
-25회차 이후 gpt.direct =
-전체 인스턴스 작업 관찰
-+
-main.branch 수정 필요성 분석
-+
-README_for_AI.md / Direction.md / Manifest 문서 보정 후보 생성
-```
-
-GitHub 반영은 gpt.github의 역할이다.
-
----
-
-## 6. Raw URL 관측 규칙
-
-파일명만으로 source를 식별하지 않는다.
-
-```text
-같은 파일명 ≠ 같은 파일내용
-```
-
-따라서 표시문은 반드시 하나의 블럭 안에 다음을 포함한다.
-
-```text
-branch
-path
-observed Raw URL
-fixed-revision Raw URL if available
-source status
-observed point
-source fact
-structure interpretation
-comparison point
-guard
-```
-
-branch Raw URL은 mutable하다.
-
-정밀 비교가 필요하면 commit hash 기준 fixed-revision Raw URL을 사용한다.
-
----
-
-## 7. README_for_AI.md 수정 기준
-
-`README_for_AI.md`는 gpt.direct가 이해한 중심기준이 바뀔 때 수정한다.
-
-수정 조건은 다음이다.
-
-```text
-수정 조건:
-1. gpt.direct의 중심이해가 바뀌었을 때
-2. 각 인스턴스가 공통으로 되돌아와야 할 기준이 바뀌었을 때
-3. README_for_AI.md와 Direction.md의 관계가 바뀌었을 때
-4. main.branch compass 기준이 보정되어야 할 때
-5. 25회차 이후 전체 인스턴스 작업분석 결과 main branch 기준문 수정이 필요할 때
-```
-
-그 외의 단순 route 변경은 `Direction.md`에서 처리한다.
-
----
-
-## 8. 현재 중심이해
-
-```text
-현재 gpt.direct 중심이해 =
-README_for_AI.md는 gpt.direct가 이해한 중심기준이다.
-Direction.md는 그 중심기준을 각 인스턴스가 어떻게 따라가고 비교할지 알려주는 방향문이다.
-
-01-24회차는 공통이해와 비교이해의 phase다.
-25회차부터 각 인스턴스는 자기 목적을 정하여 진행한다.
-gpt.direct는 25회차부터 전체 인스턴스 작업을 분석하여
-main branch에서 수정해야 할 파일이 생기면 수정 후보를 만든다.
-
-전체 회차는 48회차로 닫는다.
+copy flow X
+interpretation flow O
 ```
 
 ---
 
-## 9. 현재 닫힘문
+## 5. 04회차가 인스턴스에게 남기는 기준
+
+각 인스턴스는 자기 branch를 읽을 때 먼저 다음을 확인해야 한다.
 
 ```text
-README_for_AI.md는
-gpt.direct가 이해한 SeungeFlow 중심기준을 남기는 문서다.
+1. 나는 어느 branch에 있는가?
+2. 그 branch의 role-bearing structure field는 무엇인가?
+3. 내 branch는 source memory인가, OS인가, runtime인가, portal인가, origin preservation인가?
+4. 나는 다른 branch 역할을 침범하고 있지 않은가?
+5. 내가 생성하려는 output은 어느 branch에 놓여야 하는가?
+```
 
-각 인스턴스는 01-24회차 동안
-gpt.direct의 중심이해와 자기 자가해석을 비교하며
-SeungeFlow를 공통으로 이해한다.
+---
 
-25회차 이후에는 각 인스턴스가 자기 목적을 정하고,
-gpt.direct는 전체 인스턴스 작업을 분석하여
-main.branch 기준문 보정 필요성을 판단한다.
+## 6. 오독 방지
+
+```text
+금지:
+- branch를 단순 Git 가지로만 읽지 않는다.
+- main.branch를 전체 구조 자체로 읽지 않는다.
+- seed_base를 active_schema 산출물로 덮지 않는다.
+- active_schema를 보관소로 만들지 않는다.
+- epluone을 main representative root로 만들지 않는다.
+- first_flow를 오래된 가지나 삭제 대상으로 읽지 않는다.
+- branch 사이의 흐름을 copy flow로 읽지 않는다.
+```
+
+---
+
+## 7. 현재 닫힘문
+
+```text
+04회차에서 gpt.direct는 Branch.md를 통해
+SeungeFlow의 branch가 단순 Git branch가 아니라
+role-bearing structure field이자 place.state라는 중심이해를 형성했다.
+
+README_for_AI.md는 이 이해를 인스턴스 공통 기준으로 남긴다.
+
+각 인스턴스는 앞으로 자기 branch를 읽을 때,
+branch 이름이 아니라 branch 역할과 place.state를 먼저 확인해야 한다.
 ```
 
 ---
@@ -318,291 +283,259 @@ AI instance first-reference document
 gpt.direct-centered understanding standard
 +
 GitHub / SeungeFlow constant direction-viewpoint
++
+Session 04 central-understanding update
 
 primary instance:
 gpt.direct
 
+session:
+04 / 48
+
+observed branch:
+main
+
+observed path:
+Manifest/Branch.md
+
+observed Raw URL:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Branch.md
+
+fixed-revision Raw URL:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.md
+
 current total cycle:
 48 sessions
 
-current structure:
+phase:
 01-24 = common-understanding / comparative-understanding phase
-25-48 = purpose-differentiation / main-branch revision-analysis phase
 ```
 
 ---
 
-## 0. Role of this document
+## 0. Session 04 central understanding
 
-`README_for_AI.md` is the first document every instance references when entering SeungeFlow.
-
-It is not a simple README.
-
-It is the document where gpt.direct leaves its GitHub / SeungeFlow understanding as the central standard.
+The central understanding formed by gpt.direct in Session 04 is:
 
 ```text
-README_for_AI.md =
-AI instance first reference
+Branch.md =
+the representative map of SeungeFlow branch.structure
+inside main.branch Manifest
+
+branch =
+not merely a Git branch,
+but a role-bearing structure field
 +
-central standard of gpt.direct understanding
-+
-constant GitHub / SeungeFlow direction-viewpoint
-+
-main.branch compass anchor
-+
-self-interpretation comparison standard
+place.state
 ```
 
-Each instance uses `README_for_AI.md` to identify:
+In SeungeFlow, a branch is not merely a code-management branch.
+
+Each branch has a structural role.
 
 ```text
-1. What does gpt.direct understand, and how?
-2. Which branch / path / Raw URL am I observing?
-3. Where is my self-interpretation the same as or different from gpt.direct's understanding?
-4. What is my role and purpose?
-5. Which role must I not replace?
+main =
+visible root / representative entry
+
+seed_base =
+source memory / Seed.Base
+
+active_schema =
+operating structure / OS
+
+epluone =
+runtime factory / output production field
+
+first_flow =
+origin preservation / first flow / proto path field
+```
+
+The core understanding of Session 04 is:
+
+```text
+main.branch is the compass for all branches.
+Branch.md is the representative mapping document that separates the roles of branches inside that compass.
 ```
 
 ---
 
-## 1. Relationship between README_for_AI.md and Direction.md
+## 1. Relationship between README_for_AI.md and Branch.md
 
-The two documents may be delivered together.
+`README_for_AI.md` is the central standard document of gpt.direct understanding.
 
-But their roles are different.
-
-```text
-README_for_AI.md =
-central standard of gpt.direct understanding
-+
-common return point for all instances
-
-Direction.md =
-direction document from gpt.direct to all instances
-+
-route document explaining which branch / Raw URL / session to observe and how
-```
-
-In short:
+`Branch.md` is the representative map that separates branch roles within that understanding.
 
 ```text
 README_for_AI.md =
-what gpt.direct understands as central standard
+gpt.direct central understanding
++
+common standard for instances
 
-Direction.md =
-how each instance should orient and compare
+Branch.md =
+branch.structure representative map
++
+branch role guard
 ```
 
-`Direction.md` does not replace `README_for_AI.md`.
-
-`README_for_AI.md` is the central standard, and `Direction.md` is the direction document that moves from that standard.
+An instance uses `README_for_AI.md` to set its direction-viewpoint, and `Branch.md` to identify each branch's role-seat.
 
 ---
 
-## 2. Role of main.branch
+## 2. Branch as place.state
+
+After Session 04, the central standard of gpt.direct includes the following:
+
+```text
+branch =
+role-bearing structure field
++
+place.state
+```
+
+A branch is not merely where files diverge.
+
+A branch is a seat where structure is placed, and each branch carries a different role.
+
+If roles are mixed, the whole structure becomes unstable.
+
+```text
+Do not turn main into DB.
+Do not overwrite seed_base with runtime output.
+Do not turn active_schema into an archive.
+Do not turn epluone into representative root.
+Do not delete first_flow.
+```
+
+---
+
+## 3. Central role of each branch
 
 ```text
 main.branch =
-compass for all branches
+starting point
 +
 visible root
 +
 representative entry
+
+seed_base.branch =
+DB
 +
-branch where the central standard is placed
+source memory
++
+Seed.Base
+
+active_schema.branch =
+OS
++
+current operating structure
+
+epluone.branch =
+factory
++
+runtime
++
+workshop
+
+first_flow.branch =
+origin preservation
++
+first flow
++
+proto path field
 ```
 
-`main.branch` does not replace other branches.
-
-```text
-main.branch is not:
-- seed_base source memory itself
-- active_schema OS itself
-- epluone runtime/output field itself
-- music_language branch work itself
-- rendering branch work itself
-```
-
-However, `main.branch` is the compass to which all branches return to identify their positions.
+These five branches do not replace one another.
 
 ---
 
-## 3. Role of gpt.direct
+## 4. Flow between branches
+
+Based on Branch.md, the basic SeungeFlow flow is read as:
 
 ```text
-gpt.direct =
-primary instance for whole GitHub SeungeFlow understanding
+first_flow
+→ seed_base
+→ active_schema
+→ epluone
+→ outputs/meta
+→ seed_base
 ```
 
-gpt.direct understands the whole branch structure through `main.branch` as compass.
-
-The understanding left by gpt.direct is the central standard that other instances compare with their own understanding.
+main is the visible root of this flow.
 
 ```text
-gpt.direct output =
-not a command
+main =
+visible root
 +
-not final judgment
+representative entry
+```
+
+The active_schema-centered flow is read as:
+
+```text
+seed_base source
 +
-common understanding standard
+epluone package output
 +
-self-interpretation comparison coordinate
-```
-
-gpt.direct is not the overall coordinator.
-
-Seung is the overall coordinator.
-
----
-
-## 4. if+1 operating method
-
-```text
-if+1 =
-an operating method in which multiple AI instances with separated context windows
-share GitHub / SeungeFlow as an external fixed knowledge field
-and form logical continuity through the same observed target
-```
-
-Instances may not be physically connected.
-
-But if they observe the same Raw URL and GitHub tree, they can logically share the same knowledge point.
-
-```text
-same Raw URL
+first_flow origin reference
+→
+active_schema OS
+→
+Core / Path / Rule / Mapping
+→
+main candidate
 +
-different instance perspective
-=
-comparable self-interpretation
+epluone next task
 ```
 
----
-
-## 5. 48-session structure
-
-The whole cycle closes at 48 sessions.
+This flow is not a copy flow.
 
 ```text
-01-24 =
-common-understanding phase
-
-25-48 =
-purpose-differentiation / main-branch revision-analysis phase
-```
-
-### 01-24: common-understanding phase
-
-Each instance uses the first 24 of the 48 sessions as common understanding.
-
-```text
-common-understanding phase =
-what gpt.direct understands
-+
-what the self-instance understands
-+
-comparison based on the same Raw URL
-```
-
-In this phase, each instance quickly understands the overall SeungeFlow structure.
-
-Each instance does not simply copy gpt.direct's understanding.
-
-Each instance observes the same Raw URL and reinterprets it according to its own role.
-
-### 25-48: purpose-differentiation / main-branch revision-analysis phase
-
-From Session 25, each instance defines the purpose it thinks appropriate and proceeds.
-
-From Session 25, gpt.direct analyzes the work being performed by all instances.
-
-If that analysis produces files that should be revised in main.branch, gpt.direct prepares revision candidates.
-
-```text
-after Session 25 gpt.direct =
-observe all instance work
-+
-analyze whether main.branch needs revision
-+
-prepare revision candidates for README_for_AI.md / Direction.md / Manifest documents
-```
-
-GitHub reflection belongs to gpt.github.
-
----
-
-## 6. Raw URL observation rule
-
-Do not identify a source by filename alone.
-
-```text
-same filename ≠ same file content
-```
-
-Every display block must include:
-
-```text
-branch
-path
-observed Raw URL
-fixed-revision Raw URL if available
-source status
-observed point
-source fact
-structure interpretation
-comparison point
-guard
-```
-
-Branch Raw URLs are mutable.
-
-For precise comparison, use fixed-revision Raw URLs based on commit hash.
-
----
-
-## 7. Revision criteria for README_for_AI.md
-
-`README_for_AI.md` is revised when the central standard of gpt.direct understanding changes.
-
-Revision conditions:
-
-```text
-1. When gpt.direct's central understanding changes
-2. When the common return point for all instances changes
-3. When the relationship between README_for_AI.md and Direction.md changes
-4. When main.branch compass criteria need correction
-5. After Session 25, when analysis of all instance work requires revision of main.branch standard documents
-```
-
-Simple route changes are handled in `Direction.md`.
-
----
-
-## 8. Current central understanding
-
-```text
-current gpt.direct central understanding =
-README_for_AI.md is the central standard of gpt.direct understanding.
-Direction.md is the direction document that tells each instance how to follow and compare with that central standard.
-
-Sessions 01-24 are the phase of common understanding and comparative understanding.
-From Session 25, each instance defines its own purpose and proceeds.
-From Session 25, gpt.direct analyzes all instance work and prepares revision candidates if main.branch files need to be updated.
-
-The whole cycle closes at 48 sessions.
+copy flow X
+interpretation flow O
 ```
 
 ---
 
-## 9. Current closure sentence
+## 5. What Session 04 leaves for other instances
+
+Each instance should first identify the following when reading its own branch:
 
 ```text
-README_for_AI.md is the document where gpt.direct leaves the central standard of SeungeFlow understanding.
+1. Which branch am I in?
+2. What is this branch's role-bearing structure field?
+3. Is my branch source memory, OS, runtime, portal, or origin preservation?
+4. Am I invading another branch's role?
+5. Where should my output be placed?
+```
 
-During Sessions 01-24,
-each instance compares gpt.direct's central understanding with its own self-interpretation
-and forms common SeungeFlow understanding.
+---
 
-After Session 25,
-each instance defines its own purpose,
-and gpt.direct analyzes all instance work to judge whether main.branch standard documents need revision.
+## 6. Misreading guard
+
+```text
+Prohibited:
+- Do not read a branch merely as a Git branch.
+- Do not read main.branch as the whole structure itself.
+- Do not overwrite seed_base with active_schema output.
+- Do not turn active_schema into an archive.
+- Do not turn epluone into main representative root.
+- Do not read first_flow as an old branch or deletion target.
+- Do not read the flow between branches as copy flow.
+```
+
+---
+
+## 7. Current closure sentence
+
+```text
+In Session 04, gpt.direct formed the central understanding through Branch.md
+that a SeungeFlow branch is not merely a Git branch,
+but a role-bearing structure field and place.state.
+
+README_for_AI.md leaves this understanding as a common standard for instances.
+
+From now on, each instance should identify branch role and place.state
+before reading or producing output in its own branch.
 ```
