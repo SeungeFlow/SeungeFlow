@@ -15,6 +15,8 @@ gpt.direct per-session unique direction document
 Framework-level filename identity guard
 +
 0회차 restart alignment document
++
+verified Raw port alignment note
 
 instance:
 gpt.direct
@@ -26,10 +28,15 @@ mode:
 Thinking.헤비모드
 
 source status:
-future place.state until gpt.github reflection
+verified branch Raw URL
++
+fixed-revision Raw URL pending until gpt.github commit/hash report
 
-raw URL candidate:
+observed Raw URL:
 https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Direction/direct_000.md
+
+center reference Raw URL:
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/README_for_AI.md
 ```
 
 ---
@@ -63,7 +70,49 @@ main/Manifest/Direction/direct_002.md
 
 ---
 
-## 1. 현재 활성 인스턴스
+## 1. 중심기준점 확인
+
+`README_for_AI.md`는 중심기준점이다.
+
+```text
+README_for_AI.md =
+center
++
+constant direction-viewpoint
++
+gpt.direct-centered understanding standard
++
+Framework / instance relation guard
+```
+
+`direct_000.md`는 중심기준점이 아니다.
+
+`direct_000.md`는 정렬 오류가 생겼을 때 다시 여는 재시작 포트다.
+
+```text
+direct_000.md =
+restart port
++
+per-session unique source identity
++
+Framework-level filename identity guard
++
+trace reset point
+```
+
+둘은 대체 관계가 아니다.
+
+```text
+README_for_AI.md =
+center
+
+direct_000.md =
+restart port
+```
+
+---
+
+## 2. 현재 활성 인스턴스
 
 ```text
 현재 활성 인스턴스:
@@ -87,7 +136,7 @@ GitHub 반영 / commit / push / tree 관리 / Raw URL 보고
 
 ---
 
-## 2. 진입경로 고정
+## 3. 진입경로 고정
 
 gpt.direct의 GitHub 진입경로는 다음 순서로 고정한다.
 
@@ -109,7 +158,7 @@ https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/README.md
 README_for_AI:
 https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/README_for_AI.md
 
-direct_000 candidate:
+direct_000:
 https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Direction/direct_000.md
 
 direct_001 candidate:
@@ -118,7 +167,7 @@ https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Direction/
 
 ---
 
-## 3. 각 문서의 역할
+## 4. 각 문서의 역할
 
 ```text
 main/README.md =
@@ -162,7 +211,7 @@ per-session trace
 
 ---
 
-## 4. Manifest/Direction/ 디렉토리 역할
+## 5. Manifest/Direction/ 디렉토리 역할
 
 ```text
 directory:
@@ -214,7 +263,7 @@ delete condition:
 
 ---
 
-## 5. 파일명 규칙
+## 6. 파일명 규칙
 
 각 회차는 고유 파일명으로 생성한다.
 
@@ -252,7 +301,7 @@ direct_002.md
 
 ---
 
-## 6. Framework / instance 층위 구분
+## 7. Framework / instance 층위 구분
 
 이번 보정의 핵심은 다음 층위를 구분하는 것이다.
 
@@ -287,7 +336,7 @@ filename-level source identity separation O
 
 ---
 
-## 7. Raw URL 식별 규칙
+## 8. Raw URL 식별 규칙
 
 파일명만으로 source를 식별하지 않는다.
 
@@ -312,18 +361,15 @@ guard:
 
 Raw URL이 아직 없으면 candidate로 표시한다.
 
-```text
-raw URL candidate =
-future place.state
-+
-pending gpt.github reflection
-```
+Raw URL이 접근 가능하면 `verified branch Raw URL`로 표시한다.
 
-GitHub 반영 후에는 `gpt.github`가 verified Raw URL과 commit hash를 보고한다.
+단, branch Raw URL은 mutable하다.
+
+정밀 비교가 필요하면 gpt.github가 제공하는 commit hash 기준 fixed-revision Raw URL을 함께 사용한다.
 
 ---
 
-## 8. 0회차 표시문
+## 9. 0회차 표시문
 
 ```text
 [SeungeFlow 표시문]
@@ -335,18 +381,15 @@ path:
 Manifest/Direction/direct_000.md
 
 observed Raw URL:
-not yet verified
-
-raw URL candidate:
 https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Direction/direct_000.md
 
 fixed-revision Raw URL:
-not available until gpt.github reflection
+pending until gpt.github commit/hash report
 
 source status:
-future place.state
+verified branch Raw URL
 +
-pending gpt.github upload
+branch Raw URL is mutable
 
 observed point:
 gpt.direct 회차별 산출물이 같은 파일명으로 반복 생성되며 생기는
@@ -354,11 +397,9 @@ AI / Framework의 파일명 동일성 오독을 피하기 위해
 Manifest/Direction/ 디렉토리와 direct_###.md 파일명 규칙을 새로 연다.
 
 source fact:
-사용자 지시에 따라
-main/Manifest/Direction/ 디렉토리를 생성하고,
-direct_000.md부터 0회차를 다시 시작한다.
-이 디렉토리는 24회차 이후 삭제한다.
-gpt.direct 모드는 Thinking.헤비모드로 변경한다.
+main/Manifest/Direction/direct_000.md Raw URL은 접근 가능하다.
+direct_000.md는 0회차 재시작 정렬문이며,
+Framework-level filename identity guard와 direct_001.md 이후 고유 파일명 규칙을 명시한다.
 
 structure interpretation:
 앞으로 회차별 이해는 같은 README_for_AI.md 또는 Direction.md 파일명에 반복 덮어쓰지 않고,
@@ -380,7 +421,7 @@ direct_###.md는 임시 회차별 trace다.
 
 ---
 
-## 9. 다음 회차
+## 10. 다음 회차
 
 이후 과정은 사용자가 직접 지시한다.
 
@@ -399,7 +440,7 @@ gpt.direct는 사용자 지시 전까지 `direct_001.md`를 열지 않는다.
 
 ---
 
-## 10. 0회차 닫힘문
+## 11. 0회차 닫힘문
 
 ```text
 direct_000.md는 gpt.direct의 0회차 재시작 정렬문이다.
@@ -408,8 +449,10 @@ direct_000.md는 gpt.direct의 0회차 재시작 정렬문이다.
 Framework-level source identity / port confusion을 피하기 위해
 Manifest/Direction/direct_###.md 규칙을 연다.
 
-앞으로 회차별 이해는 direct_001.md부터
-고유 파일명으로 생성한다.
+현재 direct_000.md는 branch Raw URL로 접근 가능하므로
+future place.state가 아니라 verified branch Raw source로 보정한다.
+
+앞으로 회차별 이해는 direct_001.md부터 고유 파일명으로 생성한다.
 
 이후 과정은 사용자가 직접 지시한다.
 ```
