@@ -1,6 +1,6 @@
 # Direction.md
 
-## SeungeFlow gpt.direct 48회차 방향문 — 04회차 반영
+## SeungeFlow gpt.direct 48회차 방향문 — 05회차 반영
 
 ```text
 file target:
@@ -11,7 +11,7 @@ direction document from gpt.direct to all instances
 +
 48-session route plan
 +
-Session 04 branch-role direction update
+Session 05 representative rule guard direction update
 
 compass anchor:
 main/Manifest/README_for_AI.md
@@ -20,19 +20,19 @@ primary instance:
 gpt.direct
 
 current session:
-04 / 48
+05 / 48
 
 observed branch:
 main
 
 observed path:
-Manifest/Branch.md
+Manifest/Rule.md
 
 observed Raw URL:
-https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Branch.md
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Rule.md
 
 fixed-revision Raw URL:
-https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.md
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/fb144e2/Manifest/Rule.md
 ```
 
 ---
@@ -41,12 +41,12 @@ https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.
 
 `Direction.md`는 gpt.direct가 모든 인스턴스에게 방향을 제시하는 문서다.
 
-04회차 이후 이 문서는 특히 다음 방향을 추가한다.
+05회차 이후 이 문서는 특히 다음 방향을 추가한다.
 
 ```text
 각 인스턴스는
-자기 branch를 읽기 전
-그 branch의 role-bearing structure field를 먼저 확인한다.
+자기 작업을 시작하기 전
+main/Manifest/Rule.md의 대표 rule guard를 확인한다.
 ```
 
 `README_for_AI.md`는 중심기준이다.
@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.
 
 ---
 
-## 1. 04회차 관측 지점
+## 1. 05회차 관측 지점
 
 ```text
 [SeungeFlow 표시문]
@@ -64,153 +64,149 @@ branch:
 main
 
 path:
-Manifest/Branch.md
+Manifest/Rule.md
 
 observed Raw URL:
-https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Branch.md
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Rule.md
 
 fixed-revision Raw URL:
-https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/0335ce3/Manifest/Branch.md
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/fb144e2/Manifest/Rule.md
 
 source status:
 verified branch Raw URL
 +
-verified fixed-revision Raw URL at commit 0335ce3
+verified fixed-revision Raw URL at commit fb144e2
 
 observed point:
-Branch.md는 main.branch Manifest 안에서 branch.structure의 대표 정의와 역할 mapping을 고정하는 문서다.
+Rule.md는 main.branch Manifest 안에서 SeungeFlow의 대표 작업규칙과 금지사항을 고정하는 representative rule guard다.
 
 source fact:
-Branch.md는 branch가 단순 Git branch가 아니라 role-bearing structure field라고 둔다.
-main, seed_base, active_schema, epluone, first_flow는 서로 다른 구조역할을 가진다.
+Rule.md는 전체 repository의 모든 규칙을 영구적으로 닫는 헌법이 아니라,
+main.branch에서 SeungeFlow가 오독되지 않도록 하는 대표 rule guard다.
 
 structure interpretation:
-각 인스턴스는 자기 branch를 읽을 때 branch 이름보다 먼저 branch 역할과 place.state를 확인해야 한다.
+각 인스턴스는 자기 작업을 시작하기 전
+내용보다 구조,
+저장보다 이해,
+요약보다 재진입,
+증명보다 정렬,
+파일경로보다 relation path,
+목록보다 matrix,
+원문 덮어쓰기보다 source 보존
+이라는 guard를 먼저 확인해야 한다.
 
 comparison point:
-다른 인스턴스는 위 Raw URL에 접근해 자기 branch가 SeungeFlow 전체 branch map 안에서 어떤 역할을 갖는지 비교해야 한다.
+다른 인스턴스는 위 Raw URL에 접근하여
+자기 작업이 이 rule guard를 위반하는지 자가검산해야 한다.
 
 guard:
-branch 역할을 섞지 않는다.
-main을 DB로 만들지 않는다.
-seed_base를 runtime output으로 덮지 않는다.
-active_schema를 archive로 만들지 않는다.
-epluone을 representative root로 만들지 않는다.
-first_flow를 삭제하지 않는다.
+Rule.md를 final constitution으로 읽지 않는다.
+Rule.md는 representative rule guard다.
+active_schema/current_rules.md와 역할을 병합하지 않는다.
 ```
 
 ---
 
-## 2. 04회차가 모든 인스턴스에게 제시하는 방향
+## 2. 05회차가 모든 인스턴스에게 제시하는 방향
 
-각 인스턴스는 다음 순서로 자기 branch를 읽는다.
+각 인스턴스는 다음 순서로 자기 작업을 점검한다.
 
 ```text
 1. README_for_AI.md로 gpt.direct 중심기준 확인
 2. Direction.md로 회차 방향 확인
-3. Branch.md로 branch role map 확인
-4. 자기 branch의 role-bearing structure field 확인
-5. 자기 output이 놓일 branch / path / place.state 확인
-6. source fact와 structure interpretation 분리
-7. gpt.direct 이해와 자기 자가해석 비교
+3. Rule.md로 대표 rule guard 확인
+4. 자기 작업이 content first인지 structure first인지 확인
+5. 문서를 storage로 읽고 있는지 understanding unfolding으로 읽고 있는지 확인
+6. 요약하고 있는지 structure re-entry 중인지 확인
+7. proof claim을 만들고 있는지 alignment field를 형성 중인지 확인
+8. Path를 file path로 낮추고 있지 않은지 확인
+9. Core를 list / table로 낮추고 있지 않은지 확인
+10. source와 branch role을 보존하고 있는지 확인
 ```
 
 ---
 
-## 3. branch role map
+## 3. 최상위 rule guard
+
+```text
+내용보다 구조.
+저장보다 이해.
+요약보다 재진입.
+증명보다 정렬.
+파일경로보다 relation path.
+목록보다 matrix.
+원문 덮어쓰기보다 source 보존.
+```
+
+이 문장들은 슬로건이 아니라 SeungeFlow 오독 방지를 위한 최소 guard다.
+
+---
+
+## 4. branch / README / rendering guard
+
+branch 역할을 섞지 않는다.
 
 ```text
 main =
 visible root
-+
-representative entry
-+
-compass
 
 seed_base =
 source memory
-+
-Seed.Base
 
 active_schema =
-current operating structure
-+
 OS
 
 epluone =
 runtime factory
-+
-output production field
-+
-workshop
 
 first_flow =
 origin preservation
-+
-first flow
-+
-proto path field
 ```
 
----
-
-## 4. branch flow direction
-
-기본 flow:
+README 3종을 합치지 않는다.
 
 ```text
-first_flow
-→ seed_base
-→ active_schema
-→ epluone
-→ outputs/meta
-→ seed_base
+README.md =
+전체 대표 페이지
+
+README_for_AI.md =
+AI operation guard
+
+README_for_SeungLee.md =
+SeungLee-side principle page
 ```
 
-active_schema 중심 flow:
+렌더링 트랙은 별도다.
 
 ```text
-seed_base source
-+
-epluone package output
-+
-first_flow origin reference
-→
-active_schema OS
-→
-Core / Path / Rule / Mapping
-→
-main candidate
-+
-epluone next task
+gpt.direct =
+Ctp24 구조원리 / 구조연산기 / active_schema OS 설계
+
+rendering track =
+contextual awareness
 ```
 
-이 flow는 복사흐름이 아니다.
-
-```text
-copy flow X
-interpretation flow O
-```
+gpt.direct를 rendering implementation으로 끌고 가지 않는다.
 
 ---
 
 ## 5. 이후 회차에 반영할 방향
 
-05회차부터 main.branch의 다른 Manifest 문서를 볼 때도 다음 기준을 유지한다.
+06회차부터 Core / Path / Rule / Manifest 문서를 읽을 때도 다음 기준을 유지한다.
 
 ```text
-branch role first
-path second
-Raw URL third
-source fact fourth
-structure interpretation fifth
+structure first
+understanding first
+re-entry first
+alignment first
+relation path first
+matrix first
+source preservation first
 ```
-
-인스턴스가 어느 파일을 보든, 그 파일이 어느 branch role 안에 놓여 있는지를 먼저 본다.
 
 ---
 
-## 6. 48회차 흐름 안에서 04회차의 위치
+## 6. 48회차 흐름 안에서 05회차의 위치
 
 ```text
 01 =
@@ -224,11 +220,14 @@ README_for_SeungLee.md / SeungLee-side principle 확인
 
 04 =
 Branch.md / branch.structure representative map 확인
+
+05 =
+Rule.md / representative rule guard 확인
 ```
 
-04회차는 main.branch compass block 안에서 branch 역할지도를 고정하는 회차다.
+05회차는 main.branch compass block 안에서 rule guard를 고정하는 회차다.
 
-이후 회차에서 Core, Path, Rule을 읽을 때도 branch role guard를 유지한다.
+이후 회차에서 Core, Path를 읽을 때도 Rule.md guard를 유지한다.
 
 ---
 
@@ -236,19 +235,19 @@ Branch.md / branch.structure representative map 확인
 
 ```text
 next session:
-05 / 48
+06 / 48
 
 next branch:
 main
 
 next path:
-Manifest/Rule.md
+Manifest/Core.md
 
 next observed Raw URL:
-https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Rule.md
+https://raw.githubusercontent.com/SeungeFlow/SeungeFlow/main/Manifest/Core.md
 
 next purpose:
-main.branch 기준의 기본 규칙 / 금지사항 확인
+Core_01~Core_24를 content slot이 아니라 form seat / inside matrix로 읽는 기준 확인
 ```
 
 ---
@@ -256,11 +255,18 @@ main.branch 기준의 기본 규칙 / 금지사항 확인
 ## 8. Direction.md 닫힘문
 
 ```text
-04회차 이후 Direction.md는
-각 인스턴스가 branch를 단순 Git branch가 아니라
-role-bearing structure field와 place.state로 읽도록 방향을 제시한다.
+05회차 이후 Direction.md는
+각 인스턴스가 작업을 시작하기 전
+Rule.md의 대표 rule guard를 먼저 확인하도록 방향을 제시한다.
 
-Branch.md는 branch.structure representative map이며,
-모든 인스턴스는 자기 branch 작업에 들어가기 전
-branch 역할과 place.state를 먼저 확인해야 한다.
+Rule.md는 final constitution이 아니라 representative rule guard다.
+
+모든 인스턴스는 이후 작업에서
+내용보다 구조,
+저장보다 이해,
+요약보다 재진입,
+증명보다 정렬,
+파일경로보다 relation path,
+목록보다 matrix,
+원문 덮어쓰기보다 source 보존을 먼저 확인해야 한다.
 ```
